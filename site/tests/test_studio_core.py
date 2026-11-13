@@ -124,5 +124,14 @@ class StudioCoreTests(unittest.TestCase):
         self.assertEqual(saved['notes'],'仅用于整理的备注')
         with self.assertRaises(ValueError):core.save_record(self.payload('assets',{'description':{'html':'bad'}},saved['id']))
 
+    def test_display_title_keeps_original_punctuation_while_paths_are_repaired(self):
+        s=core.state();a=s['library']['assets'][0]
+        title='「作品」：第１话／星空？'
+        result=core.save_record(self.payload('assets',{'label':title},a['id']))
+        saved=result['library']['assets'][0]
+        self.assertEqual(saved['label'],title)
+        self.assertNotIn('?',saved['file']);self.assertNotIn('：',saved['file'])
+        self.assertTrue((self.root/saved['file']).is_file())
+
 
 if __name__=='__main__':unittest.main()

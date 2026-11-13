@@ -118,9 +118,9 @@ def build(inline=None, production=False):
     data={'themes':themes,'artworks':active,'projects':projects,'interests':interests,'library':metadata,'production':production}
     save(GENERATED/'asset-index.json',all_art)
     (GENERATED/'manager-data.js').write_text('globalThis.SORA_LIBRARY = '+js_data(library)+';\nglobalThis.SORA_ASSET_META = '+js_data(all_art)+';\n',encoding='utf-8')
-    template=(ROOT/'sora.template.html').read_text(encoding='utf-8').replace('@@CSS@@',(ROOT/'sora.css').read_text(encoding='utf-8')).replace('@@JS@@',(ROOT/'rotation-engine.js').read_text(encoding='utf-8')+'\n'+(ROOT/'sora.js').read_text(encoding='utf-8')).replace('第三版预览','第五版').replace('预览 v3 · 未发布','v5 · 持续生长中' if production else '预览 v5 · 本地草稿').replace('以下网络视觉图仅用于本地概念预览；角色与图片权利归原权利人。Pixiv 自动同步尚未接入。','角色与引用图片的权利归原权利人，以下记录素材来源。Pixiv 作品由站长手动导入。')
+    template=(ROOT/'sora.template.html').read_text(encoding='utf-8').replace('@@CSS@@',(ROOT/'sora.css').read_text(encoding='utf-8')).replace('@@JS@@',(ROOT/'rotation-engine.js').read_text(encoding='utf-8')+'\n'+(ROOT/'gallery-browser.js').read_text(encoding='utf-8')+'\n'+(ROOT/'sora.js').read_text(encoding='utf-8')).replace('第三版预览','第六版').replace('预览 v3 · 未发布','v6 · 持续生长中' if production else '预览 v6 · 本地草稿').replace('以下网络视觉图仅用于本地概念预览；角色与图片权利归原权利人。Pixiv 自动同步尚未接入。','角色与引用图片的权利归原权利人，以下记录素材来源。Pixiv 作品由站长手动导入。')
     fragment=template.replace('@@DATA@@',js_data(data))
-    wrapper=(ROOT/'standalone.template.html').read_text(encoding='utf-8').replace('预览 v3','v5' if production else '预览 v5')
+    wrapper=(ROOT/'standalone.template.html').read_text(encoding='utf-8').replace('预览 v3','v6' if production else '预览 v6')
     if production:
         wrapper=wrapper.replace('<meta name="robots" content="noindex,nofollow">','<meta name="description" content="神の空的空想便笺：AI Vibe 项目、喜欢的角色与个人作品画廊。">')
     (ROOT/'index.html').write_text(wrapper.replace('@@FRAGMENT@@',fragment),encoding='utf-8')

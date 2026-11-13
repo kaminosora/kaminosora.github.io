@@ -109,7 +109,7 @@ def _revision():
 def _name(value, limit=120):
     if not isinstance(value, str):
         raise ValueError('请填写名称。')
-    value = unicodedata.normalize('NFKC', value).strip()
+    value = value.strip()
     value = ''.join(c for c in value if unicodedata.category(c) != 'Cc')
     if not value or len(value) > limit:
         raise ValueError(f'名称需要 1–{limit} 个字符。')
@@ -125,7 +125,7 @@ def _slug(value, limit=18):
 
 
 def _identifier(prefix, name, uid, scope=''):
-    digest = hashlib.sha256((scope + '\0' + name.casefold()).encode()).hexdigest()[:10]
+    digest = hashlib.sha256((scope + '\0' + unicodedata.normalize('NFKC',name).casefold()).encode()).hexdigest()[:10]
     return f'{prefix}-{digest}-{uid[:10]}'
 
 
@@ -180,7 +180,7 @@ def _normalize(data):
                     raise ValueError('所属 IP 已不存在，请重新选择。')
                 record['ipId'] = maps['ips'][record['ipId']]
                 scope = record['ipId']
-            signature = (scope, record[name_field].casefold())
+            signature = (scope, unicodedata.normalize('NFKC',record[name_field]).casefold())
             if group != 'assets' and signature in seen_names:
                 raise ValueError('同一范围内已有这个名称，请直接编辑已有条目。')
             seen_names.add(signature)

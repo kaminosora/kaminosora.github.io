@@ -36,6 +36,7 @@
       </aside>
       <section class="collection-panel" id="collection-panel" aria-label="条目列表">
         <div class="collection-title"><h2 id="collection-title">素材库</h2><button id="new-record" type="button" class="small primary">＋ 导入</button></div>
+        <div id="metadata-tools" class="inline-note" hidden><button id="import-work-metadata" type="button" class="small">补全作品资料</button><input id="work-metadata-file" type="file" accept=".json,.html,.htm,application/json,text/html" hidden aria-label="选择离线作品资料"><p id="work-metadata-status"></p><small>选择本地 JSON 或保存的 HTML 作品页（最多 8 MB），按作品编号更新全部页的标题、简介和标签。只读取资料，不联网、不执行网页；原图保留。JSON 可以包含多个作品。</small></div>
         <label class="search-field"><span class="sr-only">搜索名称和标签</span><input id="search" type="search" placeholder="搜索名称、角色或标签…"></label>
         <div class="list-filters"><label><span class="sr-only">筛选所属 IP</span><select id="ip-filter"><option value="">所有 IP</option></select></label><label><span class="sr-only">筛选状态</span><select id="state-filter"><option value="">全部状态</option><option value="enabled">已启用</option><option value="disabled">已停用</option></select></label></div>
         <div class="list-meta"><span id="list-count"></span><button id="refresh-state" type="button" class="text-button">刷新</button></div>

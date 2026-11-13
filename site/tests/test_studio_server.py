@@ -14,6 +14,7 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import studio_server as server
+import import_pixiv_local as pixiv_importer
 
 
 class FakeCore:
@@ -119,6 +120,28 @@ class ServerBoundaryTests(unittest.TestCase):
                                      {"Content-Length": str(server.MAX_IMAGE_BYTES + 1)})
         self.assertEqual(status, 413)
         self.assertEqual(self.core.calls, [])
+
+    def test_offline_metadata_upload_has_auth_limit_and_separate_parser(self):
+        content = b'[{"id":"123456","title":"Original","description":"","tags":[]}]'
+        path = '/api/pixiv-metadata?filename=works.json'
+        with patch.object(pixiv_importer,'update_metadata_bytes',return_value={'updated':2,'updatedWorks':1}) as update, \
+             patch.object(server,'download_image',side_effect=AssertionError('No network allowed')):
+            self.assertEqual(self.request('POST',path,content,auth=False)[0],401)
+            self.assertEqual(self.request('POST',path,content,{'Origin':'https://example.com'})[0],403)
+            self.assertEqual(self.request('POST',path,b'',{'Content-Length':str(server.MAX_METADATA_BYTES+1)})[0],413)
+            self.assertEqual(self.request('POST','/api/pixiv-metadata?filename=works.exe',content)[0],400)
+            update.assert_not_called()
+            status,_,body = self.request('POST',path,content,{'X-Studio-Revision':'revision-1'})
+            self.assertEqual(status,200)
+            self.assertEqual(json.loads(body)['updatedWorks'],1)
+            update.assert_called_once_with(content,'works.json','revision-1',engine=self.core)
+        self.assertEqual(self.core.calls,[])
+
+    def test_offline_metadata_revision_failure_is_reported(self):
+        with patch.object(pixiv_importer,'update_metadata_bytes',side_effect=ValueError('版本已改变，请刷新后重试。')):
+            status,_,body = self.request('POST','/api/pixiv-metadata?filename=saved.html',b'<html></html>')
+        self.assertEqual(status,409)
+        self.assertIn('版本',json.loads(body)['error'])
 
     def test_json_validation_and_revision_conflict(self):
         self.assertEqual(self.request("POST", "/api/record", "{}", {"Content-Type": "text/plain"})[0], 415)

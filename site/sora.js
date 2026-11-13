@@ -2,8 +2,10 @@
   const root = document.getElementById('sora-blog');
   const { themes, projects, interests, artworks, library } = SORA_PREVIEW_DATA;
   const artById = new Map(artworks.map(a=>[a.id,a]));
-  const ownedWorks=artworks.filter(a=>a.ownerWork && a.uses.includes('gallery'));
-  const galleryItems = ownedWorks.length?ownedWorks:artworks.filter(a=>a.uses.includes('gallery'));
+  const ownedWorks=artworks.filter(a=>a.ownerWork && a.enabled!==false && a.uses.includes('gallery'));
+  const personalWorks=SoraGallery.groupWorks(ownedWorks);
+  const personalById=new Map(personalWorks.map(w=>[w.id,w]));
+  const galleryItems=personalWorks.map(w=>w.cover);
   const picker=SoraRotation.createLibrary({...library,assets:artworks},library.settings);
   const galleryPicker=SoraRotation.createLibrary({...library,assets:galleryItems},library.settings);
   const homeGallery=[];
@@ -18,7 +20,7 @@
   const esc = text => String(text ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   if(!SORA_PREVIEW_DATA.inline && !SORA_PREVIEW_DATA.production){const link=document.createElement('a');link.href='studio.html';link.textContent='维护素材库 ↗';link.className='library-link cursor-interaction';q('.footer-links').append(link);}
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  const state = { page: 'home', theme: Math.max(0,themes.findIndex(t=>t.id===library.settings.defaultIp)), project: 0, scenePlaying: !reduced.matches, deckPlaying: !reduced.matches, galleryPlaying: !reduced.matches, reduced: reduced.matches, imageIndex: 0, variants: {}, locked:false };
+  const state = { page: 'home', theme: Math.max(0,themes.findIndex(t=>t.id===library.settings.defaultIp)), project: 0, scenePlaying: !reduced.matches, deckPlaying: !reduced.matches, galleryPlaying: galleryItems.length>1&&!reduced.matches, reduced: reduced.matches, imageIndex: 0, variants: {}, locked:false };
   const initialAsset=artById.get(library.settings.defaultAsset);
   if(initialAsset && themes[state.theme].variants.includes(initialAsset.id))state.variants[themes[state.theme].id]=themes[state.theme].variants.indexOf(initialAsset.id);
   let imageRequest=0;
@@ -32,7 +34,7 @@
     const pi = projects.findIndex(p => p.id === saved.project);
     if (ti >= 0) state.theme = ti;
     if (pi >= 0) state.project = pi;
-    if (['home', 'projects', 'gallery','interests'].includes(saved.page)) state.page = saved.page;
+    if (['home', 'projects', 'gallery','interests','materials'].includes(saved.page)) state.page = saved.page;
     if(themes[state.theme].variants.includes(saved.character))state.variants[themes[state.theme].id]=themes[state.theme].variants.indexOf(saved.character);
     if (typeof saved.scenePlaying === 'boolean') state.scenePlaying = saved.scenePlaying && !reduced.matches;
   }
@@ -86,7 +88,7 @@
   function chooseScene(ipId){const art=picker.next({ipId,use:'hero',viewport:root.clientWidth<600?'mobile':'desktop'});if(!art)return;const index=themes.findIndex(t=>t.id===art.ipId);if(index<0)return;state.theme=index;state.variants[art.ipId]=themes[index].variants.indexOf(art.id);paintTheme();}
   function changeTheme(delta,manual=true){if(manual){const next=(state.theme+delta+themes.length)%themes.length;chooseScene(themes[next].id);persist();}else chooseScene(state.locked?themes[state.theme].id:undefined);}
   q('.theme-dots').innerHTML=themes.map((t,i)=>`<button type="button" class="theme-dot cursor-interaction" data-theme="${i}" aria-label="切换到${esc(t.name)}主题" data-tooltip="${esc(t.name)}" aria-pressed="false"></button>`).join('');
-  q('.ip-tags').innerHTML=themes.map((t,i)=>`<button type="button" class="cursor-interaction" data-theme="${i}" aria-pressed="false">${esc(t.name)}</button>`).join('');
+  q('.ip-tags').innerHTML=themes.map((t,i)=>`<button type="button" class="cursor-interaction" data-material-ip="${esc(t.id)}">${esc(t.name)}</button>`).join('');
   qa('[data-theme]').forEach(b=>b.addEventListener('click',()=>{chooseScene(themes[Number(b.dataset.theme)].id);persist();}));
   q('.lock-theme').addEventListener('change',e=>{state.locked=e.target.checked;persist();});
   qa('[data-theme-step]').forEach(b=>b.addEventListener('click',()=>changeTheme(Number(b.dataset.themeStep))));
@@ -115,9 +117,11 @@
   qa('.deck-card').forEach(b=>b.addEventListener('click',()=>{state.project=Number(b.dataset.project);navigate('projects');}));
 
   const rail=q('.gallery-rail');
-  rail.innerHTML=homeGallery.map((t,i)=>`<button type="button" class="gallery-polaroid cursor-interaction" data-art="${galleryItems.indexOf(t)}" style="--tilt:${i%2?2:-2}deg" aria-label="查看${esc(t.label)}"><img src="${t.image}" alt="${esc(t.label)}" loading="lazy"><span>${esc(t.label)}</span><small>${esc(t.name)} · ${t.ownerWork?'本人作品':'素材样图'}</small></button>`).join('');
-  q('.masonry-gallery').innerHTML=galleryItems.map((t,i)=>`<button type="button" class="masonry-item cursor-interaction" data-art="${i}" aria-label="放大${esc(t.label)}"><img src="${t.image}" alt="${esc(t.label)}" loading="lazy"><p>${esc(t.label)}</p><small>${esc(t.name)} · ${t.ownerWork?'本人作品':'IP 素材'}</small></button>`).join('');
-  if(ownedWorks.length){q('.gallery-description p').textContent='我的作品 · 从本地原图或图片直链导入';q('[data-view="gallery"] .inner-heading p').textContent='站长手动导入的个人作品，点击作品查看大图和来源。';}
+  rail.innerHTML=homeGallery.map((art,i)=>{const work=personalById.get(SoraGallery.workKey(art));return `<button type="button" class="gallery-polaroid cursor-interaction" data-home-work="${esc(work.id)}" style="--tilt:${i%2?2:-2}deg" aria-label="查看${esc(work.title)}"><img src="${art.image}" alt="${esc(work.title)}" loading="lazy"><span>${esc(work.title)}</span><small>本人作品${work.pages.length>1?' · '+work.pages.length+' 张':''}${work.metadataPending?' · 资料待补':''}</small></button>`;}).join('');
+  if(!personalWorks.length)rail.innerHTML='<div class="home-gallery-empty"><p>个人作品正在整理，稍后挂上新的画面。</p><button type="button" class="text-button" data-open-materials>先翻翻偏爱素材 →</button></div>';
+  q('.gallery-description p').textContent=personalWorks.length?`我的作品 · ${personalWorks.length} 个作品，${ownedWorks.length} 张原图`:'我的作品画廊 · 正在整理中';
+  q('.gallery-toggle').hidden=galleryItems.length<2;
+  q('.gallery-toolbar').hidden=galleryItems.length===0;
   function moveGallery(delta){
     const distance=(rail.querySelector('.gallery-polaroid')?.getBoundingClientRect().width||210)+18;
     const max=rail.scrollWidth-rail.clientWidth;
@@ -128,14 +132,16 @@
   q('.gallery-toggle').addEventListener('click',()=>{state.galleryPlaying=!state.galleryPlaying;paintPlayback();});
   rail.addEventListener('pointerenter',()=>{galleryHovered=true;});rail.addEventListener('pointerleave',()=>{galleryHovered=false;galleryElapsed=0;});
   rail.addEventListener('focusin',()=>{galleryHovered=true;});rail.addEventListener('focusout',e=>{if(!rail.contains(e.relatedTarget)){galleryHovered=false;galleryElapsed=0;}});
-  function openArtwork(index){
-    const art=galleryItems[index];navigate('gallery',false);q('.gallery-viewer').hidden=false;
-    q('.viewer-image').innerHTML=`<img src="${art.background||art.image}" alt="${esc(art.label)}视觉样图大图">`;
-    q('.viewer-info').innerHTML=`<div><b>${esc(art.label)}</b><p>${esc(art.name)} · ${art.dimensions.join(' × ')} 原始素材</p><small>${esc(art.ownerWork?'本人作品 · 手动导入':art.source_kind.includes('community')?'游戏美术 · 社区镜像':'来源视觉素材')} · ${esc(art.kind)}</small>${art.description?`<p class="art-description">${esc(art.description)}</p>`:''}${art.ownerWork&&art.tags?.length?`<div class="art-tags">${art.tags.map(tag=>`<span>#${esc(tag)}</span>`).join('')}</div>`:''}</div><a href="${esc(art.original||art.source_image||art.source)}" target="_blank" rel="noopener noreferrer" class="cursor-interaction">打开原始图片 ↗</a><a href="${esc(art.source)}" target="_blank" rel="noopener noreferrer" class="cursor-interaction">查看来源页 ↗</a>`;
-    q('.gallery-viewer').scrollIntoView({behavior:state.reduced?'instant':'smooth',block:'start'});
-  }
-  qa('[data-art]').forEach(b=>b.addEventListener('click',()=>openArtwork(Number(b.dataset.art))));
-  q('.viewer-close').addEventListener('click',()=>{q('.gallery-viewer').hidden=true;});
+  const browsers={
+    gallery:SoraGallery.createBrowser({root:q('.personal-image-browser'),mode:'works',assets:artworks,library,onChange:(_,options)=>{if(state.page==='gallery')setRoute(options?.history||'push');}}),
+    materials:SoraGallery.createBrowser({root:q('.material-image-browser'),mode:'materials',assets:artworks,library,onChange:(_,options)=>{if(state.page==='materials')setRoute(options?.history||'push');}})
+  };
+  qa('[data-home-work]').forEach(button=>button.addEventListener('click',()=>{
+    browsers.gallery.setState({itemId:button.dataset.homeWork},{notify:false});navigate('gallery',false);
+    q('[data-view="gallery"] .browser-viewer').scrollIntoView({behavior:state.reduced?'instant':'smooth',block:'start'});
+  }));
+  qa('[data-open-materials]').forEach(button=>button.addEventListener('click',()=>navigate('materials')));
+  root.addEventListener('sora:browse',event=>{if(['gallery','materials'].includes(event.detail?.page))navigate(event.detail.page);});
 
   function projectPreview(p){
     if(p.screenshots.length)return `<img class="project-screenshot" src="${p.screenshots[0].full_image||p.screenshots[0].image}" alt="${esc(p.screenshots[0].title)}真实界面"><p class="media-caption">项目 README 真实截图 · <span class="screenshot-caption">${esc(p.screenshots[0].title)}</span></p><div class="screenshot-switcher">${p.screenshots.map((s,i)=>`<button type="button" class="cursor-interaction" data-screenshot="${i}" aria-pressed="${i===0}">${esc(s.title)}</button>`).join('')}</div>`;
@@ -156,25 +162,63 @@
       if(b.dataset.demo==='download'){clearInterval(demoTimer);let step=0;const nodes=qa('[data-flow-step]');nodes.forEach((n,i)=>n.classList.toggle('is-active',i===0));b.textContent='流程演示中…';demoTimer=setInterval(()=>{step++;nodes.forEach((n,i)=>n.classList.toggle('is-active',i===step));if(step>=2){clearInterval(demoTimer);b.textContent='再看一次流程';}},state.reduced?100:800);}
     }));
   }
-  q('.interest-count').textContent=`${interests.focus_groups.length} 个重点 IP / 系列 · ${interests.extended_interests.length} 个扩展偏爱`;
+  const archivedIps=library.ips.filter(ip=>ip.systemRole!=='owner-works');
+  q('.interest-count').textContent=`${archivedIps.length} 个 IP / 系列 · ${library.characters.length} 位角色 · ${artworks.filter(a=>!a.ownerWork&&a.enabled!==false).length} 张素材`;
+  function archivePerson(group,person){
+    const character=library.characters.find(c=>c.ipId===group.id&&(c.name===person||(c.aliases||[]).includes(person)));
+    return `<button type="button" class="${person===group.favorite?'favorite-person':''}" data-material-ip="${esc(group.id)}" ${character?`data-material-character="${esc(character.id)}"`:`data-material-series="${esc(person)}"`}>${esc(interests.display_aliases?.[person]||person)}</button>`;
+  }
   q('.focus-archive').innerHTML=interests.focus_groups.map(group=>{
-    const theme=themes.find(t=>t.id===group.id);const people=group.characters||group.series||[];
-    return `<section class="focus-entry"><div class="focus-heading"><h2>${esc(group.name)}</h2>${theme?`<button type="button" class="text-button cursor-interaction" data-favorite-theme="${esc(group.id)}">去看主题 ↗</button>`:''}</div>${group.favorite?`<p class="favorite-star">♥ 最喜欢：${esc(group.favorite)}</p>`:''}<div class="favorite-chips">${people.map(person=>`<span class="${person===group.favorite?'favorite-person':''}">${esc(interests.display_aliases?.[person]||person)}</span>`).join('')}</div>${group.themeKey==='fate'?'<p>从 stay night 的不同路线，到 Zero、Apocrypha 和 Grand Order，都是这个系列的一部分。</p>':''}${group.themeKey==='mangekyou'?'<p>历代作品，都可以在这里留下一页。</p>':''}<small>${theme?`本版主题收录 ${theme.variants.length} 张代表画面；角色与系列偏好完整保留。`:'完整偏好已收录。'}</small></section>`;
+    const theme=themes.find(t=>t.id===group.id);const people=[...new Set([...(group.characters||[]),...(group.series||[])])];
+    return `<section class="focus-entry"><div class="focus-heading"><h2><button type="button" class="archive-heading-link" data-material-ip="${esc(group.id)}">${esc(group.name)} ↗</button></h2>${theme?`<button type="button" class="text-button cursor-interaction" data-favorite-theme="${esc(group.id)}">切到首页主题 ↗</button>`:''}</div>${group.favorite?`<p class="favorite-star">♥ 最喜欢：${archivePerson(group,group.favorite)}</p>`:''}<div class="favorite-chips">${people.map(person=>archivePerson(group,person)).join('')}</div>${group.themeKey==='fate'?'<p>从 stay night 的不同路线，到 Zero、Apocrypha 和 Grand Order，都是这个系列的一部分。</p>':''}${group.themeKey==='mangekyou'?'<p>历代作品，都可以在这里留下一页。</p>':''}<small>${artworks.filter(a=>!a.ownerWork&&a.enabled!==false&&a.ipId===group.id).length} 张素材已收录；没有图片的角色，也会在档案里保留位置。</small></section>`;
   }).join('');
-  q('.extended-tags').innerHTML=interests.extended_interests.map(name=>`<span>${esc(name)}</span>`).join('');
+  const focusIds=new Set(interests.focus_groups.map(group=>group.id));
+  q('.extended-tags').innerHTML=archivedIps.filter(ip=>!focusIds.has(ip.id)).map(ip=>`<button type="button" data-material-ip="${esc(ip.id)}">${esc(ip.name)}</button>`).join('');
+  root.addEventListener('click',event=>{
+    const button=event.target.closest('[data-material-ip]');if(!button)return;
+    browsers.materials.setState({ipId:button.dataset.materialIp,characterId:button.dataset.materialCharacter||'',series:button.dataset.materialSeries||''},{notify:false});
+    navigate('materials');
+  });
   qa('[data-favorite-theme]').forEach(b=>b.addEventListener('click',()=>{const index=themes.findIndex(t=>t.id===b.dataset.favoriteTheme);if(index>=0){state.theme=index;paintTheme();navigate('home');}}));
   const nativePage=window.top===window.self;
-  function setRoute(mode='replace'){if(nativePage&&mode){const route='#/'+(state.page==='projects'?'projects/'+projects[state.project].id:state.page);if(location.hash!==route)history[mode==='push'?'pushState':'replaceState'](null,'',route);}}
+  function setRoute(mode='replace'){
+    if(!nativePage||!mode)return;
+    let route='#/'+state.page;
+    if(state.page==='projects')route+='/'+encodeURIComponent(projects[state.project].id);
+    if(browsers[state.page]){
+      const filter=browsers[state.page].getState(),params=new URLSearchParams();
+      if(state.page==='materials'&&filter.ipId)route+='/'+encodeURIComponent(filter.ipId);
+      for(const [key,param] of [['characterId','character'],['kind','kind'],['use','use'],['tag','tag'],['year','year'],['series','series'],['search','q'],['itemId','item']])if(filter[key])params.set(param,filter[key]);
+      if(filter.itemId&&filter.imagePage)params.set('p',String(filter.imagePage+1));
+      if(params.size)route+='?'+params;
+    }
+    if(location.hash!==route)history[mode==='push'?'pushState':'replaceState'](null,'',route);
+  }
   function navigate(page,scroll=true,historyMode='push'){
     state.page=page;root.dataset.page=page;qa('[data-view]').forEach(v=>v.hidden=v.dataset.view!==page);
-    qa('.nav-item').forEach(b=>{b.classList.toggle('is-current',b.dataset.page===page);if(b.dataset.page===page)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
+    qa('.nav-item').forEach(b=>{const current=b.dataset.page===page||(page==='materials'&&b.dataset.page==='interests');b.classList.toggle('is-current',current);if(current)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
     if(page==='projects')paintProject();else clearInterval(demoTimer);
     if(scroll)root.scrollIntoView({behavior:state.reduced?'instant':'smooth',block:'start'});
     setRoute(historyMode);persist();
   }
+  function readRoute(){
+    if(!nativePage)return state.page;
+    const [path,query='']=location.hash.replace(/^#\/?/,'').split('?');
+    let parts;try{parts=path.split('/').map(decodeURIComponent);}catch(_){return 'home';}
+    const page=['home','projects','gallery','interests','materials'].includes(parts[0])?parts[0]:'home';
+    if(page==='projects'){const index=projects.findIndex(p=>p.id===parts[1]);if(index>=0)state.project=index;}
+    if(browsers[page]){
+      const params=new URLSearchParams(query),filter={ipId:page==='materials'?parts[1]||'':''};
+      for(const [key,param] of [['characterId','character'],['kind','kind'],['use','use'],['tag','tag'],['year','year'],['series','series'],['search','q'],['itemId','item']])filter[key]=params.get(param)||'';
+      filter.imagePage=Math.max(0,(Number(params.get('p'))||1)-1);
+      browsers[page].setState(filter,{notify:false});
+    }
+    return page;
+  }
   qa('[data-page]').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.page)));
-  if(nativePage){const route=location.hash.replace(/^#\/?/,'').split('/');if(['home','projects','gallery','interests'].includes(route[0]))state.page=route[0];const pi=projects.findIndex(p=>p.id===route[1]);if(pi>=0)state.project=pi;}
-  window.addEventListener('popstate',()=>{if(!nativePage)return;const route=location.hash.replace(/^#\/?/,'').split('/');if(!['home','projects','gallery','interests'].includes(route[0]))return;const pi=projects.findIndex(p=>p.id===route[1]);if(pi>=0)state.project=pi;navigate(route[0],false,null);});
+  state.page=readRoute();
+  const restoreRoute=()=>navigate(readRoute(),false,null);
+  if(nativePage){window.addEventListener('popstate',restoreRoute);window.addEventListener('hashchange',restoreRoute);}
   const fortunes=['全图鉴博士今天也在认真摸鱼。','能打人机，就绝不为难自己。','新的点子，又交给 AI 了。','B 段不可怕，下一把再来！'];let fortune=0;
   q('.avatar').addEventListener('click',()=>{toast(fortunes[fortune++%fortunes.length]);});
   const avatarPicker=SoraRotation.createLibrary({...library,assets:artworks},library.settings);
@@ -200,6 +244,6 @@
   window.addEventListener('openai:set_globals',event=>{const incoming=event.detail?.globals?.widgetState?.modelContent;if(!incoming)return;const ti=themes.findIndex(t=>t.id===incoming.theme);if(ti>=0&&ti!==state.theme){state.theme=ti;paintTheme();}});
   picker.record(artById.get(themes[state.theme].variants[state.variants[themes[state.theme].id]||0]));
   paintTheme(true);paintDeck();paintPlayback();
-  root.dataset.page=state.page;qa('[data-view]').forEach(v=>v.hidden=v.dataset.view!==state.page);qa('.nav-item').forEach(b=>{b.classList.toggle('is-current',b.dataset.page===state.page);if(b.dataset.page===state.page)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});if(state.page==='projects')paintProject();setRoute();
+  navigate(state.page,false,'replace');
   if(globalThis.Tweak){const design={width:900,background:.96};const tweak=new Tweak({container:root,onChange:()=>{q('.blog-column').style.maxWidth=design.width+'px';root.style.setProperty('--scene-opacity',design.background);}});tweak.addSlider(design,'width',{label:'正文宽度',min:760,max:1060,step:20,unit:'px'});tweak.addSlider(design,'background',{label:'背景浓度',min:.3,max:1,step:.05});}
 })();

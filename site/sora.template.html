@@ -4,7 +4,7 @@
   <div class="sora-petals" aria-hidden="true"><span>✧</span><span>✦</span><span>✧</span><span>✦</span><span>✧</span><span>✦</span></div>
   <header class="sora-header">
     <button class="sora-brand cursor-interaction" data-page="home" type="button" aria-label="空想便笺，返回首页"><span class="brand-mark">空</span><span>空想便笺<small>KAMINOSORA'S LITTLE BLOG</small></span></button>
-    <nav aria-label="博客栏目"><button type="button" class="nav-item is-current cursor-interaction" data-page="home" aria-current="page">首页 <small>Home</small></button><button type="button" class="nav-item cursor-interaction" data-page="projects">项目 <small>Projects</small></button><button type="button" class="nav-item cursor-interaction" data-page="gallery">作品 <small>Gallery</small></button></nav>
+    <nav aria-label="博客栏目"><button type="button" class="nav-item is-current cursor-interaction" data-page="home" aria-current="page">首页 <small>Home</small></button><button type="button" class="nav-item cursor-interaction" data-page="projects">项目 <small>Projects</small></button><button type="button" class="nav-item cursor-interaction" data-page="gallery">作品 <small>Gallery</small></button><button type="button" class="nav-item cursor-interaction" data-page="interests">偏爱 <small>Archive</small></button></nav>
     <span class="preview-label">预览 v3 · 未发布</span>
   </header>
   <div class="page-view home-view" data-view="home">
@@ -22,8 +22,9 @@
         <div class="profile-links"><a href="https://github.com/kaminosora" target="_blank" rel="noopener noreferrer" class="cursor-interaction">GitHub ↗</a><a href="https://www.pixiv.net/users/39216404" target="_blank" rel="noopener noreferrer" class="cursor-interaction">Pixiv ↗</a><span>凭兴趣发电中</span></div>
         <details class="ip-notebook"><summary class="cursor-interaction">我的次元坐标 <span>展开喜欢的 IP ＋</span></summary><div class="ip-tags"></div><button type="button" class="favorites-link cursor-interaction" data-page="interests">打开完整偏爱档案 →</button></details>
       </div>
-      <div class="scene-caption"><span class="scene-index">01 / 13</span><p class="scene-name">正在装入喜欢的世界</p><span class="scene-character"></span><span class="scene-subtitle">让今天的心情，换一个背景。</span></div>
+      <div class="scene-controls"><div class="scene-caption"><span class="scene-index">01 / 13</span><p class="scene-name">正在装入喜欢的世界</p><span class="scene-character"></span><span class="scene-subtitle">让今天的心情，换一个背景。</span></div>
       <div class="theme-player" aria-label="IP 主题轮播控制"><div class="theme-player-top"><span class="theme-state">世界放映中</span><button type="button" class="motion-button cursor-interaction" aria-pressed="false">减弱动效</button></div><div class="theme-player-controls"><button type="button" class="round-button cursor-interaction" data-theme-step="-1" aria-label="上一个 IP 主题">‹</button><button type="button" class="theme-toggle cursor-interaction">Ⅱ 暂停轮播</button><button type="button" class="round-button cursor-interaction" data-theme-step="1" aria-label="下一个 IP 主题">›</button></div><div class="theme-progress"><span></span></div><div class="theme-dots" aria-label="选择 IP 主题"></div><div class="character-switcher" aria-label="切换当前 IP 的角色画面"></div><label class="lock-label"><input class="lock-theme" type="checkbox"> 只在这个 IP 里邂逅</label><div class="scene-source"><a class="scene-original cursor-interaction" target="_blank" rel="noopener noreferrer">查看原始图片 ↗</a></div></div>
+      </div>
       <span class="intro-scroll">把日常往下翻 <span>↓</span></span>
     </section>
     <main class="blog-column">
@@ -35,7 +36,7 @@
         <div class="deck-toolbar"><button type="button" class="round-button cursor-interaction" data-project-step="-1" aria-label="上一个项目">‹</button><span class="deck-counter" aria-live="polite"></span><button type="button" class="round-button cursor-interaction" data-project-step="1" aria-label="下一个项目">›</button><button type="button" class="quiet-button deck-toggle cursor-interaction">暂停转动</button></div>
         <p class="ai-note"><span>✎ AI Vibe Coding · 致歉说明</span>这里的项目都是借助 AI 模型 Vibe 出来的。代码可能还有粗糙之处；若给你带来不便，先说声抱歉。欢迎提 issue，也谢谢你愿意试用。</p>
       </section>
-      <section class="home-gallery" aria-labelledby="home-gallery-title"><div class="section-heading"><div><span class="small-caps">COLLECTING LITTLE WORLDS</span><h2 id="home-gallery-title">把喜欢的瞬间，挂起来。</h2></div><button type="button" class="text-button cursor-interaction" data-page="gallery">走进画廊 ↗</button></div><div class="gallery-description"><p>Pixiv 画廊预演 · 当前用 IP 角色素材演示，非本人作品。</p><button type="button" class="quiet-button gallery-toggle cursor-interaction">暂停画廊</button></div><div class="gallery-window"><div class="gallery-rail" aria-label="横向滚动的示例画廊"></div></div><div class="gallery-toolbar"><span>悬停暂停 · 可以横向滚动 · 点击看大图</span><div><button type="button" class="round-button cursor-interaction" data-gallery-step="-1" aria-label="向左浏览画廊">‹</button><button type="button" class="round-button cursor-interaction" data-gallery-step="1" aria-label="向右浏览画廊">›</button></div></div></section>
+      <section class="home-gallery" aria-labelledby="home-gallery-title"><div class="section-heading"><div><span class="small-caps">COLLECTING LITTLE WORLDS</span><h2 id="home-gallery-title">把喜欢的瞬间，挂起来。</h2></div><button type="button" class="text-button cursor-interaction" data-page="gallery">走进画廊 ↗</button></div><div class="gallery-description"><p>我的作品 · 把喜欢的画面，慢慢收藏。</p><button type="button" class="quiet-button gallery-toggle cursor-interaction">暂停画廊</button></div><div class="gallery-window"><div class="gallery-rail" aria-label="横向滚动的个人作品画廊"></div></div><div class="gallery-toolbar"><span>悬停暂停 · 可以横向滚动 · 点击看大图</span><div><button type="button" class="round-button cursor-interaction" data-gallery-step="-1" aria-label="向左浏览画廊">‹</button><button type="button" class="round-button cursor-interaction" data-gallery-step="1" aria-label="向右浏览画廊">›</button></div></div></section>
       <section class="blog-postscript"><span class="postscript-mark">P.S.</span><div><h3>路过的话，就坐一会儿吧。</h3><p>这里会长出新的项目，也会存下新的喜欢。<br>没有宏大的计划，今天开心就很好。</p></div><a href="https://kaminosora.github.io/lyric-site" target="_blank" rel="noopener noreferrer" class="text-button cursor-interaction">去旧歌词页坐坐 ↗</a></section>
     </main>
   </div>
@@ -45,13 +46,16 @@
     <article class="project-detail" aria-live="polite"></article>
     <p class="ai-note"><span>AI 创作说明与致歉</span>本栏项目均由我借助 AI 模型 Vibe Coding 完成。代码与功能可能存在疏漏；若给你带来不便，先说声抱歉，欢迎反馈与指正。</p>
   </main>
-  <main class="page-view inner-view" data-view="gallery" hidden>
-    <div class="inner-heading"><span class="small-caps">A GALLERY OF SMALL WORLDS</span><h1>喜欢的画面，慢慢看<span>。</span></h1><p>瀑布流画廊交互预演。当前为 IP 角色视觉样图，非站长 Pixiv 作品。</p><a href="https://www.pixiv.net/users/39216404" target="_blank" rel="noopener noreferrer" class="pill-link cursor-interaction">去神の空的 Pixiv 看真实作品 ↗</a></div>
-    <section class="gallery-viewer" hidden aria-label="大图查看"><button type="button" class="viewer-close quiet-button cursor-interaction">收起大图 ×</button><div class="viewer-image"></div><div class="viewer-info"></div></section>
-    <div class="masonry-gallery" aria-label="IP 视觉样图瀑布流"></div>
+  <main class="page-view inner-view image-browser-view" data-view="gallery" hidden>
+    <div class="inner-heading"><span class="small-caps">MY OWN LITTLE GALLERY</span><h1>那些想留下的画面<span>。</span></h1><p>这里是我自己的作品。按标签、年份或作品目录浏览，点开可以查看多图与原始图片。</p><a href="https://www.pixiv.net/users/39216404" target="_blank" rel="noopener noreferrer" class="pill-link cursor-interaction">去神の空的 Pixiv ↗</a></div>
+    <section class="personal-image-browser" aria-label="个人作品浏览器"></section>
+  </main>
+  <main class="page-view inner-view image-browser-view" data-view="materials" hidden>
+    <div class="inner-heading"><span class="small-caps">THE WORLDS I KEEP CLOSE</span><h1>偏爱的世界，都在这里<span>。</span></h1><p>沿着左侧档案找 IP、角色和系列，也可以按图片类型与用途慢慢翻。角色与引用图片的权利归原权利人。</p><button type="button" class="pill-link cursor-interaction" data-page="interests">回到偏爱档案 →</button></div>
+    <section class="material-image-browser" aria-label="偏爱素材浏览器"></section>
   </main>
   <main class="page-view inner-view" data-view="interests" hidden>
-    <div class="inner-heading"><span class="small-caps">MY LITTLE FANDOM ARCHIVE</span><h1>偏爱这件小事<span>。</span></h1><p>喜欢的世界很多，慢慢记，慢慢看。</p><p class="interest-count"></p></div>
+    <div class="inner-heading"><span class="small-caps">MY LITTLE FANDOM ARCHIVE</span><h1>偏爱这件小事<span>。</span></h1><p>喜欢的世界很多，慢慢记，慢慢看。点击 IP、角色或系列，就能打开对应的素材画廊。</p><button type="button" class="pill-link cursor-interaction" data-page="materials">浏览全部偏爱素材 ↗</button><p class="interest-count"></p></div>
     <div class="focus-archive"></div>
     <section class="extended-archive"><h2>还有这些，也很喜欢。</h2><p>收在档案里，暂不加入自动轮播。</p><div class="extended-tags"></div></section>
     <button type="button" class="pill-link cursor-interaction" data-page="home">回到首页，继续放映 ←</button>

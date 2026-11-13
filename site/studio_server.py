@@ -24,6 +24,7 @@ import webbrowser
 
 ROOT = Path(__file__).resolve().parent
 MAX_IMAGE_BYTES = 80 * 1024 * 1024
+MAX_METADATA_BYTES = 8 * 1024 * 1024
 MAX_JSON_BYTES = 1024 * 1024
 MAX_URLS = 25
 MAX_BATCH_BYTES = 512 * 1024 * 1024
@@ -322,7 +323,7 @@ class StudioHandler(BaseHTTPRequestHandler):
             if not hmac.compare_digest(provided.encode("utf-8"), self.server.token.encode("utf-8")):
                 raise RequestError("工作台连接已失效，请重新使用启动器打开。", 401)
 
-    def read_body(self, limit):
+    def read_body(self, limit, too_large="上传内容过大，单张图片最多 80 MB。"):
         if self.headers.get("Transfer-Encoding"):
             raise RequestError("不支持分块上传，请重新选择文件。")
         length = self.headers.get("Content-Length")
@@ -333,7 +334,7 @@ class StudioHandler(BaseHTTPRequestHandler):
         except ValueError as exc:
             raise RequestError("请求文件大小无效。") from exc
         if length < 0 or length > limit:
-            raise RequestError("上传内容过大，单张图片最多 80 MB。", 413)
+            raise RequestError(too_large, 413)
         data = self.rfile.read(length)
         if len(data) != length:
             raise RequestError("上传未完成，请重新选择文件。")
@@ -379,6 +380,17 @@ class StudioHandler(BaseHTTPRequestHandler):
         try:
             parsed = urlsplit(self.path)
             self.check_request(api=True)
+            if parsed.path == "/api/pixiv-metadata":
+                filename = parse_qs(parsed.query).get("filename", [""])[0]
+                if not filename or len(filename) > 500 or Path(filename).suffix.lower() not in {".json", ".html", ".htm"}:
+                    raise RequestError("请选择 JSON 作品资料或已保存的 HTML 作品页面。")
+                content = self.read_body(MAX_METADATA_BYTES, "作品资料最多 8 MB，请分成较小文件后导入。")
+                importer = importlib.import_module("import_pixiv_local")
+                with self.server.operation_lock:
+                    result = importer.update_metadata_bytes(content, filename,
+                        self.headers.get("X-Studio-Revision", ""), engine=self.server.core)
+                    self.json(result)
+                return
             if parsed.path == "/api/upload":
                 filename = parse_qs(parsed.query).get("filename", ["image"])[0]
                 if len(filename) > 500:

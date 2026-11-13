@@ -25,7 +25,7 @@ MAX_SITE = 1_000_000_000
 SOURCE_FILES = {
     'build_preview.py', 'library.py', 'studio_core.py', 'studio_server.py',
     'publish.py', 'sync_projects.py', 'launch_studio.py', 'launcher.py',
-    'rotation-engine.js', 'sora.css', 'sora.js', 'sora.template.html',
+    'rotation-engine.js', 'gallery-browser.js', 'import_pixiv_local.py', 'sora.css', 'sora.js', 'sora.template.html',
     'standalone.template.html', 'studio.html', 'studio.js', 'studio.css',
     'requirements.txt', 'pages-workflow.yml', 'README.md',
     '启动素材工作台.cmd', '启动素材工作台.ps1',

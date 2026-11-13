@@ -81,3 +81,306 @@
 #sora-blog .deck-card,#sora-blog .gallery-polaroid,#sora-blog .page-view{transition-duration:calc(var(--fade-duration,2s) * .3);animation-duration:calc(var(--fade-duration,2s) * .25)}
 
 #sora-blog .viewer-info{flex-wrap:wrap;align-items:flex-start}#sora-blog .viewer-info>div{flex:1 1 100%}#sora-blog .art-description{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.85;max-width:760px;margin:16px 0}#sora-blog .art-tags{display:flex;flex-wrap:wrap;gap:7px;margin:13px 0}#sora-blog .art-tags span{padding:4px 9px;border-radius:20px;background:var(--accent-soft);color:var(--accent);font-size:11px}
+
+/* Keep the scene note with its controls, leaving the middle of the art open. */
+#sora-blog .sora-intro{
+  display:grid;
+  grid-template-columns:minmax(0,350px) minmax(0,290px);
+  justify-content:space-between;
+  align-items:start;
+  gap:32px 50px;
+}
+#sora-blog .scene-controls{
+  position:relative;
+  align-self:end;
+  width:100%;
+  min-width:0;
+  margin:0 0 14px;
+  background:color-mix(in srgb,var(--paper) 89%,white);
+  border:1px solid #ffffffdf;
+  border-radius:15px;
+  box-shadow:0 12px 42px #40334c0d;
+  backdrop-filter:blur(14px);
+}
+#sora-blog .scene-controls .scene-caption{
+  position:static;
+  inset:auto;
+  width:auto;
+  max-width:none;
+  margin:0 17px;
+  padding:15px 0 12px;
+  border-bottom:1px solid var(--line);
+  border-radius:0;
+  background:none;
+  backdrop-filter:none;
+  color:var(--ink);
+  text-align:left;
+  text-shadow:none;
+  overflow-wrap:anywhere;
+}
+#sora-blog .scene-controls .scene-index{font-size:9px;letter-spacing:2.5px;color:var(--muted)}
+#sora-blog .scene-controls .scene-name{font-size:20px;line-height:1.45;letter-spacing:1px;margin:5px 0 3px!important}
+#sora-blog .scene-controls .scene-character{font-size:11px;line-height:1.65;letter-spacing:.4px;margin:0;color:var(--muted);text-shadow:none}
+#sora-blog .scene-controls .scene-subtitle{display:block;font-size:10px;line-height:1.65;letter-spacing:.4px;margin-top:7px;color:var(--muted)}
+#sora-blog .scene-controls .theme-player{
+  position:static;
+  inset:auto;
+  width:100%;
+  max-width:none;
+  margin:0;
+  padding:12px 17px 14px;
+  border:0;
+  border-radius:0 0 15px 15px;
+  background:none;
+  box-shadow:none;
+  backdrop-filter:none;
+}
+#sora-blog .scene-controls .theme-player-top{gap:9px;align-items:baseline}
+#sora-blog .scene-controls .theme-state{font-size:9px;min-width:0}
+#sora-blog .scene-controls .motion-button{white-space:nowrap;font-size:9px}
+#sora-blog .scene-controls .theme-dots{gap:6px}
+#sora-blog .scene-controls .character-select{max-width:100%;text-overflow:ellipsis}
+#sora-blog .scene-controls .scene-original{overflow-wrap:anywhere}
+
+/* One image browser layout for personal works and the fandom archive. */
+#sora-blog[data-page="gallery"],#sora-blog[data-page="materials"]{overflow:clip}
+#sora-blog[data-page="materials"] .sora-scenery{height:500px;opacity:.25}
+#sora-blog .image-browser-view{max-width:1180px;padding:0 35px;min-width:0}
+#sora-blog .image-browser{
+  display:grid;
+  grid-template-columns:220px minmax(0,1fr);
+  align-items:start;
+  gap:30px;
+}
+#sora-blog .browser-sidebar{
+  position:sticky;
+  top:22px;
+  min-width:0;
+  max-height:calc(100svh - 44px);
+  padding:16px 12px;
+  border:1px solid #ffffffc9;
+  border-radius:13px;
+  background:color-mix(in srgb,var(--paper) 72%,white);
+  box-shadow:0 8px 35px #51465c07;
+  overflow:auto;
+  overscroll-behavior:contain;
+  scrollbar-width:thin;
+  scrollbar-color:var(--accent-soft) transparent;
+}
+#sora-blog .browser-sidebar>summary{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  padding:1px 6px 13px;
+  color:var(--accent);
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:1px;
+  list-style:none;
+}
+#sora-blog .browser-sidebar>summary::-webkit-details-marker,#sora-blog .browser-ip-group>summary::-webkit-details-marker{display:none}
+#sora-blog .browser-sidebar>summary:after{content:"展开 ＋";font-size:9px;font-weight:400;letter-spacing:0;color:var(--muted)}
+#sora-blog .browser-sidebar[open]>summary:after{content:"收起 −"}
+#sora-blog .browser-sidebar:not([open])>summary{padding-bottom:1px}
+#sora-blog .browser-sidebar-content{min-width:0}
+#sora-blog .browser-sidebar-content h3{font-size:10px;color:var(--muted);font-weight:400;letter-spacing:1.5px;margin:19px 7px 8px}
+#sora-blog .browser-sidebar-content>p{font-size:10px;color:var(--muted);padding:8px 7px;line-height:1.7}
+#sora-blog .browser-sidebar-content>p.browser-nav-label{margin-top:13px;letter-spacing:1.2px}
+#sora-blog .browser-sidebar-content>p.browser-nav-label:first-child{margin-top:0}
+#sora-blog .browser-crosslink{display:block;width:100%;min-height:36px;padding:7px 9px;text-align:left;font-size:11px;color:var(--accent);line-height:1.7;border-radius:7px}
+#sora-blog .browser-crosslink:hover{background:var(--accent-soft)}
+#sora-blog .browser-nav-button{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:9px;
+  width:100%;
+  min-height:34px;
+  padding:7px 9px;
+  border:1px solid transparent;
+  border-radius:7px;
+  color:var(--ink);
+  font-size:11px;
+  line-height:1.5;
+  text-align:left;
+  transition:background .2s,color .2s,border-color .2s;
+}
+#sora-blog .browser-nav-button>span{min-width:0;overflow-wrap:anywhere}
+#sora-blog .browser-nav-button small{flex:none;min-width:13px;text-align:right;font:9px/1.5 Consolas,monospace;color:var(--muted)}
+#sora-blog .browser-nav-button:hover{background:#ffffffb3;color:var(--accent)}
+#sora-blog .browser-nav-button[aria-pressed="true"]{background:var(--accent-soft);border-color:color-mix(in srgb,var(--accent) 20%,transparent);color:var(--accent)}
+#sora-blog .browser-nav-button[aria-pressed="true"] small{color:var(--accent)}
+#sora-blog .browser-ip-group{margin-top:2px;min-width:0}
+#sora-blog .browser-ip-group>summary{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:9px 8px;
+  list-style:none;
+  border-radius:7px;
+  font-size:11px;
+  line-height:1.55;
+  overflow-wrap:anywhere;
+}
+#sora-blog .browser-ip-group>summary:after{content:"＋";margin-left:auto;flex:none;font-size:12px;color:var(--muted)}
+#sora-blog .browser-ip-group[open]>summary:after{content:"−"}
+#sora-blog .browser-ip-group>summary:hover{background:#ffffffa3;color:var(--accent)}
+#sora-blog .browser-ip-group.is-current>summary{color:var(--accent);font-weight:600}
+#sora-blog .browser-ip-group>summary small{margin-left:auto;flex:none;font:9px Consolas,monospace;color:var(--muted)}
+#sora-blog .browser-children{margin:1px 0 8px 10px;padding-left:7px;border-left:1px solid var(--line)}
+#sora-blog .browser-children .browser-nav-button{padding:6px 8px;font-size:10px;min-height:30px}
+#sora-blog .browser-main{min-width:0}
+#sora-blog .browser-toolbar{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:end;
+  gap:10px;
+  margin-bottom:24px;
+  padding:16px 18px;
+  border:1px solid #ffffffb8;
+  border-radius:12px;
+  background:#ffffffa8;
+}
+#sora-blog .browser-filter-field{display:grid;gap:5px;flex:1 1 140px;min-width:0;color:var(--muted);font-size:10px}
+#sora-blog .browser-filter-field:first-child{flex:2 1 200px}
+#sora-blog .browser-filter-field input,#sora-blog .browser-filter-field select{
+  display:block;
+  width:100%;
+  min-width:0;
+  min-height:37px;
+  padding:8px 10px;
+  border:1px solid var(--line);
+  border-radius:7px;
+  outline:none;
+  background:#fffffff0;
+  color:var(--ink);
+  font:11px/1.5 var(--font-body);
+  text-overflow:ellipsis;
+}
+#sora-blog .browser-filter-field input:focus-visible,#sora-blog .browser-filter-field select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#sora-blog .browser-filter-field input::placeholder{color:var(--muted);opacity:.8}
+#sora-blog .browser-toolbar>button{min-height:37px;padding:7px 10px;border:1px solid var(--line);border-radius:7px;background:#fff9;color:var(--accent);font-size:10px}
+#sora-blog .browser-toolbar>button:hover{background:var(--accent-soft)}
+#sora-blog .browser-heading{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px 15px;margin:0 2px 19px}
+#sora-blog .browser-heading h2{font:400 25px/1.5 "Noto Serif SC",SimSun,serif;letter-spacing:1px;overflow-wrap:anywhere}
+#sora-blog .browser-count{font-size:10px;color:var(--muted);line-height:1.7}
+#sora-blog .browser-masonry{columns:3;column-gap:18px}
+#sora-blog .browser-card{
+  display:block;
+  break-inside:avoid;
+  width:100%;
+  margin:0 0 20px;
+  padding:0;
+  border:1px solid #fff;
+  border-radius:9px;
+  background:#fffffff2;
+  box-shadow:0 8px 25px #41364b0d;
+  overflow:hidden;
+  text-align:left;
+  transition:transform .3s,box-shadow .3s;
+}
+#sora-blog .browser-card:hover,#sora-blog .browser-card:focus-visible{transform:translateY(-5px);box-shadow:0 15px 34px #41364b22}
+#sora-blog .browser-card-image{position:relative;padding:7px 7px 0;background:linear-gradient(140deg,#fff,var(--paper));overflow:hidden}
+#sora-blog .browser-card-image img{width:100%;height:auto;min-height:64px;object-fit:contain;border-radius:5px;transition:filter .3s}
+#sora-blog .browser-card:hover img{filter:saturate(1.06)}
+#sora-blog .browser-page-badge{position:absolute;top:13px;right:13px;padding:3px 7px;border:1px solid #ffffffba;border-radius:12px;background:#ffffffdc;color:var(--ink);backdrop-filter:blur(8px);font:9px/1.5 Consolas,"Microsoft YaHei",sans-serif;box-shadow:0 2px 10px #35344313}
+#sora-blog .browser-card-copy{padding:12px 13px 14px}
+#sora-blog .browser-card-copy h3{font:500 14px/1.6 "Noto Serif SC","Microsoft YaHei",serif;overflow-wrap:anywhere}
+#sora-blog .browser-card-copy p{margin-top:4px;font-size:10px;line-height:1.7;color:var(--muted);overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+#sora-blog .browser-card-copy small{display:block;margin-top:7px;font-size:9px;color:var(--accent);overflow-wrap:anywhere}
+#sora-blog .browser-viewer{margin-bottom:25px;padding:21px;background:#ffffffed;border:1px solid #fff;border-radius:15px;box-shadow:0 14px 40px #51415d10;scroll-margin-top:22px;min-width:0}
+#sora-blog .browser-viewer-top{display:flex;align-items:start;justify-content:space-between;gap:15px;margin-bottom:16px;min-width:0}
+#sora-blog .browser-viewer-top h2,#sora-blog .browser-viewer-top h3{font:400 22px/1.5 "Noto Serif SC",SimSun,serif;overflow-wrap:anywhere}
+#sora-blog .browser-viewer-top>button{flex:none;min-height:30px;padding:4px 8px;border:1px solid var(--line);border-radius:20px;color:var(--muted);font-size:10px}
+#sora-blog .browser-viewer-image{display:grid;place-items:center;min-height:140px;padding:12px;background:var(--paper);border-radius:9px;overflow:hidden}
+#sora-blog .browser-viewer-image img{width:auto;max-width:100%;height:auto;max-height:min(72svh,760px);object-fit:contain;margin:auto}
+#sora-blog .browser-viewer-pages{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;margin:16px 0;min-width:0;font-size:11px;color:var(--muted)}
+#sora-blog .browser-viewer-pages>button{min-height:34px;padding:6px 11px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--accent);font-size:10px}
+#sora-blog .browser-viewer-pages button:disabled{opacity:.45;cursor:default}
+#sora-blog .browser-page-controls{display:flex;align-items:center;justify-content:center;gap:17px;width:100%}
+#sora-blog .browser-page-controls .round-button{width:34px;height:34px}
+#sora-blog .browser-page-thumbnails{display:flex;gap:7px;width:100%;max-width:100%;padding:5px 1px 8px;overflow-x:auto;scrollbar-width:thin;scrollbar-color:var(--accent-soft) transparent;justify-content:flex-start;scroll-snap-type:x proximity}
+#sora-blog .browser-page-thumbnails button{flex:none;scroll-snap-align:center;padding:3px;border:1px solid transparent;border-radius:7px;background:var(--paper);transition:border-color .2s,transform .2s}
+#sora-blog .browser-page-thumbnails button>span{display:block;margin-top:2px;font:9px/1.5 Consolas,monospace;color:var(--muted)}
+#sora-blog .browser-viewer-pages img{width:57px;height:57px;object-fit:cover;border-radius:4px}
+#sora-blog .browser-viewer-pages button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+#sora-blog .browser-viewer-info{min-width:0;font-size:11px;line-height:1.85;color:var(--muted);overflow-wrap:anywhere}
+#sora-blog .browser-viewer-info>p{margin:12px 0}
+#sora-blog .browser-viewer-info .art-description{color:var(--ink);font-size:12px}
+#sora-blog .browser-viewer-info a{display:inline-block;margin:5px 16px 5px 0;padding-bottom:1px;border-bottom:1px solid var(--line);color:var(--accent);font-size:11px}
+#sora-blog .browser-viewer-info a:hover{border-color:var(--accent)}
+#sora-blog .browser-viewer-info .art-tags button{padding:4px 9px;border-radius:20px;background:var(--accent-soft);color:var(--accent);font-size:10px}
+#sora-blog .browser-empty{padding:48px 24px;margin-top:15px;border:1px dashed var(--line);border-radius:14px;background:#ffffff91;text-align:center;color:var(--muted);font-size:12px;line-height:1.9}
+#sora-blog .browser-empty h3{margin-bottom:10px;font:400 22px/1.5 "Noto Serif SC",SimSun,serif;color:var(--ink)}
+#sora-blog .browser-empty button,#sora-blog .browser-empty a{margin-top:15px;padding:6px 13px;border:1px solid var(--line);border-radius:20px;color:var(--accent);background:#fff9;font-size:11px}
+#sora-blog .favorite-chips>button,#sora-blog .extended-tags>button{font-size:11px;padding:4px 8px;border:1px solid transparent;border-radius:5px;background:var(--paper);color:var(--ink);text-align:left;transition:background .2s,border-color .2s}
+#sora-blog .favorite-chips>button:hover,#sora-blog .extended-tags>button:hover{background:var(--accent-soft);border-color:var(--line);color:var(--accent)}
+#sora-blog .favorite-chips>button.favorite-person{color:var(--accent);background:var(--accent-soft)}
+#sora-blog .focus-heading h2 button{padding:0;font:inherit;letter-spacing:inherit;text-align:left}
+#sora-blog .focus-heading h2 button:hover{color:var(--accent)}
+
+@media(max-width:1050px){
+  #sora-blog .image-browser-view{padding:0 27px}
+  #sora-blog .image-browser{grid-template-columns:190px minmax(0,1fr);gap:22px}
+  #sora-blog .browser-masonry{columns:2}
+  #sora-blog .browser-filter-field{flex-basis:120px}
+  #sora-blog .browser-filter-field:first-child{flex-basis:100%}
+}
+@media(max-width:800px){
+  #sora-blog .sora-intro{grid-template-columns:minmax(0,370px);justify-content:center;gap:22px;min-height:0;padding-bottom:56px}
+  #sora-blog .profile-paper{width:100%;max-width:370px;margin:0}
+  #sora-blog .scene-controls{width:100%;max-width:370px;margin:0;align-self:start}
+  #sora-blog .scene-controls .scene-caption{margin:0 19px;padding-top:15px;text-align:left}
+  #sora-blog .scene-controls .scene-name{font-size:21px}
+  #sora-blog .scene-controls .theme-player{padding-left:19px;padding-right:19px}
+  #sora-blog .intro-scroll{bottom:0}
+  #sora-blog .image-browser{grid-template-columns:minmax(0,1fr);gap:20px}
+  #sora-blog .browser-sidebar{position:relative;top:auto;max-height:none;padding:13px 15px}
+  #sora-blog .browser-sidebar-content{max-height:330px;overflow:auto;overscroll-behavior:contain;padding-right:5px;scrollbar-width:thin;scrollbar-color:var(--accent-soft) transparent}
+  #sora-blog .browser-sidebar>summary{padding:1px 2px 12px}
+  #sora-blog .browser-nav-button{min-height:38px;font-size:12px}
+  #sora-blog .browser-children .browser-nav-button{font-size:11px;min-height:34px}
+  #sora-blog .browser-ip-group>summary{font-size:12px}
+  #sora-blog .browser-toolbar{padding:14px 15px;margin-bottom:20px}
+}
+@media(max-width:600px){
+  #sora-blog .sora-intro{display:grid;margin-top:170px;padding:5px 23px 0;gap:20px}
+  #sora-blog .profile-paper{margin:0 auto}
+  #sora-blog .scene-controls{margin:0 auto}
+  #sora-blog .scene-controls .scene-name{font-size:21px}
+  #sora-blog .scene-controls .scene-subtitle{font-size:11px}
+  #sora-blog .scene-controls .scene-character{font-size:11px}
+  #sora-blog .scene-controls .theme-state,#sora-blog .scene-controls .motion-button{font-size:10px}
+  #sora-blog .intro-scroll{position:relative;inset:auto;margin:0 auto 4px}
+  #sora-blog .image-browser-view{padding:0 20px}
+  #sora-blog .image-browser-view .inner-heading{margin-bottom:25px}
+  #sora-blog .browser-toolbar{gap:10px 8px;padding:13px}
+  #sora-blog .browser-filter-field input,#sora-blog .browser-filter-field select{min-height:40px;font-size:12px}
+  #sora-blog .browser-toolbar>button{min-height:40px}
+  #sora-blog .browser-heading h2{font-size:23px}
+  #sora-blog .browser-masonry{column-gap:12px}
+  #sora-blog .browser-card{margin-bottom:14px}
+  #sora-blog .browser-card-image{padding:5px 5px 0}
+  #sora-blog .browser-card-copy{padding:10px 10px 12px}
+  #sora-blog .browser-card-copy h3{font-size:13px}
+  #sora-blog .browser-viewer{padding:14px;scroll-margin-top:12px}
+  #sora-blog .browser-viewer-top h2,#sora-blog .browser-viewer-top h3{font-size:20px}
+  #sora-blog .browser-viewer-image{padding:7px}
+  #sora-blog .browser-viewer-image img{max-height:65svh}
+  #sora-blog .browser-viewer-pages>button{min-height:40px}
+  #sora-blog .browser-page-controls .round-button{width:40px;height:40px}
+  #sora-blog .browser-viewer-info .art-description{font-size:12px}
+  #sora-blog .browser-viewer-info a{min-height:32px}
+  #sora-blog .browser-empty{padding:34px 18px}
+}
+@media(max-width:480px){
+  #sora-blog .browser-masonry{columns:1}
+  #sora-blog .browser-card-copy h3{font-size:15px}
+  #sora-blog .browser-card-copy p{font-size:11px}
+  #sora-blog .browser-card-copy small{font-size:10px}
+  #sora-blog .browser-filter-field{flex-basis:calc(50% - 5px)}
+}
+@media(prefers-reduced-motion:reduce){
+  #sora-blog .browser-card:hover,#sora-blog .browser-card:focus-visible{transform:none}
+}

@@ -42,11 +42,12 @@
     $('#publish-site').disabled = value || !state;
     $('#new-record').disabled = value || !state;
     $('#refresh-state').disabled = value || !state;
+    $('#import-work-metadata').disabled = value || !state;
     $$('.sidebar button').forEach(el => { el.disabled = value; });
     $$('.record-item').forEach(el => { el.disabled = value; });
   }
-  async function api(path, data, raw) {
-    const headers = {'X-Studio-Token':token, 'Accept':'application/json'};
+  async function api(path, data, raw, extraHeaders = {}) {
+    const headers = {'X-Studio-Token':token, 'Accept':'application/json', ...extraHeaders};
     const options = {headers, cache:'no-store'};
     if (data !== undefined || raw !== undefined) { options.method = 'POST'; if (raw !== undefined) { options.body = raw; headers['Content-Type'] = 'application/octet-stream'; } else { options.body = JSON.stringify(data); headers['Content-Type'] = 'application/json'; } }
     let response;
@@ -102,6 +103,10 @@
   function imageFallbacks(container) { container.querySelectorAll('img[data-original]').forEach(img => { img.addEventListener('error', () => { if (!img.dataset.retried) { img.dataset.retried = '1'; img.src = img.dataset.original; } else { img.style.opacity = '.25'; img.alt = '图片暂未生成'; } }); }); }
   function renderList() {
     $('#collection-title').textContent = viewNames[view];
+    $('#metadata-tools').hidden = view !== 'works';
+    const pixivWorks = lib().assets.filter(x => x.ownerWork && /^pixiv-\d+$/.test(x.workId || ''));
+    const pendingWorks = new Set(pixivWorks.filter(x => x.metadataStatus !== 'verified').map(x => x.workId));
+    $('#work-metadata-status').textContent = `${new Set(pixivWorks.map(x => x.workId)).size} 个 Pixiv 作品 · ${pendingWorks.size} 个待补资料`;
     $('#new-record').textContent = group() === 'assets' ? '＋ 导入' : '＋ 新建';
     $('#new-record').title = group() === 'assets' ? '导入本地图片或下载图片网址' : `新建${view === 'ips' ? 'IP' : '角色'}`;
     const records = filteredRecords();
@@ -385,6 +390,25 @@
     markDirty(false); renderFilters(); renderList(); renderEditor();
   }));
   $('#new-record').addEventListener('click',newRecord);
+  $('#import-work-metadata').addEventListener('click',() => {
+    if (busy || !state) return;
+    if (dirty) { notice('请先保存正在编辑的内容，再补全作品资料。','notice'); return; }
+    $('#work-metadata-file').click();
+  });
+  $('#work-metadata-file').addEventListener('change',async event => {
+    const file = event.target.files[0]; event.target.value = '';
+    if (!file || busy || !state) return;
+    if (dirty) { notice('请先保存正在编辑的内容，再补全作品资料。','notice'); return; }
+    if (file.size > 8 * 1024 * 1024) { failed(new Error('作品资料最多 8 MB，请选择较小文件。')); return; }
+    setBusy(true);
+    try {
+      notice(`正在读取本地资料“${file.name}”，核对已入库作品…`);
+      const result = await api(`/api/pixiv-metadata?filename=${encodeURIComponent(file.name)}`,undefined,file,{'X-Studio-Revision':state.revision});
+      acceptState(result); markDirty(false); renderSummary(); renderFilters(); renderList(); renderEditor();
+      savedNotice(result,'作品资料已更新，生成预览后即可查看。');
+      toast(`已更新 ${result.updatedWorks} 个作品的资料。`);
+    } catch (error) { failed(error); } finally { setBusy(false); }
+  });
   $('#search').addEventListener('input',renderList); $('#ip-filter').addEventListener('change',renderList); $('#state-filter').addEventListener('change',renderList);
   $('#refresh-state').addEventListener('click',async () => { if (busy || !canLeave()) return; setBusy(true); try { markDirty(false); await refresh(); } catch (error) { failed(error); } finally { setBusy(false); } });
   $('#build-preview').addEventListener('click',() => startJob('build'));
