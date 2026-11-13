@@ -79,3 +79,5 @@
 @media(min-width:601px){#sora-blog .scene-caption{top:0;bottom:auto;max-width:44%;padding:10px 16px}#sora-blog .scene-name{font-size:25px;margin:3px 0!important}#sora-blog .scene-subtitle{font-size:10px}}
 @media(min-width:801px){#sora-blog .scene-caption{left:400px;right:auto;max-width:240px;text-align:left;background:color-mix(in srgb,var(--paper) 74%,transparent)}}
 #sora-blog .deck-card,#sora-blog .gallery-polaroid,#sora-blog .page-view{transition-duration:calc(var(--fade-duration,2s) * .3);animation-duration:calc(var(--fade-duration,2s) * .25)}
+
+#sora-blog .viewer-info{flex-wrap:wrap;align-items:flex-start}#sora-blog .viewer-info>div{flex:1 1 100%}#sora-blog .art-description{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.85;max-width:760px;margin:16px 0}#sora-blog .art-tags{display:flex;flex-wrap:wrap;gap:7px;margin:13px 0}#sora-blog .art-tags span{padding:4px 9px;border-radius:20px;background:var(--accent-soft);color:var(--accent);font-size:11px}

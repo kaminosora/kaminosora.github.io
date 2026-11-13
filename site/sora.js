@@ -131,7 +131,7 @@
   function openArtwork(index){
     const art=galleryItems[index];navigate('gallery',false);q('.gallery-viewer').hidden=false;
     q('.viewer-image').innerHTML=`<img src="${art.background||art.image}" alt="${esc(art.label)}视觉样图大图">`;
-    q('.viewer-info').innerHTML=`<div><b>${esc(art.label)}</b><p>${esc(art.name)} · ${art.dimensions.join(' × ')} 原始素材</p><small>${esc(art.ownerWork?'本人作品 · 手动导入':art.source_kind.includes('community')?'游戏美术 · 社区镜像':'来源视觉素材')} · ${esc(art.kind)}</small></div><a href="${esc(art.original||art.source_image||art.source)}" target="_blank" rel="noopener noreferrer" class="cursor-interaction">打开原始图片 ↗</a><a href="${esc(art.source)}" target="_blank" rel="noopener noreferrer" class="cursor-interaction">查看来源页 ↗</a>`;
+    q('.viewer-info').innerHTML=`<div><b>${esc(art.label)}</b><p>${esc(art.name)} · ${art.dimensions.join(' × ')} 原始素材</p><small>${esc(art.ownerWork?'本人作品 · 手动导入':art.source_kind.includes('community')?'游戏美术 · 社区镜像':'来源视觉素材')} · ${esc(art.kind)}</small>${art.description?`<p class="art-description">${esc(art.description)}</p>`:''}${art.ownerWork&&art.tags?.length?`<div class="art-tags">${art.tags.map(tag=>`<span>#${esc(tag)}</span>`).join('')}</div>`:''}</div><a href="${esc(art.original||art.source_image||art.source)}" target="_blank" rel="noopener noreferrer" class="cursor-interaction">打开原始图片 ↗</a><a href="${esc(art.source)}" target="_blank" rel="noopener noreferrer" class="cursor-interaction">查看来源页 ↗</a>`;
     q('.gallery-viewer').scrollIntoView({behavior:state.reduced?'instant':'smooth',block:'start'});
   }
   qa('[data-art]').forEach(b=>b.addEventListener('click',()=>openArtwork(Number(b.dataset.art))));

@@ -95,7 +95,7 @@
       if (ip && view !== 'ips' && record.ipId !== ip) return false;
       if (status === 'enabled' && record.enabled === false || status === 'disabled' && record.enabled !== false) return false;
       if (!search) return true;
-      const text = [record.name,record.label,record.caption,record.notes,record.favorite,ipName(record.ipId),...(record.tags || []),...(record.aliases || []),...(record.characterIds || []).map(id => byId('characters',id)?.name || '')].join(' ').toLocaleLowerCase();
+      const text = [record.name,record.label,record.caption,record.description,record.notes,record.favorite,ipName(record.ipId),...(record.tags || []),...(record.aliases || []),...(record.characterIds || []).map(id => byId('characters',id)?.name || '')].join(' ').toLocaleLowerCase();
       return text.includes(search);
     });
   }
@@ -132,9 +132,9 @@
   }
   function baseAssetFields(record, isImport = false) {
     const source = record.source || {}, uses = record.uses || ['hero','gallery'];
-    return `<fieldset><legend>${isImport ? '这批图片放在哪里？' : '名称与归属'}</legend><div class="fields">${field(isImport ? '图片标题' : '素材标题',input('label',record.label || '','text',isImport ? 'placeholder="留空则使用原文件名或所属角色" maxlength="120"' : 'required maxlength="120"'),isImport ? '多张图片会自动区分；你可以在导入后逐张补充标题。' : '更名会同步整理文件名与引用，不需要自己改路径。',true)}${field('所属 IP',`<select name="ipId" required>${options(lib().ips,record.ipId,'请选择一个 IP')}</select>`,'找不到时，先到“IP 档案”新建。')}${field('图片类型',`<select name="kind">${Object.entries(kindNames).map(([key,label]) => `<option value="${key}"${record.kind === key ? ' selected' : ''}>${label}</option>`).join('')}</select>`)}<div class="field wide"><span>出场角色 <small>可多选；场景、作品主视觉也可以不选角色。</small></span><div class="character-picks">${characterChoices(record.ipId,record.characterIds)}</div></div></div></fieldset>
+    return `<fieldset><legend>${isImport ? '这批图片放在哪里？' : '名称与归属'}</legend><div class="fields">${field(record.ownerWork ? '作品标题' : isImport ? '图片标题' : '素材标题',input('label',record.label || '','text',isImport ? 'placeholder="留空则使用原文件名或所属角色" maxlength="120"' : 'required maxlength="120"'),isImport ? '多张图片会自动区分；你可以在导入后逐张补充标题。' : '更名会同步整理文件名与引用，不需要自己改路径。',true)}${field('所属 IP',`<select name="ipId" required>${options(lib().ips,record.ipId,'请选择一个 IP')}</select>`,'找不到时，先到“IP 档案”新建。')}${field('图片类型',`<select name="kind">${Object.entries(kindNames).map(([key,label]) => `<option value="${key}"${record.kind === key ? ' selected' : ''}>${label}</option>`).join('')}</select>`)}<div class="field wide"><span>出场角色 <small>可多选；场景、作品主视觉也可以不选角色。</small></span><div class="character-picks">${characterChoices(record.ipId,record.characterIds)}</div></div></div></fieldset>
       <fieldset><legend>让它在哪里出现？</legend><div class="fields"><div class="field wide">${usesCheckboxes(uses)}<small>首页轮播还需要开启所属 IP 的轮播。设定资料不会自动进入首页。</small></div>${weight(record.weight)}<div class="field">${check('enabled',record.enabled !== false,'启用这张素材')}${check('ownerWork',!!record.ownerWork,'这是我的作品')}<small>本人作品会进入个人作品画廊，请只勾选自己创作的内容。</small></div>${field('标签',input('tags',joined(record.tags),'text','placeholder="例如：生日、冬日、收藏"'),'用逗号分隔，方便搜索和整理。',true)}</div></fieldset>
-      <fieldset><legend>出处与备注</legend><div class="fields">${field('来源作品页',input('sourcePage',source.page || '','url','placeholder="https://…"'),'Pixiv 作品链接也填在这里；它用于标注出处，不作为图片下载地址。',true)}${field('图片原地址（可选）',input('sourceImage',source.image || '','url','placeholder="https://…"'),'',true)}${field('作者 / 权利说明',input('rights',source.rights || '','text','placeholder="例如：本人作品 / 原作者名"'),'',true)}${field('整理备注',area('notes',record.notes || '','placeholder="记下来源、版本、偏好，或者以后想替换的高清图…"'),'',true)}</div></fieldset>${appearanceFields(record.appearance || {})}`;
+      <fieldset data-owner-description${record.ownerWork ? '' : ' hidden'}><legend>作品介绍</legend><div class="fields">${field('作品简介',area('description',record.description || '','rows="5" maxlength="50000" placeholder="粘贴作品页的原始简介，或写下你想展示给访客的话…"'),'与整理备注分开保存；按纯文字展示，保留换行，不执行 HTML。',true)}</div></fieldset><fieldset><legend>出处与备注</legend><div class="fields">${field('来源作品页',input('sourcePage',source.page || '','url','placeholder="https://…"'),'Pixiv 作品链接也填在这里；它用于标注出处，不作为图片下载地址。',true)}${field('图片原地址（可选）',input('sourceImage',source.image || '','url','placeholder="https://…"'),'',true)}${field('作者 / 权利说明',input('rights',source.rights || '','text','placeholder="例如：本人作品 / 原作者名"'),'',true)}${field('整理备注',area('notes',record.notes || '','placeholder="记下来源、版本、偏好，或者以后想替换的高清图…"'),'',true)}</div></fieldset>${appearanceFields(record.appearance || {})}`;
   }
   function appearanceFields(appearance) {
     const focal = appearance.focalPoint || [78,40];
@@ -173,7 +173,8 @@
   function renderAssetPreview(record) {
     const preview = $('#asset-preview'); preview.hidden = false;
     const names = (record.characterIds || []).map(id => byId('characters',id)?.name).filter(Boolean);
-    preview.innerHTML = `<img src="${esc(thumb(record))}" data-original="${esc(record.file)}" alt="${esc(record.label)}"><div class="preview-copy"><p><b>${esc(ipName(record.ipId))}</b>${names.length ? ` / ${esc(names.join('、'))}` : ''}</p><p>${esc(kindNames[record.kind] || '素材')} · ${(record.uses || []).map(x => esc(useNames[x])).join(' / ') || '尚未设置展示用途'}</p><p>原图已复制在项目中。替换时保留所有配置，重新分析配色与动效。</p><div class="button-row"><a href="${esc(record.file)}" target="_blank" rel="noopener">查看原图 ↗</a><label class="button small file-trigger">替换原图<input id="replace-file" type="file" accept="image/png,image/jpeg,image/webp,image/avif,image/gif" aria-label="选择替换原图"></label></div></div>`;
+    const workSource = record.source?.page ? safeLink(record.source.page) : '';
+    preview.innerHTML = `<img src="${esc(thumb(record))}" data-original="${esc(record.file)}" alt="${esc(record.label)}"><div class="preview-copy"><p><b>${esc(ipName(record.ipId))}</b>${names.length ? ` / ${esc(names.join('、'))}` : ''}</p><p>${esc(kindNames[record.kind] || '素材')} · ${(record.uses || []).map(x => esc(useNames[x])).join(' / ') || '尚未设置展示用途'}</p>${record.ownerWork ? `<p>${workSource ? `<a href="${esc(workSource)}" target="_blank" rel="noopener noreferrer">打开原作品页面 ↗</a>` : '尚未填写作品出处，可在下方补上原作品链接。'}</p>` : ''}<p>原图已复制在项目中。替换时保留所有配置，重新分析配色与动效。</p><div class="button-row"><a href="${esc(record.file)}" target="_blank" rel="noopener">查看原图 ↗</a><label class="button small file-trigger">替换原图<input id="replace-file" type="file" accept="image/png,image/jpeg,image/webp,image/avif,image/gif" aria-label="选择替换原图"></label></div></div>`;
     imageFallbacks(preview);
     $('#replace-file').addEventListener('change',async event => {
       const file = event.target.files[0]; if (!file) return;
@@ -194,6 +195,8 @@
     const ipSelect = form.elements.namedItem('ipId');
     if (ipSelect && $('.character-picks')) ipSelect.addEventListener('change',() => { $('.character-picks').innerHTML = characterChoices(ipSelect.value); });
     form.querySelectorAll('input[type=range]').forEach(range => range.addEventListener('input',() => { const output = range.parentElement.querySelector('output'); if (output) output.textContent = `${range.name === 'motion' ? Math.round(range.value*100) : range.value}%`; }));
+    const ownerWork = form.elements.namedItem('ownerWork'), descriptionSection = form.querySelector('[data-owner-description]');
+    if (ownerWork && descriptionSection) ownerWork.addEventListener('change',() => { descriptionSection.hidden = !ownerWork.checked; });
     const autoAccent = form.elements.namedItem('autoAccent'), autoMotion = form.elements.namedItem('autoMotion');
     if (autoAccent) autoAccent.addEventListener('change',() => { form.elements.namedItem('accent').disabled = autoAccent.checked; });
     if (autoMotion) autoMotion.addEventListener('change',() => { form.elements.namedItem('motion').disabled = autoMotion.checked; });
@@ -203,7 +206,7 @@
     const data = new FormData(form), appearance = {fit:data.get('fit') || 'auto',effect:data.get('effect') || 'auto',focalPoint:[number(data.get('focalX'),78),number(data.get('focalY'),40)]};
     if (!data.has('autoAccent')) appearance.accent = data.get('accent') || '#557b68';
     if (!data.has('autoMotion')) appearance.motion = number(data.get('motion'),.5);
-    return {label:String(data.get('label') || '').trim(),ipId:data.get('ipId'),characterIds:data.getAll('characterIds'),kind:data.get('kind'),uses:data.getAll('uses'),weight:number(data.get('weight')),enabled:data.has('enabled'),ownerWork:data.has('ownerWork'),tags:list(data.get('tags')),notes:data.get('notes') || '',source:{page:data.get('sourcePage') || '',image:data.get('sourceImage') || '',rights:data.get('rights') || ''},appearance};
+    return {label:String(data.get('label') || '').trim(),ipId:data.get('ipId'),characterIds:data.getAll('characterIds'),kind:data.get('kind'),uses:data.getAll('uses'),weight:number(data.get('weight')),enabled:data.has('enabled'),ownerWork:data.has('ownerWork'),tags:list(data.get('tags')),description:data.get('description') || '',notes:data.get('notes') || '',source:{page:data.get('sourcePage') || '',image:data.get('sourceImage') || '',rights:data.get('rights') || ''},appearance};
   }
   async function saveRecord(event) {
     event.preventDefault(); if (busy) return;

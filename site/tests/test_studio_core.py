@@ -116,5 +116,13 @@ class StudioCoreTests(unittest.TestCase):
         a=result['library']['assets'][-1]
         self.assertEqual(a['source']['image'],'https://example.com/original.png');self.assertTrue(a['ownerWork'])
 
+    def test_work_description_is_distinct_from_maintenance_notes(self):
+        s=core.state();a=s['library']['assets'][0]
+        result=core.save_record(self.payload('assets',{'description':'作品第一行\n作品第二行 <保留文字>','notes':'仅用于整理的备注'},a['id']))
+        saved=result['library']['assets'][0]
+        self.assertEqual(saved['description'],'作品第一行\n作品第二行 <保留文字>')
+        self.assertEqual(saved['notes'],'仅用于整理的备注')
+        with self.assertRaises(ValueError):core.save_record(self.payload('assets',{'description':{'html':'bad'}},saved['id']))
+
 
 if __name__=='__main__':unittest.main()

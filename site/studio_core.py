@@ -367,7 +367,7 @@ def _clean_record(group, record):
     allowed = {
         'ips':{'name','enabled','rotation','weight','caption','series','tags','favorite','notes'},
         'characters':{'ipId','name','aliases','enabled','weight','tags','notes'},
-        'assets':{'ipId','characterIds','label','kind','uses','tags','enabled','weight','source','appearance','notes','ownerWork'},
+        'assets':{'ipId','characterIds','label','description','kind','uses','tags','enabled','weight','source','appearance','notes','ownerWork'},
         'settings':{'defaultIp','defaultAsset','avatarAsset','sceneSeconds','recentWindow','noveltyBoost','homeGallerySize'},
     }
     if group not in allowed or not isinstance(record,dict):
@@ -391,6 +391,8 @@ def _clean_record(group, record):
     for field in ('notes','caption','favorite'):
         if field in result and (not isinstance(result[field],str) or len(result[field])>10000):
             raise ValueError('备注太长或内容不正确。')
+    if 'description' in result and (not isinstance(result['description'],str) or len(result['description'])>50000):
+        raise ValueError('作品简介需要是 50000 字以内的纯文本。')
     for field in ('source','appearance','rotation'):
         if field in result and not isinstance(result[field],dict):
             raise ValueError('图片显示或来源配置不正确。')
