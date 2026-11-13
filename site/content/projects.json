@@ -1,0 +1,268 @@
+[
+  {
+    "id": "notedown",
+    "name": "Notedown",
+    "repo": "https://github.com/kaminosora/notedown",
+    "tagline": "把散落的文字，收进一页纸里。",
+    "summary": "Android 本地笔记应用，把 Markdown、HTML 和纯文本导入、合并成可编辑的笔记。没有账号和云同步服务，笔记保存在设备上。",
+    "platform": "Android 8.0+",
+    "language": "JavaScript",
+    "license": "MIT",
+    "version": "v1.2.0",
+    "release_url": "https://github.com/kaminosora/notedown/releases/tag/v1.2.0",
+    "entry_url": "https://github.com/kaminosora/notedown/releases/latest",
+    "entry_label": "下载 Android APK",
+    "features": [
+      "Markdown、HTML、TXT 多文件导入与合并",
+      "富文本、Markdown、HTML 三种编辑方式",
+      "任务清单勾选、段落划线与阅读态长按排序",
+      "拖拽 FLIP 动画与边缘自动滚动",
+      "本地离线存储，浅色 / 深色 / 跟随系统"
+    ],
+    "limits": [
+      "发布 APK 使用 debug 签名，适合侧载体验",
+      "暂不支持图片附件、导出或云同步",
+      "单次最多 20 个文件，单文件 1.5 MB，总计 6 MB",
+      "复杂 HTML 会规范化，拖拽排序不跨列表"
+    ],
+    "screenshots": [
+      {
+        "title": "笔记书架",
+        "kind": "repository_screenshot",
+        "source_page": "https://github.com/kaminosora/notedown",
+        "source_image": "https://raw.githubusercontent.com/kaminosora/notedown/main/docs/screenshots/library-mobile.png",
+        "dimensions": [
+          824,
+          1830
+        ],
+        "optimized_bytes": 27510,
+        "note": "来自项目 README 的界面截图，未经界面重绘",
+        "image": "media/projects/notedown-0.png",
+        "full_image": "media/projects/notedown-0.png"
+      },
+      {
+        "title": "Markdown 阅读",
+        "kind": "repository_screenshot",
+        "source_page": "https://github.com/kaminosora/notedown",
+        "source_image": "https://raw.githubusercontent.com/kaminosora/notedown/main/docs/screenshots/note-mobile.png",
+        "dimensions": [
+          824,
+          1830
+        ],
+        "optimized_bytes": 37086,
+        "note": "来自项目 README 的界面截图，未经界面重绘",
+        "image": "media/projects/notedown-1.png",
+        "full_image": "media/projects/notedown-1.png"
+      },
+      {
+        "title": "长按拖动排序",
+        "kind": "repository_screenshot",
+        "source_page": "https://github.com/kaminosora/notedown",
+        "source_image": "https://raw.githubusercontent.com/kaminosora/notedown/main/docs/screenshots/drag-reorder-mobile.png",
+        "dimensions": [
+          824,
+          1830
+        ],
+        "optimized_bytes": 16182,
+        "note": "来自项目 README 的界面截图，未经界面重绘",
+        "image": "media/projects/notedown-2.png",
+        "full_image": "media/projects/notedown-2.png"
+      },
+      {
+        "title": "富文本编辑",
+        "kind": "repository_screenshot",
+        "source_page": "https://github.com/kaminosora/notedown",
+        "source_image": "https://raw.githubusercontent.com/kaminosora/notedown/main/docs/screenshots/editor-rich-mobile.png",
+        "dimensions": [
+          824,
+          1830
+        ],
+        "optimized_bytes": 35720,
+        "note": "来自项目 README 的界面截图，未经界面重绘",
+        "image": "media/projects/notedown-3.png",
+        "full_image": "media/projects/notedown-3.png"
+      },
+      {
+        "title": "Markdown 编辑",
+        "kind": "repository_screenshot",
+        "source_page": "https://github.com/kaminosora/notedown",
+        "source_image": "https://raw.githubusercontent.com/kaminosora/notedown/main/docs/screenshots/editor-markdown-mobile.png",
+        "dimensions": [
+          824,
+          1830
+        ],
+        "optimized_bytes": 29474,
+        "note": "来自项目 README 的界面截图，未经界面重绘",
+        "image": "media/projects/notedown-4.png",
+        "full_image": "media/projects/notedown-4.png"
+      }
+    ],
+    "sources": [
+      "https://github.com/kaminosora/notedown/blob/main/README.md",
+      "https://github.com/kaminosora/notedown/releases/tag/v1.2.0"
+    ],
+    "preview_note": "可展示真实项目截图；截图与最新功能不保证逐项对应。",
+    "stars": 1,
+    "forks": 1,
+    "archived": false,
+    "fork": false,
+    "updated_at": "2026-11-13T14:35:17Z",
+    "github_description": "Local-first Android notes for Markdown, HTML and text files. Checkboxes, strike-through, smooth long-press reordering and edge auto-scroll.",
+    "synced_at": "2026-11-13T18:38:47.159750+00:00"
+  },
+  {
+    "id": "kanali-video",
+    "name": "PANORAMA Mapper",
+    "repo": "https://github.com/kaminosora/kanali-video",
+    "tagline": "让普通视频，适应那块不普通的屏幕。",
+    "summary": "面向 TRYX PANORAMA SE / KANALI 的本地曲面视频工作台。将普通视频预变形成 2160×1080 展开画面，针对指定观看眼位恢复平面构图。",
+    "platform": "Windows x64",
+    "language": "Python",
+    "license": "MIT",
+    "version": "v1.3.0",
+    "release_url": "https://github.com/kaminosora/kanali-video/releases/tag/v1.3.0",
+    "entry_url": "https://github.com/kaminosora/kanali-video/releases",
+    "entry_label": "获取 Windows 便携包",
+    "features": [
+      "拖动取景、缩放与目标眼位校准",
+      "铺满裁切 / 完整视频立牌两种模式",
+      "GPU 映射与编码探测，失败可回退 Blender",
+      "保存可编辑 Blender 工程与复现参数",
+      "MP4 交付严格小于 500,000,000 字节"
+    ],
+    "limits": [
+      "独立社区项目，非 TRYX 官方产品",
+      "需 Blender / FFmpeg；首次启动需下载 PyAV 媒体组件",
+      "单一设计眼位效果，不能创造真实双目深度",
+      "输出无音轨，最高 60 fps；HDR 等输入需先转 SDR",
+      "较长视频为满足体积预算会损失细节"
+    ],
+    "screenshots": [],
+    "sources": [
+      "https://github.com/kaminosora/kanali-video/blob/main/README.md",
+      "https://github.com/kaminosora/kanali-video/releases/tag/v1.3.0"
+    ],
+    "preview_note": "仓库没有公开界面截图；可做明确标注的曲面映射原理演示，不应伪称实机截图。",
+    "stars": 0,
+    "forks": 0,
+    "archived": false,
+    "fork": false,
+    "updated_at": "2026-11-02T20:24:24Z",
+    "github_description": "Local GPU anamorphic video mapper for TRYX PANORAMA SE, Blender workflow and strict 500 MB MP4 delivery.",
+    "synced_at": "2026-11-13T18:38:47.657277+00:00"
+  },
+  {
+    "id": "bilidownloader",
+    "name": "Bili 本地下载",
+    "repo": "https://github.com/kaminosora/bilidownloader",
+    "tagline": "视频下载和音画合并，在浏览器里完成。",
+    "summary": "纯 Chrome 扩展，在 B 站播放页选择视频、音轨与保存格式，使用浏览器内置的本地处理模块下载和转换，日常使用不需要额外程序。",
+    "platform": "Chrome 116+",
+    "language": "JavaScript",
+    "license": "GPL-3.0",
+    "version": "v1.0.1",
+    "release_url": "https://github.com/kaminosora/bilidownloader/releases/tag/v1.0.1",
+    "entry_url": "https://github.com/kaminosora/bilidownloader/releases/latest",
+    "entry_label": "获取扩展 ZIP",
+    "features": [
+      "识别 BV / av 视频及 ep / ss 番剧播放页",
+      "视频 MP4 / MKV 本地封装与独立音轨合并",
+      "原始音轨、M4A、MP3、WAV、FLAC 音频导出",
+      "任务排队、进度、取消、重试与打开所在文件夹",
+      "大文件原始轨流式保存，不上传转换服务"
+    ],
+    "limits": [
+      "只处理当前账号有权访问的未加密资源",
+      "合并 / 转码输入合计上限 512 MiB",
+      "原始轨仍受磁盘与浏览器存储配额限制",
+      "不支持直播、收藏夹批量下载、DRM 或权限绕过",
+      "需保持 Chrome 运行；退出后未完成任务可能中断"
+    ],
+    "screenshots": [],
+    "sources": [
+      "https://github.com/kaminosora/bilidownloader/blob/main/README.md",
+      "https://github.com/kaminosora/bilidownloader/releases/tag/v1.0.1"
+    ],
+    "preview_note": "仓库没有公开界面截图；可做明确标注的下载流程交互演示。",
+    "stars": 0,
+    "forks": 0,
+    "archived": false,
+    "fork": false,
+    "updated_at": "2026-10-23T20:06:26Z",
+    "github_description": "纯 Chrome 扩展：Bilibili 视频下载、音视频本地合并与音频提取，无需外部程序。",
+    "synced_at": "2026-11-13T18:38:48.158738+00:00"
+  },
+  {
+    "id": "codex-proxy-template",
+    "name": "Codex 专用代理模板",
+    "repo": "https://github.com/kaminosora/codex-proxy-template",
+    "tagline": "给 Codex 单独留一条网络通道。",
+    "summary": "面向 Windows 的已脱敏代理模板：运行本机 HTTP CONNECT / SOCKS5 入口，让 Codex 使用独立出口，而其他应用继续使用各自原有的网络设置。",
+    "platform": "Windows / PowerShell",
+    "language": "JavaScript",
+    "license": null,
+    "version": null,
+    "release_url": null,
+    "entry_url": "https://github.com/kaminosora/codex-proxy-template",
+    "entry_label": "查看配置说明",
+    "features": [
+      "交互式配置引导与只读环境体检",
+      "本机 HTTP CONNECT / SOCKS5 双协议入口",
+      "SSH、xray、mihomo 三层出口配置",
+      "健康探测与故障后自动切换出口",
+      "独立启动脚本，不修改系统代理或路由表"
+    ],
+    "limits": [
+      "这是配置模板，需要填写自己的服务器 / 节点信息",
+      "需要对应 SSH、xray 或 mihomo 条件和内核",
+      "无公开 Release 安装包，需按仓库文档配置",
+      "未检测到仓库许可证文件；不要展示为 MIT"
+    ],
+    "screenshots": [],
+    "sources": [
+      "https://github.com/kaminosora/codex-proxy-template/blob/main/README.md",
+      "https://github.com/kaminosora/codex-proxy-template/blob/main/%E9%85%8D%E7%BD%AE%E5%89%8D%E5%BF%85%E8%AF%BB.md"
+    ],
+    "preview_note": "仓库没有公开界面截图；可展示 README 中的网络路径原理图，并标注为结构示意。",
+    "stars": 0,
+    "forks": 0,
+    "archived": false,
+    "fork": false,
+    "updated_at": "2026-10-11T22:41:28Z",
+    "github_description": "Codex 专用代理：只让 Codex 走自己的代理，不影响其它应用。已脱敏，可直接作为模板使用（见 配置前必读.md）",
+    "synced_at": "2026-11-13T18:38:48.652056+00:00"
+  },
+  {
+    "id": "kaminosora.github.io",
+    "name": "kaminosora.github.io",
+    "repo": "https://github.com/kaminosora/kaminosora.github.io",
+    "tagline": "公开仓库，来看看最近又折腾了什么。",
+    "summary": "公开仓库，来看看最近又折腾了什么。",
+    "platform": "公开 GitHub 项目",
+    "language": "未标注语言",
+    "license": null,
+    "version": null,
+    "release_url": null,
+    "entry_url": "https://github.com/kaminosora/kaminosora.github.io",
+    "entry_label": "查看项目说明",
+    "features": [
+      "公开仓库 · 0 stars",
+      "最近更新：2025-03-07"
+    ],
+    "limits": [
+      "使用方式与兼容性以仓库 README 为准。"
+    ],
+    "screenshots": [],
+    "sources": [
+      "https://github.com/kaminosora/kaminosora.github.io"
+    ],
+    "preview_note": "项目资料由 GitHub 公开接口同步；暂无人工挑选的界面截图。",
+    "stars": 0,
+    "forks": 0,
+    "archived": false,
+    "fork": false,
+    "updated_at": "2025-03-07T05:00:26Z",
+    "github_description": null,
+    "synced_at": "2026-11-13T18:38:49.145610+00:00"
+  }
+]

@@ -1,0 +1,6154 @@
+{
+  "schemaVersion": 1,
+  "settings": {
+    "defaultIp": "ip-7c5fa80b9f-e6872bcbb6",
+    "defaultAsset": "art-cfecf8000c-db7cc5eb7b",
+    "sceneSeconds": 12,
+    "recentWindow": 6,
+    "noveltyBoost": 0.6,
+    "homeGallerySize": 12,
+    "avatarAsset": "art-0160e6a592-db6b2f4334"
+  },
+  "ips": [
+    {
+      "id": "ip-7c5fa80b9f-e6872bcbb6",
+      "name": "路人女主的养成方法",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 2
+      },
+      "caption": "最喜欢加藤惠，英梨梨也很好。",
+      "series": [],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "加藤惠",
+      "themeKey": "saekano",
+      "uid": "e6872bcbb67b4c77863a190688ae7cf6"
+    },
+    {
+      "id": "ip-ab3bc59651-b61ee92eac",
+      "name": "原神",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 3
+      },
+      "caption": "旅行可以慢一点，喜欢可以多一点。",
+      "series": [],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "",
+      "themeKey": "genshin",
+      "uid": "b61ee92eac6e419b9a9dc0d7796246ab"
+    },
+    {
+      "id": "ip-b123009f66-5d211b2391",
+      "name": "明日方舟",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 3
+      },
+      "caption": "全图鉴博士，把喜欢都收进档案。",
+      "series": [],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "",
+      "themeKey": "arknights",
+      "uid": "5d211b2391cf4e0892b2376b3c7ffb25"
+    },
+    {
+      "id": "ip-56d2e75a92-da7d849320",
+      "name": "崩坏3rd",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 1
+      },
+      "caption": "为世界上所有的美好而战。",
+      "series": [],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "",
+      "themeKey": "honkai3",
+      "uid": "da7d849320cb4fb59350998952d56ab8"
+    },
+    {
+      "id": "ip-45789ea776-559ee948ef",
+      "name": "某科学的超电磁炮",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 1
+      },
+      "caption": "学园都市的风，吹进这一页。",
+      "series": [],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "",
+      "themeKey": "railgun",
+      "uid": "559ee948efee43369ff728f9cca3c438"
+    },
+    {
+      "id": "ip-1d8cd4e352-e480ea41dc",
+      "name": "刀剑神域",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 1
+      },
+      "caption": "下一层，也有值得停留的风景。",
+      "series": [],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "",
+      "themeKey": "sao",
+      "uid": "e480ea41dc40477c9f6d18468adb8760"
+    },
+    {
+      "id": "ip-ccbc11637d-d08ae49065",
+      "name": "约会大作战",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 1
+      },
+      "caption": "约定好的世界，喜欢的精灵。",
+      "series": [],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "",
+      "themeKey": "datealive",
+      "uid": "d08ae490657240f99852af32bb82bed0"
+    },
+    {
+      "id": "ip-42290bd104-018564cfdb",
+      "name": "Fate 系列",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 1
+      },
+      "caption": "不同的路线，都是喜欢的命运。",
+      "series": [
+        "Fate/stay night",
+        "Unlimited Blade Works（UBW）",
+        "Heaven's Feel（HF）",
+        "Fate/Zero",
+        "Fate/Apocrypha",
+        "Fate/Grand Order"
+      ],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "",
+      "themeKey": "fate",
+      "uid": "018564cfdb80497e864c2ef6a1a744b9"
+    },
+    {
+      "id": "ip-cf24111874-420211a118",
+      "name": "美少女万华镜",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 1
+      },
+      "caption": "历代故事，收进同一本偏爱簿。",
+      "series": [],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "",
+      "themeKey": "mangekyou",
+      "uid": "420211a118714389a9e40105a1b470d4"
+    },
+    {
+      "id": "ip-37397672c0-34bb7310ef",
+      "name": "近月少女的礼仪",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 1
+      },
+      "caption": "月色与花，慢慢落在纸上。",
+      "series": [],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "",
+      "themeKey": "tsukiniyorisou",
+      "uid": "34bb7310efd44ad79ba229c5f4c17cbe"
+    },
+    {
+      "id": "ip-be5b2aa968-8dcbc88708",
+      "name": "Counter-Strike",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 1
+      },
+      "caption": "B 段，又菜又爱玩。下一把！",
+      "series": [],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "",
+      "themeKey": "cs2",
+      "uid": "8dcbc887080a4633b4f5348fb2fecf90"
+    },
+    {
+      "id": "ip-02e00f3a5c-8f14c89c3a",
+      "name": "World of Warships",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 1
+      },
+      "caption": "人机战士，今日也在快乐产油。",
+      "series": [],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "",
+      "themeKey": "wows",
+      "uid": "8f14c89c3a204b699aee74d8803180e8"
+    },
+    {
+      "id": "ip-920060cc8a-edc5fbc26c",
+      "name": "假面骑士",
+      "enabled": true,
+      "rotation": {
+        "enabled": true,
+        "weight": 1
+      },
+      "caption": "喜欢的英雄，从不缺席。",
+      "series": [
+        "龙骑",
+        "Ex-Aid",
+        "空我",
+        "Amazons（2016 真人剧）",
+        "OOO",
+        "W",
+        "Blade",
+        "Faiz",
+        "时王",
+        "Zero-One（01）",
+        "ZEZTZ（ゼッツ / ZZZ）"
+      ],
+      "tags": [
+        "重点偏爱"
+      ],
+      "favorite": "",
+      "themeKey": "rider",
+      "uid": "edc5fbc26cf14bc5b748c8794603ce6d"
+    },
+    {
+      "id": "ip-be942a63d6-59dcd48dea",
+      "name": "游戏人生",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-01",
+      "uid": "59dcd48dea3640ac8c12bf470e48dc5c",
+      "favorite": "",
+      "series": [],
+      "weight": 1
+    },
+    {
+      "id": "ip-f32451e96f-e7e775bfae",
+      "name": "罪恶王冠",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-02",
+      "uid": "e7e775bfae43482eb33c478d6d635d5b"
+    },
+    {
+      "id": "ip-e8ea13688c-b83b2c618f",
+      "name": "命运石之门",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-03",
+      "uid": "b83b2c618f964ab4ad3991c422f20dab"
+    },
+    {
+      "id": "ip-31383563ab-02fccb0957",
+      "name": "散华礼弥",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-04",
+      "uid": "02fccb0957f948b98327d60bb3d05ba4"
+    },
+    {
+      "id": "ip-02dbffd104-ecf89a287d",
+      "name": "出包王女",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-05",
+      "uid": "ecf89a287d8442568689f5e720f39083"
+    },
+    {
+      "id": "ip-7673033f8b-1b2afdf2f2",
+      "name": "SSSS.古利特",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-06",
+      "uid": "1b2afdf2f29847dcbe693ecfc41393e2"
+    },
+    {
+      "id": "ip-e57c57ff10-e8151510a8",
+      "name": "SSSS.电光机王",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-07",
+      "uid": "e8151510a8bb4463a1fdfceed1bcfd8a"
+    },
+    {
+      "id": "ip-496498e9c0-ba20e5e587",
+      "name": "埃罗芒阿老师",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-08",
+      "uid": "ba20e5e5872f4e80a7e38fd7f846bdf8"
+    },
+    {
+      "id": "ip-4a3891113c-b09e6078e0",
+      "name": "金牌得主",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-09",
+      "uid": "b09e6078e00c480a92a65bb2de7b0cf6"
+    },
+    {
+      "id": "ip-e055fd5c51-069a867152",
+      "name": "碧蓝航线",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-10",
+      "uid": "069a867152d940998974f2a6f84f446e"
+    },
+    {
+      "id": "ip-fbd33991a9-27568f7bc0",
+      "name": "LoveLive 系列",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-11",
+      "uid": "27568f7bc0914f36b305ec7141e5751c"
+    },
+    {
+      "id": "ip-4d6e02647e-c872a9255d",
+      "name": "BanG Dream 系列",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-12",
+      "uid": "c872a9255d4e45b1b051e44de8ae0fff"
+    },
+    {
+      "id": "ip-a882fc0396-5698c574de",
+      "name": "EVA",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-13",
+      "uid": "5698c574de644d9fab7aad4911242e2a"
+    },
+    {
+      "id": "ip-e675969520-6ddc0dc670",
+      "name": "daring in the franxx",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-14",
+      "uid": "6ddc0dc6707b47b18bcf816ae9eb9f0a"
+    },
+    {
+      "id": "ip-6c466f8fae-7c910cc110",
+      "name": "赛马娘系列",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-15",
+      "uid": "7c910cc110624511a9814dc49def07a5"
+    },
+    {
+      "id": "ip-fe8781be17-5afc8e0c20",
+      "name": "鬼灭之刃",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-16",
+      "uid": "5afc8e0c2055422287c7e9b1eebd0b51"
+    },
+    {
+      "id": "ip-5307d02a46-6cb119d160",
+      "name": "宝石之国",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-17",
+      "uid": "6cb119d1602647b68681456a7d41daef"
+    },
+    {
+      "id": "ip-0f7f03d5a7-fc470de117",
+      "name": "请问您今天要来点兔子吗?",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-18",
+      "uid": "fc470de117ef41e2a69191d1d5f7526c"
+    },
+    {
+      "id": "ip-985c36bc1d-11bca05086",
+      "name": "Re:0",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-19",
+      "uid": "11bca05086be4028926bf4928389cece"
+    },
+    {
+      "id": "ip-cd60590bcb-1033188012",
+      "name": "我的青春恋爱物语果然有问题",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-20",
+      "uid": "1033188012bb4ac1ac75c5a2a791e88e"
+    },
+    {
+      "id": "ip-3534c596a5-3a94c13b5b",
+      "name": "义妹生活",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-21",
+      "uid": "3a94c13b5b4541a786ad86272f79374c"
+    },
+    {
+      "id": "ip-b2c1d0eea8-7ac590e958",
+      "name": "中二病也要谈恋爱",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-22",
+      "uid": "7ac590e95832425181241c6429fc84f3"
+    },
+    {
+      "id": "ip-f13ad5b0df-99efbfdb83",
+      "name": "境界的彼方",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-23",
+      "uid": "99efbfdb83464a1ebba2933281452346"
+    },
+    {
+      "id": "ip-91908b7b7c-ba59751122",
+      "name": "轻音少女",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-24",
+      "uid": "ba59751122124aa38dd976f668b8ba23"
+    },
+    {
+      "id": "ip-4888d5200d-9a5cc9fbfa",
+      "name": "青春猪头少年不会梦到兔女郎学姐",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-25",
+      "uid": "9a5cc9fbfa024176bdc3a1f200f960ba"
+    },
+    {
+      "id": "ip-b1a109953a-d1bba1bcf4",
+      "name": "调教咖啡厅",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-26",
+      "uid": "d1bba1bcf42f491db1dcbd61928671b0"
+    },
+    {
+      "id": "ip-d460b8cba9-c1738ddd8e",
+      "name": "如果有妹妹就好了",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-27",
+      "uid": "c1738ddd8e3e4d80b8abb4ba4b8098c4"
+    },
+    {
+      "id": "ip-c4e7faa4f4-e9d6a0d720",
+      "name": "珈百璃的堕落",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-28",
+      "uid": "e9d6a0d7201d4fe6860695d63b466f05"
+    },
+    {
+      "id": "ip-6e93643ff0-ea72402680",
+      "name": "潜行吧!奈亚子",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-29",
+      "uid": "ea7240268034403ba05741a75759cb11"
+    },
+    {
+      "id": "ip-9b73071a82-242e70a95c",
+      "name": "我,要成为双马尾!",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-30",
+      "uid": "242e70a95c5e4d359b5da68cdfbae4bd"
+    },
+    {
+      "id": "ip-6678f46425-9a951265ea",
+      "name": "紫罗兰的永恒花园",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-31",
+      "uid": "9a951265eac84d9e965ca819502a9eab"
+    },
+    {
+      "id": "ip-fde31a340c-89e4d0fc2c",
+      "name": "龙王的工作!",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-32",
+      "uid": "89e4d0fc2cba44b69634c4b298b7c48b"
+    },
+    {
+      "id": "ip-26c66b18cd-7be9550877",
+      "name": "魔卡少女樱",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-33",
+      "uid": "7be9550877014a55b994f5b765e645ed"
+    },
+    {
+      "id": "ip-ab5f9446a2-ed118f0544",
+      "name": "黑岩射手",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-34",
+      "uid": "ed118f05444346458287986333799263"
+    },
+    {
+      "id": "ip-ac4a86edd6-606e5825fb",
+      "name": "魔法少女小圆",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-35",
+      "uid": "606e5825fb784c548740be161fe0aec0"
+    },
+    {
+      "id": "ip-ab17c9921b-1a2ccd932d",
+      "name": "未闻花名",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-36",
+      "uid": "1a2ccd932dac43b0bd134ea962b13628"
+    },
+    {
+      "id": "ip-0d67979344-a3a56e6668",
+      "name": "四月是你的谎言",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-37",
+      "uid": "a3a56e6668274e1685583d193326bfe7"
+    },
+    {
+      "id": "ip-bee6c585d1-ed49ae6623",
+      "name": "绯弹的亚里亚",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-38",
+      "uid": "ed49ae66231c4ad3b4c6bf19374ed9c3"
+    },
+    {
+      "id": "ip-76b5d8cb9c-0e0ad8daa5",
+      "name": "漆黑的子弹",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-39",
+      "uid": "0e0ad8daa5614529a4b54dea0a3e4aa0"
+    },
+    {
+      "id": "ip-6b6b748235-ce71ddbe4b",
+      "name": "欢迎来到实力主义至上的教室",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-40",
+      "uid": "ce71ddbe4b9249d0ac39ce8f9512b8af"
+    },
+    {
+      "id": "ip-69986c0f36-c7b4b1c00c",
+      "name": "神的记事本",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-41",
+      "uid": "c7b4b1c00c3f4b77a5edc0cbea053fa0"
+    },
+    {
+      "id": "ip-f81c73c594-3ef085510f",
+      "name": "干物妹!小埋",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-42",
+      "uid": "3ef085510f144a2eaef89190da5a53d3"
+    },
+    {
+      "id": "ip-afe941cab9-5eb693655a",
+      "name": "灼眼的夏娜",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-43",
+      "uid": "5eb693655abb41b19b0c4e0833bdb29a"
+    },
+    {
+      "id": "ip-bf017f8fc8-23dd616608",
+      "name": "笨蛋,测验,召唤兽",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-44",
+      "uid": "23dd61660842499aa443ce3905dad841"
+    },
+    {
+      "id": "ip-47ba23bcfe-b48b6c0eaa",
+      "name": "Angel Beats!",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-45",
+      "uid": "b48b6c0eaa59439b952d4a104e770fa7"
+    },
+    {
+      "id": "ip-757e4cf4e6-befd311957",
+      "name": "可塑性记忆",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-46",
+      "uid": "befd3119574d468cbc078d3529911383"
+    },
+    {
+      "id": "ip-ef892b58a6-9679b975f0",
+      "name": "我的妹妹不可能这么可爱",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-47",
+      "uid": "9679b975f03941a2a0a6ec9396c6c0ad"
+    },
+    {
+      "id": "ip-b22c9e09ae-4575c76fc3",
+      "name": "CLANNAD",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-48",
+      "uid": "4575c76fc39a4c8e865e23f8af803313"
+    },
+    {
+      "id": "ip-4771bf9c58-da2f221ff3",
+      "name": "冰菓",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-49",
+      "uid": "da2f221ff3df42e6ad5263f582340567"
+    },
+    {
+      "id": "ip-1d4ffc0f06-e9326401eb",
+      "name": "凉宫春日的忧郁",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-50",
+      "uid": "e9326401eba344a2b3c961d391abcc09"
+    },
+    {
+      "id": "ip-bd0030dce6-568403d558",
+      "name": "白色相簿",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-51",
+      "uid": "568403d558cf458dad2e5d89bb79b8fd"
+    },
+    {
+      "id": "ip-008d2409a5-75369255ac",
+      "name": "五等份的新娘",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-52",
+      "uid": "75369255ac464392b1dc4367fb828870"
+    },
+    {
+      "id": "ip-882254ec0b-9a3c09a8ce",
+      "name": "NEW GAME!!",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-53",
+      "uid": "9a3c09a8ce2c4242ae5d3bdecbfd0d10"
+    },
+    {
+      "id": "ip-d53153def4-80a048c81b",
+      "name": "大鱼海棠",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-54",
+      "uid": "80a048c81b5f401593897b712de33bf1"
+    },
+    {
+      "id": "ip-b849abd173-4c8687d40b",
+      "name": "升空的烟火从下面看还是从侧面看",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-55",
+      "uid": "4c8687d40b484849b06e31029a94fe4b"
+    },
+    {
+      "id": "ip-c9f8f0450b-8cfcf092d0",
+      "name": "你的名字",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-56",
+      "uid": "8cfcf092d0f248b7b2df1772ca3923f9"
+    },
+    {
+      "id": "ip-ce4e766546-28d117f2dd",
+      "name": "声之形",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-57",
+      "uid": "28d117f2dd8840829bd832c3096a94f9"
+    },
+    {
+      "id": "ip-737401e8a7-f7a8ce9406",
+      "name": "数码宝贝",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-58",
+      "uid": "f7a8ce9406a146e1bbcd4683cf7b7c47"
+    },
+    {
+      "id": "ip-42decc593a-adce3ac890",
+      "name": "魔法禁书目录",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-59",
+      "uid": "adce3ac8908b4d4ea9aaaa348f9353c6"
+    },
+    {
+      "id": "ip-1d0fa02e3d-5773f7b6dc",
+      "name": "主播女孩重度依赖",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-60",
+      "uid": "5773f7b6dc8042d4b2b949ed407b456c"
+    },
+    {
+      "id": "ip-0b7830e98f-edd609217e",
+      "name": "超时空辉夜姬",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-61",
+      "uid": "edd609217e24446fb90a3f9acf4de786"
+    },
+    {
+      "id": "ip-5d5cdec64f-8ddba5a463",
+      "name": "人渣的本愿",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-62",
+      "uid": "8ddba5a463c84e76b9d8414ec3d7e013"
+    },
+    {
+      "id": "ip-62329141fe-603a8f9455",
+      "name": "更衣人偶坠入爱河",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-63",
+      "uid": "603a8f9455944bb5bb000c4897c8ddce"
+    },
+    {
+      "id": "ip-5f40e59933-d57d4717c7",
+      "name": "2.5次元的诱惑",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-64",
+      "uid": "d57d4717c7444cf0a3c2e71beccfc079"
+    },
+    {
+      "id": "ip-a03cb84722-4e53171e20",
+      "name": "魔法少女与恶曾是敌人",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-65",
+      "uid": "4e53171e20e644158ce39c39ffa87d6f"
+    },
+    {
+      "id": "ip-7025101b6e-b8f254449c",
+      "name": "我心里危险的东西",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-66",
+      "uid": "b8f254449ca24799ab54a33a32f49d8f"
+    },
+    {
+      "id": "ip-4c1a218b25-69ff9ae094",
+      "name": "败犬女主太多了!",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-67",
+      "uid": "69ff9ae0947a45f184decf0f7ee7f08e"
+    },
+    {
+      "id": "ip-828ebf3f86-b019ae934d",
+      "name": "Girls Band Cry",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-68",
+      "uid": "b019ae934da6438ca06025323719e214"
+    },
+    {
+      "id": "ip-32b87190df-d8c7be5b5d",
+      "name": "魔法少女的魔女审判",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-69",
+      "uid": "d8c7be5b5d5849ad809688b526120e18"
+    },
+    {
+      "id": "ip-43991a234d-3f449e8e33",
+      "name": "Lycoris Recoil",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-70",
+      "uid": "3f449e8e331f4ba4905f418e19742eb1"
+    },
+    {
+      "id": "ip-c915103009-4c9f6d1ec3",
+      "name": "NUKITASHI(住在拔作岛上的贫乳该如何是好?)",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-71",
+      "uid": "4c9f6d1ec33f46f69a6a47e6cb8850a4"
+    },
+    {
+      "id": "ip-b6770979e1-6ccf8eef8b",
+      "name": "舰队Collection",
+      "enabled": true,
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "caption": "又一个喜欢的世界。",
+      "tags": [
+        "扩展偏爱"
+      ],
+      "themeKey": "extra-72",
+      "uid": "6ccf8eef8b1b452bac491e726ce6c2ac"
+    },
+    {
+      "id": "ip-70b1bad05c-77d1284f5b",
+      "name": "我的作品",
+      "enabled": true,
+      "systemRole": "owner-works",
+      "rotation": {
+        "enabled": false,
+        "weight": 1
+      },
+      "tags": [
+        "本人作品"
+      ],
+      "uid": "77d1284f5b3c43f0b5d48e29a9075557"
+    }
+  ],
+  "characters": [
+    {
+      "id": "ch-0160e6a592-ffab369e07",
+      "ipId": "ip-7c5fa80b9f-e6872bcbb6",
+      "name": "加藤惠",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "ffab369e07524c558b2e4ded20c85ee6"
+    },
+    {
+      "id": "ch-ee8c650892-e0e4df011e",
+      "ipId": "ip-7c5fa80b9f-e6872bcbb6",
+      "name": "英梨梨",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "e0e4df011e0845dca00ea937917b07d2"
+    },
+    {
+      "id": "ch-cc6216a287-31b799b844",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "刻晴",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "31b799b844f244cc8ae1788953c0713f"
+    },
+    {
+      "id": "ch-c197978afd-4cfdd0e424",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "奥黛塔",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "4cfdd0e4242342d9b988a3617f9c60c3"
+    },
+    {
+      "id": "ch-ac05224313-9da9f7e5aa",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "沃雅妮莎",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "9da9f7e5aa5947d6aa8b15e166400fa3"
+    },
+    {
+      "id": "ch-ef4aebf93a-e945918ceb",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "薇斯纳",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "e945918ceb9c422cbc7dfa35a6b3f99c"
+    },
+    {
+      "id": "ch-3c960f2d21-a8427bb227",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "桑多涅",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "a8427bb2279f4e52b2fa7ba73f96cd96"
+    },
+    {
+      "id": "ch-8a5b51b7c8-38ef102235",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "哥伦比娅",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "38ef102235b84f129c44898cad4dd15c"
+    },
+    {
+      "id": "ch-3172a21efd-cddacac2be",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "莉奈娅",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "cddacac2be324445930490bd5e659eb2"
+    },
+    {
+      "id": "ch-3508ada309-2f45df0830",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "玛拉妮",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "2f45df0830814d1c8cbdf128535e28f5"
+    },
+    {
+      "id": "ch-e5d09b8474-07fd6a27b3",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "妮露",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "07fd6a27b34945d4814b88d046698a43"
+    },
+    {
+      "id": "ch-542feb7ae9-7eadeed399",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "甘雨",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "7eadeed399d14e13a0dfaf744a20a0b3"
+    },
+    {
+      "id": "ch-3d9f873e68-86fed5ebf4",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "神里绫华",
+      "aliases": [
+        "神里凌华"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "86fed5ebf47c444a801030cc44b344be"
+    },
+    {
+      "id": "ch-d86a0ce496-aea305329f",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "爱可菲",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "aea305329f794127a3ffd9e965c67de7"
+    },
+    {
+      "id": "ch-7a46754fb9-177dd2f66b",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "茜特菈莉",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "177dd2f66bd642bdb9ff817bf388fb7e"
+    },
+    {
+      "id": "ch-9a6fd2020c-0274a8a745",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "莫娜",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "0274a8a745af40c383c31ad98fa3c79e"
+    },
+    {
+      "id": "ch-968e5cf445-2bb52a6cb4",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "烟绯",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "2bb52a6cb45f41ce82a04b268f9ae97a"
+    },
+    {
+      "id": "ch-6807ac6ecb-a24f0cbec4",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "芭芭拉",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "a24f0cbec48b4115ad56888d470816ca"
+    },
+    {
+      "id": "ch-4c3e5acd8f-572ccb0c46",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "蓝砚",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "572ccb0c46124d0c93d24f4f8f0b1305"
+    },
+    {
+      "id": "ch-668afd9be4-aacdd11c4a",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "夏洛蒂",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "aacdd11c4a264c839470f7968146f90e"
+    },
+    {
+      "id": "ch-98c98aa19c-329a8b6af9",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "莱依拉",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "329a8b6af9b34f65a231b0ac0de89b53"
+    },
+    {
+      "id": "ch-eaf8651766-edb894d70f",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "name": "绮良良",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "edb894d70f094ccf95b188a36b6ca9a4"
+    },
+    {
+      "id": "ch-157170d67f-be2843d408",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "阿米娅",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "be2843d408cd45438c17b336a1cecaca"
+    },
+    {
+      "id": "ch-80060caa0c-4c97b8bce3",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "拉普兰德",
+      "aliases": [
+        "荒芜拉普兰德"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "4c97b8bce3b84c7398c3848827838bae"
+    },
+    {
+      "id": "ch-29e9e1c90a-0f7386c667",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "德克萨斯",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "0f7386c6674d4f93877de4ea1648616e"
+    },
+    {
+      "id": "ch-0e756619b2-591d96e10b",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "焰影苇草(拉芙希妮)",
+      "aliases": [
+        "焰影苇草",
+        "拉芙希妮"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "591d96e10b3349529cfbeb682b2e49a6"
+    },
+    {
+      "id": "ch-51a878ec17-4c1102e769",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "陈",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "4c1102e7699e480383c44f9805832260"
+    },
+    {
+      "id": "ch-ebcb5e72cd-5c8e680755",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "林雨霞",
+      "aliases": [
+        "林"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "5c8e680755f64a5390b45e11d340a1e6"
+    },
+    {
+      "id": "ch-5bf548e48e-c24e0957bf",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "电弧",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "c24e0957bf674cce948a0a99d2585819"
+    },
+    {
+      "id": "ch-aa482e1c3a-167387f891",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "塔露拉",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "167387f891b44148a1570841768e740a"
+    },
+    {
+      "id": "ch-10c31c87b3-30fc95c0a5",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "克莱门莎",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "30fc95c0a5cc477eb6071b0787c8c48a"
+    },
+    {
+      "id": "ch-8c630d8d6a-eabf61f6de",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "斯卡蒂",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "eabf61f6de7d402e8d084735dc680460"
+    },
+    {
+      "id": "ch-827770be68-64e4bc4005",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "凯尔希",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "64e4bc4005844a1a89473d8c95b0c920"
+    },
+    {
+      "id": "ch-273742039d-aacb2f6742",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "Mon3ter",
+      "aliases": [
+        "Mon3tr"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "aacb2f6742484d67811c1e99d377f80b"
+    },
+    {
+      "id": "ch-88bad41e44-cd90e5d70c",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "多萝西",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "cd90e5d70ce2441fa70cdf870447808f"
+    },
+    {
+      "id": "ch-c559c30abb-67fe8e4b85",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "阿尔图罗",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "67fe8e4b858246e9a9bdb0c0cba38946"
+    },
+    {
+      "id": "ch-7a7c0befcf-94dc3e9464",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "史尔特尔",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "94dc3e94648c44dbae43d1119200f5fb"
+    },
+    {
+      "id": "ch-f885a6b398-8a2c6b3b81",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "黍",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "8a2c6b3b81354c54ae7defa5c43384ff"
+    },
+    {
+      "id": "ch-578b5934cd-93a4387986",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "夕",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "93a43879860a40029354b8b6fccf7d32"
+    },
+    {
+      "id": "ch-0949f437c5-bf8d8950be",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "澄闪",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "bf8d8950be75409dae7d58bda5f523be"
+    },
+    {
+      "id": "ch-878116e68d-eea7734f9e",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "艾雅法拉",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "eea7734f9ea9488f991d2d8f06a55d77"
+    },
+    {
+      "id": "ch-8efad3f9bc-8f3dafc01e",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "铃兰",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "8f3dafc01eab43afaf1886b7f0c027c3"
+    },
+    {
+      "id": "ch-94c10dad04-1a45169251",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "遥",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "1a451692515c4fb9858e4c477b3cde8b"
+    },
+    {
+      "id": "ch-c0937fa012-099bb9377f",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "蕾缪安",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "099bb9377f594112a19bf4a83099bd26"
+    },
+    {
+      "id": "ch-184c243c14-0835e8f834",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "妮芙",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "0835e8f8345141bdb5f377c3c6015929"
+    },
+    {
+      "id": "ch-98b99b89a1-22542a9507",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "佩佩",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "22542a95076f4e34b5f987f5a9975dd8"
+    },
+    {
+      "id": "ch-61a0820c5e-660145495b",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "莱伊",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "660145495be745e7bfbd79e75f5d2a4e"
+    },
+    {
+      "id": "ch-eebfcf7201-5a73c8d494",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "迷迭香",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "5a73c8d4944746b1a720e3dd2d0a1128"
+    },
+    {
+      "id": "ch-cc971ce1cc-4725c7f305",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "薇薇安娜",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "4725c7f305e34abf9052b7f264533a6b"
+    },
+    {
+      "id": "ch-25367f0512-dba7e10988",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "鸿雪",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "dba7e109881b4c9ebb990c4041ac5c66"
+    },
+    {
+      "id": "ch-a9aee07f19-40c3d9ecad",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "爱布拉娜",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "40c3d9ecada44b04bbc53f3449cf588a"
+    },
+    {
+      "id": "ch-b8629c309e-1ebdf6adaa",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "隐德莱希",
+      "aliases": [
+        "隐德来希"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "1ebdf6adaacc4e2ab621dacbf6d805f6"
+    },
+    {
+      "id": "ch-4c2cac9aee-3221643234",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "娜斯提",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "3221643234f64bf59b50089c4d34bd2b"
+    },
+    {
+      "id": "ch-790a693970-c48761c432",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "白面鸮",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "c48761c4320b4bdaadd7fc2142595157"
+    },
+    {
+      "id": "ch-d809b4e200-28dd6682a1",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "狮蝎",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "28dd6682a12b40d6a55b8cb6d932b78a"
+    },
+    {
+      "id": "ch-179bb6014d-b43f7f9c69",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "初雪",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "b43f7f9c699a4466b85c4bf462aeef4f"
+    },
+    {
+      "id": "ch-b2eb801a14-f05872428c",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "蓝毒",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "f05872428c6545608ef518fa1f2c74c3"
+    },
+    {
+      "id": "ch-be527af59a-3bddba2d09",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "夜半",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "3bddba2d09fb42189d59de2460a17b8e"
+    },
+    {
+      "id": "ch-9c25120d97-beed251ddc",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "海沫",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "beed251ddc524d4090d758dd946d001e"
+    },
+    {
+      "id": "ch-5caacd3b15-88f548f02e",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "乌啾",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "88f548f02e0e4fb1853adac22db95533"
+    },
+    {
+      "id": "ch-24271564f2-eb1c684f36",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "刺玫",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "eb1c684f36d64c06b9fcc25e9267f1c5"
+    },
+    {
+      "id": "ch-3f568aea60-f81fcaaee9",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "蜜蜡",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "f81fcaaee9d54811912531c065f5964a"
+    },
+    {
+      "id": "ch-371ef67a12-99fdd7568d",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "爱丽丝",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "99fdd7568d754bba80b5268a5b37f437"
+    },
+    {
+      "id": "ch-281f1eaeeb-71c4b7a71e",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "桃金娘",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "71c4b7a71e2d40428448320f49309310"
+    },
+    {
+      "id": "ch-f7ae525cf6-80aa68b2ef",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "稀音",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "80aa68b2efc043e3b4924baa79acc203"
+    },
+    {
+      "id": "ch-f46d622bab-b279e1d40f",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "name": "罗比菈塔",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "b279e1d40fec4b76bff18acba34ab624"
+    },
+    {
+      "id": "ch-4f7cba615d-3a24858eac",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "name": "琪亚娜",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "3a24858eace44dbbbca86851e741dd60"
+    },
+    {
+      "id": "ch-d1521a777a-8cb131afbc",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "name": "雷电芽衣",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "8cb131afbc8d40d59217fe87fb26389c"
+    },
+    {
+      "id": "ch-56b73c8087-1eec265b52",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "name": "布洛妮娅",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "1eec265b520e45ac88ce537a27a25e7f"
+    },
+    {
+      "id": "ch-7d36ca46d0-25401eecd8",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "name": "希儿",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "25401eecd8ce43f99521e29b99c9069b"
+    },
+    {
+      "id": "ch-e14c70ddc9-f232d86124",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "name": "德莉莎",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "f232d8612455443b8a2c6f288b38e828"
+    },
+    {
+      "id": "ch-9530116b62-c48412a46a",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "name": "幽兰黛尔",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "c48412a46a6640a2a40f4233be48b2fb"
+    },
+    {
+      "id": "ch-aba68dc648-064b321798",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "name": "爱莉希雅",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "064b321798fe4589b609951d1136ef63"
+    },
+    {
+      "id": "ch-9cfb02284f-a14a4128dd",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "name": "格蕾修",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "a14a4128dd89477eaf5263b08259b6b2"
+    },
+    {
+      "id": "ch-8738e8f461-a8df674679",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "name": "梅比乌斯",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "a8df6746799843c79260bd0dbe1d4f29"
+    },
+    {
+      "id": "ch-ace3d27508-ec651e549a",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "name": "帕朵菲莉丝",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "ec651e549acd4316b086d87a247cd4b8"
+    },
+    {
+      "id": "ch-f870f9c69e-bc69d2785b",
+      "ipId": "ip-ccbc11637d-d08ae49065",
+      "name": "鸢一折纸",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "bc69d2785baf4d768032e863a56c8184"
+    },
+    {
+      "id": "ch-6a3d9c04b7-65236a4835",
+      "ipId": "ip-ccbc11637d-d08ae49065",
+      "name": "时崎狂三",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "65236a48357e43d492b32adfe4cbc6ab"
+    },
+    {
+      "id": "ch-f5176d09fd-d7b8ddf20c",
+      "ipId": "ip-ccbc11637d-d08ae49065",
+      "name": "五河琴里",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "d7b8ddf20c42460090e6198ba805d451"
+    },
+    {
+      "id": "ch-0b936e707d-a6a4b4967d",
+      "ipId": "ip-ccbc11637d-d08ae49065",
+      "name": "星宫六喰",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "a6a4b4967dc647c987a96c052d726c32"
+    },
+    {
+      "id": "ch-426f365e24-ea78d93d5d",
+      "ipId": "ip-ccbc11637d-d08ae49065",
+      "name": "诱宵美九",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "ea78d93d5d5e484d9998c0b627c6121d"
+    },
+    {
+      "id": "ch-aad56814db-ad4879c892",
+      "ipId": "ip-ccbc11637d-d08ae49065",
+      "name": "夜刀神十香",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "ad4879c892864e05ac790eeb4cd62a48"
+    },
+    {
+      "id": "ch-8a2ba92fec-44aca31902",
+      "ipId": "ip-ccbc11637d-d08ae49065",
+      "name": "崇宫澪",
+      "aliases": [],
+      "enabled": true,
+      "weight": 1,
+      "tags": [
+        "用户偏爱"
+      ],
+      "uid": "44aca31902f149328cb6886d540d08a4"
+    }
+  ],
+  "assets": [
+    {
+      "id": "art-cfecf8000c-db7cc5eb7b",
+      "ipId": "ip-7c5fa80b9f-e6872bcbb6",
+      "characterIds": [
+        "ch-0160e6a592-ffab369e07"
+      ],
+      "label": "加藤惠 · 官方生日壁纸",
+      "file": "media/originals/路人女主的养成方法-e6872bcb/加藤惠-ffab369e/illustration-加藤惠-·-官方生日壁纸-db7cc5eb-b8a426c117.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "加藤惠"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://saenai-movie.com/special/wpicon/",
+        "image": "https://saenai-movie.com/special/wpicon/img/wp_pc.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "db7cc5eb7b924506ad0dd2d444ddedd2",
+      "sha256": "b8a426c117062acca366ad44a1b193132d270f3727b92168e162809196edcdde",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 479231
+    },
+    {
+      "id": "art-d6cc021f4c-76a30f5d48",
+      "ipId": "ip-7c5fa80b9f-e6872bcbb6",
+      "characterIds": [
+        "ch-ee8c650892-e0e4df011e"
+      ],
+      "label": "英梨梨 · 官方生日壁纸",
+      "file": "media/originals/路人女主的养成方法-e6872bcb/英梨梨-e0e4df01/illustration-英梨梨-·-官方生日壁纸-76a30f5d-4d810c4398.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "英梨梨"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://saenai-movie.com/special/wpicon/",
+        "image": "https://saenai-movie.com/special/wpicon/img/eriri/wp_pc.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "76a30f5d48d74b119e04cb360f088e4e",
+      "sha256": "4d810c4398b18a9bede1e3125e6dcf6d5ab97526f9de2c0f000945ffbe32ebe6",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 530032
+    },
+    {
+      "id": "art-cc6216a287-3c3e52d2a5",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-cc6216a287-31b799b844"
+      ],
+      "label": "刻晴",
+      "file": "media/originals/原神-b61ee92e/刻晴-31b799b8/illustration-刻晴-3c3e52d2-bb2a84917e.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "刻晴"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://www.hoyolab.com/article/35053999",
+        "image": "https://upload-os-bbs.hoyolab.com/upload/2024/11/19/4005fb1670c4268bc712cb67e027d284_7507266796591685871.jpg",
+        "kind": "official HoYoLAB post",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "3c3e52d2a52a481db348723946be55fc",
+      "sha256": "bb2a84917e797cbc8c9e1e5151d29010eff5a5c770c26b01696a695b6bed56ea",
+      "dimensions": [
+        3000,
+        3000
+      ],
+      "bytes": 932313
+    },
+    {
+      "id": "art-3d9f873e68-a8915d4de1",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-3d9f873e68-86fed5ebf4"
+      ],
+      "label": "神里绫华",
+      "file": "media/originals/原神-b61ee92e/神里绫华-86fed5eb/illustration-神里绫华-a8915d4d-c3d02b9064.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "神里绫华"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://x.com/GenshinImpact/status/1972149266677203250",
+        "image": "https://pbs.twimg.com/media/G15sNeyWgAAIoMU.jpg?name=orig",
+        "kind": "official X post",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "a8915d4de1134a30ba4b67ae247d9b8f",
+      "sha256": "c3d02b906441d372d5620051c4bd5c707e3987201a56c0a06e6077263136a48b",
+      "dimensions": [
+        3000,
+        3000
+      ],
+      "bytes": 2005951
+    },
+    {
+      "id": "art-e5d09b8474-86120c7aae",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-e5d09b8474-07fd6a27b3"
+      ],
+      "label": "妮露",
+      "file": "media/originals/原神-b61ee92e/妮露-07fd6a27/illustration-妮露-86120c7a-c90030cd2c.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "妮露"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://x.com/GenshinImpact/status/1863795545778598206",
+        "image": "https://pbs.twimg.com/media/Gd17bpoa0AEF1V_.jpg?name=orig",
+        "kind": "official X post",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "86120c7aaeee453ba97097035c9ea805",
+      "sha256": "c90030cd2cf432b2aaaf75e9d88571d1d11fd64478cecb3e871c26a32879df3e",
+      "dimensions": [
+        3000,
+        3000
+      ],
+      "bytes": 2000897
+    },
+    {
+      "id": "art-157170d67f-c23db28505",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-157170d67f-be2843d408"
+      ],
+      "label": "阿米娅",
+      "file": "media/originals/明日方舟-5d211b23/阿米娅-be2843d4/character-art-阿米娅-c23db285-bf77996a25.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "阿米娅"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%B1%B3%E5%A8%85_2.png",
+        "image": "https://media.prts.wiki/3/3f/%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%B1%B3%E5%A8%85_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "c23db2850530494db4c7a6b889e36b31",
+      "sha256": "bf77996a25000bf7f0210496e98559bcd20beb2deae6446100e44a4d0a66554e",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 2668181
+    },
+    {
+      "id": "art-d368dcbdf5-8e659c18e2",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-80060caa0c-4c97b8bce3"
+      ],
+      "label": "荒芜拉普兰德",
+      "file": "media/originals/明日方舟-5d211b23/拉普兰德-4c97b8bc/character-art-荒芜拉普兰德-8e659c18-fa478e0022.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "荒芜拉普兰德"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E8%8D%92%E8%8A%9C%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_2.png",
+        "image": "https://media.prts.wiki/0/0b/%E7%AB%8B%E7%BB%98_%E8%8D%92%E8%8A%9C%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "8e659c18e25143f7a487150fa52f82ea",
+      "sha256": "fa478e0022935b83a10f172221bbd58adde1a7d4d02f443ed1b22c03310202b6",
+      "dimensions": [
+        2560,
+        2560
+      ],
+      "bytes": 3198231
+    },
+    {
+      "id": "art-0e756619b2-eb220873a8",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-0e756619b2-591d96e10b"
+      ],
+      "label": "焰影苇草(拉芙希妮)",
+      "file": "media/originals/明日方舟-5d211b23/焰影苇草(拉芙希妮)-591d96e1/character-art-焰影苇草(拉芙希妮)-eb220873-0834a07dcc.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "焰影苇草"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E7%84%B0%E5%BD%B1%E8%8B%87%E8%8D%89_2.png",
+        "image": "https://media.prts.wiki/d/d3/%E7%AB%8B%E7%BB%98_%E7%84%B0%E5%BD%B1%E8%8B%87%E8%8D%89_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "eb220873a8794b4f947b76cff6d7360e",
+      "sha256": "0834a07dcccb47fa17757d7d4d6731067f8a2489dfd464a58d6580dcaafe6218",
+      "dimensions": [
+        2560,
+        2560
+      ],
+      "bytes": 3650017
+    },
+    {
+      "id": "art-f885a6b398-1ac6b5ab02",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-f885a6b398-8a2c6b3b81"
+      ],
+      "label": "黍",
+      "file": "media/originals/明日方舟-5d211b23/黍-8a2c6b3b/character-art-黍-1ac6b5ab-ae425bd49a.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "黍"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E9%BB%8D_2.png",
+        "image": "https://media.prts.wiki/c/cf/%E7%AB%8B%E7%BB%98_%E9%BB%8D_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "1ac6b5ab027a466e814f931854d20c33",
+      "sha256": "ae425bd49a5ce328c4b154b9691d08b267a9907c51cf14bbc6ce9f967e5e6d69",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 4530138
+    },
+    {
+      "id": "art-4f7cba615d-f8372889d4",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "characterIds": [
+        "ch-4f7cba615d-3a24858eac"
+      ],
+      "label": "琪亚娜",
+      "file": "media/originals/崩坏3rd-da7d8493/琪亚娜-3a24858e/illustration-琪亚娜-f8372889-595f8e5eba.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "琪亚娜"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://x.com/HonkaiImpact3rd/status/1892876937070047256",
+        "image": "https://pbs.twimg.com/media/GkTZipDWUAAIBzI.jpg?name=orig",
+        "kind": "official X post",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "f8372889d4d9419684b60c052c97aa23",
+      "sha256": "595f8e5eba71d57d77c216be60582b649fa79b4b72e9b4970f677c2a5d786778",
+      "dimensions": [
+        1080,
+        2340
+      ],
+      "bytes": 320177
+    },
+    {
+      "id": "art-aba68dc648-3ede8cca5e",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "characterIds": [
+        "ch-aba68dc648-064b321798"
+      ],
+      "label": "爱莉希雅",
+      "file": "media/originals/崩坏3rd-da7d8493/爱莉希雅-064b3217/illustration-爱莉希雅-3ede8cca-d4e894ac38.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "爱莉希雅"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prtimes.jp/main/html/rd/p/000000148.000048345.html",
+        "image": "https://prcdn.freetls.fastly.net/release_image/48345/148/48345-148-0eb5c36bd23ccd6bdd80258710b0298c-2560x1440.jpg",
+        "kind": "miHoYo official press release",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "3ede8cca5e6a486dbfbdd0393dcabde2",
+      "sha256": "d4e894ac38db36605e70ddfb922a2b2438a39459cb5e03a99efe0a6435d229ed",
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "bytes": 484126
+    },
+    {
+      "id": "art-ef601fe1a5-5ba010d848",
+      "ipId": "ip-45789ea776-559ee948ef",
+      "characterIds": [],
+      "label": "某科学的超电磁炮 · 官方主视觉",
+      "file": "media/originals/某科学的超电磁炮-559ee948/scenes/key-visual-某科学的超电磁炮-·-官方主视觉-5ba010d8-e8cd79298f.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "某科学的超电磁炮 · 官方主视觉"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://toaru-project.com/railgun_t/",
+        "image": "https://toaru-project.com/railgun_t/core_sys/images/main/top/kv2.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "5ba010d848094e64bbc05b97ccc1ca01",
+      "sha256": "e8cd79298f735cd2639f73328d6382ab014040115cbf97f4e1e2d985b418d87d",
+      "dimensions": [
+        1600,
+        2253
+      ],
+      "bytes": 892883
+    },
+    {
+      "id": "art-61ba956dfa-3452783ba5",
+      "ipId": "ip-1d8cd4e352-e480ea41dc",
+      "characterIds": [],
+      "label": "刀剑神域 · 官方主视觉",
+      "file": "media/originals/刀剑神域-e480ea41/scenes/key-visual-刀剑神域-·-官方主视觉-3452783b-c3e99882a3.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "刀剑神域 · 官方主视觉"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://sao-p.net/",
+        "image": "https://sao-p.net/assets/scherzo/img/top/kv.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "3452783ba50c4a9c941788afc3a12506",
+      "sha256": "c3e99882a36d4f8431859f2e2b36c6d483196b9b5d60382141023d78cc9f9661",
+      "dimensions": [
+        1000,
+        1410
+      ],
+      "bytes": 576510
+    },
+    {
+      "id": "art-6a3d9c04b7-08e3495f2e",
+      "ipId": "ip-ccbc11637d-d08ae49065",
+      "characterIds": [
+        "ch-6a3d9c04b7-65236a4835"
+      ],
+      "label": "时崎狂三",
+      "file": "media/originals/约会大作战-d08ae490/时崎狂三-65236a48/character-art-时崎狂三-08e3495f-1ca06c4e8e.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "时崎狂三"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://date-a-live5th-anime.com/character/kurumi.php",
+        "image": "https://date-a-live5th-anime.com/common/images/character/character06.png",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "08e3495f2eb6448cbb5a22b1039da3c5",
+      "sha256": "1ca06c4e8e40144930f4164b7e8d3561919864059b0d92d6ba5f22eb9a614934",
+      "dimensions": [
+        840,
+        1000
+      ],
+      "bytes": 704608
+    },
+    {
+      "id": "art-f1cd1c1859-a7d0617d40",
+      "ipId": "ip-ccbc11637d-d08ae49065",
+      "characterIds": [],
+      "label": "约会大作战 · 官方主视觉",
+      "file": "media/originals/约会大作战-d08ae490/scenes/key-visual-约会大作战-·-官方主视觉-a7d0617d-9687d653bf.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "精灵群像"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://date-a-live5th-anime.com/",
+        "image": "https://date-a-live5th-anime.com/common/images/top/main_keyvisual.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "a7d0617d40334f559e3aad2693ab693c",
+      "sha256": "9687d653bfad86c192d390061e4694e34b4dab3679c84f219128913bd193de17",
+      "dimensions": [
+        1920,
+        2717
+      ],
+      "bytes": 2154072
+    },
+    {
+      "id": "art-9d4217cca9-1484e44f79",
+      "ipId": "ip-42290bd104-018564cfdb",
+      "characterIds": [],
+      "label": "Fate/stay night · UBW",
+      "file": "media/originals/Fate-系列-018564cf/scenes/key-visual-Fate-stay-night-·-UBW-1484e44f-937301d18c.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "stay night / UBW"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://www.fate-sn.com/ubw/",
+        "image": "https://www.fate-sn.com/ubw/img/key.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "1484e44f79594bdc8a4ceca8a9e1e115",
+      "sha256": "937301d18c2c6d136a2d0d144a026decadcc600bbac4c8ac518eec0bbc4068b0",
+      "dimensions": [
+        1700,
+        2209
+      ],
+      "bytes": 1631965
+    },
+    {
+      "id": "art-55ebc3fd47-1f30695828",
+      "ipId": "ip-42290bd104-018564cfdb",
+      "characterIds": [],
+      "label": "Fate/Zero",
+      "file": "media/originals/Fate-系列-018564cf/scenes/key-visual-Fate-Zero-1f306958-431849df14.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "Zero"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://www.fate-zero.jp/",
+        "image": "https://www.fate-zero.jp/img/top/top.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "1f30695828c140e9a1dca85d2408cae9",
+      "sha256": "431849df1409f9c514806d07fc5745b2442f6854138c335f237b9eee9d295e2e",
+      "dimensions": [
+        1006,
+        1439
+      ],
+      "bytes": 459943
+    },
+    {
+      "id": "art-b8259766da-1bff2db82d",
+      "ipId": "ip-cf24111874-420211a118",
+      "characterIds": [],
+      "label": "美少女万华镜 · 官方主视觉",
+      "file": "media/originals/美少女万华镜-420211a1/scenes/key-visual-美少女万华镜-·-官方主视觉-1bff2db8-ef51b3a027.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "美少女万华镜 · 官方主视觉"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://store.steampowered.com/app/1310990/",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1310990/ss_88b21b1c74b0f6c96dc95c25c0be307bcae47de9.1920x1080.jpg?t=1678449203",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "1bff2db82d1345979923a2d70a60246a",
+      "sha256": "ef51b3a02798fd8f60141962721fc256f50fcf0d683042a0f30dd60eb28d4f10",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 399609
+    },
+    {
+      "id": "art-ce6644cd41-9747de2d7a",
+      "ipId": "ip-37397672c0-34bb7310ef",
+      "characterIds": [],
+      "label": "近月少女的礼仪 · 官方主视觉",
+      "file": "media/originals/近月少女的礼仪-34bb7310/scenes/key-visual-近月少女的礼仪-·-官方主视觉-9747de2d-7fb5a1694f.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "近月少女的礼仪 · 官方主视觉"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://www.dramaticcreate.com/tsukiniyorisou/index.html",
+        "image": "https://www.dramaticcreate.com/tsukiniyorisou/image/top_bg01.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "9747de2d7a0a41749f3b19fd802bb5be",
+      "sha256": "7fb5a1694f00a7559f55ef8cc2c88774867f92e588900d8e7f88ce9f455670e7",
+      "dimensions": [
+        900,
+        580
+      ],
+      "bytes": 496736
+    },
+    {
+      "id": "art-d171a671fa-3a343bf157",
+      "ipId": "ip-be5b2aa968-8dcbc88708",
+      "characterIds": [],
+      "label": "Counter-Strike · 官方主视觉",
+      "file": "media/originals/Counter-Strike-8dcbc887/scenes/key-visual-Counter-Strike-·-官方主视觉-3a343bf1-5fea9160ae.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "Counter-Strike · 官方主视觉"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://www.counter-strike.net/cs2",
+        "image": "https://cdn.fastly.steamstatic.com/apps/csgo/images/csgo_react/social/cs2.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "3a343bf157a64b2a8c3f1f81b73d430c",
+      "sha256": "5fea9160aef75964616218c87669c3f8b03c90a5f48c041ff407df13c6ee6d4c",
+      "dimensions": [
+        2400,
+        1350
+      ],
+      "bytes": 1587514
+    },
+    {
+      "id": "art-b65198d7e9-03fd725789",
+      "ipId": "ip-02e00f3a5c-8f14c89c3a",
+      "characterIds": [],
+      "label": "World of Warships · 官方主视觉",
+      "file": "media/originals/World-of-Warships-8f14c89c/scenes/key-visual-World-of-Warships-·-官方主视-03fd7257-ca609de67d.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "World of Warships · 官方主视觉"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://worldofwarships.com/en/news/community/wallpaper-collection-vol-1/",
+        "image": "https://worldofwarships.com/dcont/fb/image/d3f0840e-8587-11ef-9aab-005056902a5f.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "03fd725789bf484b9017ab4d34f56575",
+      "sha256": "ca609de67d0cae800c60e770084a2e27bb2919277e882b0f0c75700fd6e04e58",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "bytes": 226062
+    },
+    {
+      "id": "art-a9f5426cb9-60c9458f86",
+      "ipId": "ip-920060cc8a-edc5fbc26c",
+      "characterIds": [],
+      "label": "ZEZTZ",
+      "file": "media/originals/假面骑士-edc5fbc2/scenes/key-visual-ZEZTZ-60c9458f-8f76c29cbd.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "ZEZTZ"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://www.kamen-rider-official.com/zeztz/",
+        "image": "https://www.kamen-rider-official.com/static/images/zeztz/main_visual-pc.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "60c9458f86c547e4939c5eccd744259a",
+      "sha256": "8f76c29cbd579ab4d92befae34028b849bd423287dbb189cc2365129b70c934f",
+      "dimensions": [
+        2560,
+        1300
+      ],
+      "bytes": 480485
+    },
+    {
+      "id": "art-3c6630a273-ae3849340b",
+      "ipId": "ip-920060cc8a-edc5fbc26c",
+      "characterIds": [],
+      "label": "龙骑",
+      "file": "media/originals/假面骑士-edc5fbc2/scenes/key-visual-龙骑-ae384934-7a99a8fbe2.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "龙骑"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://www.kamen-rider-official.com/zukan/forms/590",
+        "image": "https://www.kamen-rider-official.com/uploads/form/s3_main_image1/590/3e339e4f-7e6a-4256-8836-8a353025cc7e.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "ae3849340bb64c46b0206f57a55d08d9",
+      "sha256": "7a99a8fbe2ba779dd21595e8a25fac636695ade45ba0a5cb9b01995b157e12d1",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "bytes": 112501
+    },
+    {
+      "id": "art-6d3162a372-0a9c569766",
+      "ipId": "ip-920060cc8a-edc5fbc26c",
+      "characterIds": [],
+      "label": "W / OOO / Zero-One",
+      "file": "media/originals/假面骑士-edc5fbc2/scenes/key-visual-W-OOO-Zero-One-0a9c5697-eb6d5d1698.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "W / OOO / 01"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://rider-moh.bn-ent.net/",
+        "image": "https://rider-moh.bn-ent.net/images/top/pc/pc_title.jpg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "0a9c56976600412f9dacbcdc7e6d9352",
+      "sha256": "eb6d5d1698949d4f1893f83e11261c9e3ae85ea6664ccf51c9961681be400cf0",
+      "dimensions": [
+        1920,
+        657
+      ],
+      "bytes": 55980
+    },
+    {
+      "id": "art-0a5a343288-f90102ac26",
+      "ipId": "ip-920060cc8a-edc5fbc26c",
+      "characterIds": [],
+      "label": "Amazons(2016)",
+      "file": "media/originals/假面骑士-edc5fbc2/scenes/key-visual-Amazons(2016)-f90102ac-00afc03aab.jpg",
+      "kind": "key-visual",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "Amazons 2016"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://www.kamen-rider-official.com/series/amazons/",
+        "image": "https://www.kamen-rider-official.com/uploads/product/poster_image/37/30e25384-e90f-4b8f-86a9-afb5cd9eb63c.jpeg",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "f90102ac26d340f2a27b5cc6ea1685ab",
+      "sha256": "00afc03aab3101708ca8e9736fb7ce7f736abcabb3e054521bd24c9dcddb71bc",
+      "dimensions": [
+        615,
+        866
+      ],
+      "bytes": 229958
+    },
+    {
+      "id": "art-d1521a777a-e7dc4823c3",
+      "ipId": "ip-56d2e75a92-da7d849320",
+      "characterIds": [
+        "ch-d1521a777a-8cb131afbc"
+      ],
+      "label": "雷电芽衣",
+      "file": "media/originals/崩坏3rd-da7d8493/雷电芽衣-8cb131af/illustration-雷电芽衣-e7dc4823-e1bfae12d1.png",
+      "kind": "illustration",
+      "uses": [
+        "gallery"
+      ],
+      "tags": [
+        "雷电芽衣"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prtimes.jp/main/html/rd/p/000000030.000048345.html",
+        "image": "https://prtimes.jp/i/48345/30/resize/d48345-30-566931-0.png",
+        "kind": "miHoYo official press release",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "e7dc4823c3be4f3182cc2c9a68c80f67",
+      "sha256": "e1bfae12d1009c20ab228497c12a1e70091a45944d3130dd3b8e7b553e6c44ec",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "bytes": 1242518
+    },
+    {
+      "id": "art-0160e6a592-db6b2f4334",
+      "ipId": "ip-7c5fa80b9f-e6872bcbb6",
+      "characterIds": [
+        "ch-0160e6a592-ffab369e07"
+      ],
+      "label": "加藤惠",
+      "file": "media/originals/路人女主的养成方法-e6872bcb/加藤惠-ffab369e/character-art-加藤惠-db6b2f43-0109b4f7c0.png",
+      "kind": "character-art",
+      "uses": [
+        "avatar"
+      ],
+      "tags": [
+        "加藤惠"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://saenai-movie.com/character/megumi_kato/",
+        "image": "https://saenai-movie.com/shared/img/character/c02_main.png",
+        "kind": "official_promotional_image",
+        "rights": "角色与图片归原权利人；本地预览使用。"
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "从 v3 迁移；原文件保留，未放大或重绘。",
+      "uid": "db6b2f4334774b339812a075a50b3538",
+      "sha256": "0109b4f7c099dc34f34536640f901c508aa726985c4439d3972ce8ec2271382c",
+      "dimensions": [
+        417,
+        647
+      ],
+      "bytes": 69469
+    },
+    {
+      "id": "art-7a7c0befcf-13689411c1",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-7a7c0befcf-94dc3e9464"
+      ],
+      "label": "史尔特尔",
+      "file": "media/originals/明日方舟-5d211b23/史尔特尔-94dc3e94/character-art-史尔特尔-13689411-4522442d76.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "史尔特尔"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E5%8F%B2%E5%B0%94%E7%89%B9%E5%B0%94_2.png",
+        "image": "https://media.prts.wiki/2/2e/%E7%AB%8B%E7%BB%98_%E5%8F%B2%E5%B0%94%E7%89%B9%E5%B0%94_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_史尔特尔_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "13689411c1854e79b22db9633ca5f68b",
+      "sha256": "4522442d76dffc4d07bc007a433773db0d55ef41aecd64503af2c17daf614479",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 2271702
+    },
+    {
+      "id": "art-827770be68-d37abb7457",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-827770be68-64e4bc4005"
+      ],
+      "label": "凯尔希",
+      "file": "media/originals/明日方舟-5d211b23/凯尔希-64e4bc40/character-art-凯尔希-d37abb74-979319b293.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "凯尔希"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E5%87%AF%E5%B0%94%E5%B8%8C_2.png",
+        "image": "https://media.prts.wiki/6/65/%E7%AB%8B%E7%BB%98_%E5%87%AF%E5%B0%94%E5%B8%8C_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_凯尔希_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "d37abb7457194af8832ba29f1d0a3eff",
+      "sha256": "979319b293f38f10cd620cc462656da8abbd7e490183e673023aef94437abdb8",
+      "dimensions": [
+        2560,
+        2560
+      ],
+      "bytes": 3169069
+    },
+    {
+      "id": "art-8c630d8d6a-9e115660e8",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-8c630d8d6a-eabf61f6de"
+      ],
+      "label": "斯卡蒂",
+      "file": "media/originals/明日方舟-5d211b23/斯卡蒂-eabf61f6/character-art-斯卡蒂-9e115660-f9d5e22bc7.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "斯卡蒂"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E6%96%AF%E5%8D%A1%E8%92%82_2.png",
+        "image": "https://media.prts.wiki/b/b8/%E7%AB%8B%E7%BB%98_%E6%96%AF%E5%8D%A1%E8%92%82_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_斯卡蒂_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "9e115660e841497a8c564bed4bcfeb79",
+      "sha256": "f9d5e22bc7be03041b445cec31e5083e741d85e51d064f1462fc8df06c8fa877",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 2703253
+    },
+    {
+      "id": "art-51a878ec17-6c322782c0",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-51a878ec17-4c1102e769"
+      ],
+      "label": "陈",
+      "file": "media/originals/明日方舟-5d211b23/陈-4c1102e7/character-art-陈-6c322782-cd871c6412.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "陈"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E9%99%88_2.png",
+        "image": "https://media.prts.wiki/d/d0/%E7%AB%8B%E7%BB%98_%E9%99%88_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_陈_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "6c322782c00d4833bab5a21ba9ff01a2",
+      "sha256": "cd871c6412a599e8637c074c39435e045d8d6c31830b82824ca7e49c191f49d1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 2655958
+    },
+    {
+      "id": "art-ebcb5e72cd-d78f3531ab",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-ebcb5e72cd-5c8e680755"
+      ],
+      "label": "林雨霞",
+      "file": "media/originals/明日方舟-5d211b23/林雨霞-5c8e6807/character-art-林雨霞-d78f3531-6bc4c28e4d.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "林"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E6%9E%97_2.png",
+        "image": "https://media.prts.wiki/9/9d/%E7%AB%8B%E7%BB%98_%E6%9E%97_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_林_2.png and shows its original-resolution download. The character article identifies 林 as 林雨霞."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "d78f3531ab7e4a2d99b4d0bbd706c154",
+      "sha256": "6bc4c28e4dddcd3faad42f9aae817401ad0e60b0d05060a5304392baf36184e9",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 6008811
+    },
+    {
+      "id": "art-88bad41e44-1a9797b183",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-88bad41e44-cd90e5d70c"
+      ],
+      "label": "多萝西",
+      "file": "media/originals/明日方舟-5d211b23/多萝西-cd90e5d7/character-art-多萝西-1a9797b1-2c2a9151b4.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "多萝西"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E5%A4%9A%E8%90%9D%E8%A5%BF_2.png",
+        "image": "https://media.prts.wiki/1/1f/%E7%AB%8B%E7%BB%98_%E5%A4%9A%E8%90%9D%E8%A5%BF_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_多萝西_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "1a9797b183374440991f0aa7458b0205",
+      "sha256": "2c2a9151b43092e38cd0ef58423fe86bd2ae830da63918c8441397dde72b3a0f",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 3314580
+    },
+    {
+      "id": "art-c559c30abb-2fde489e91",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-c559c30abb-67fe8e4b85"
+      ],
+      "label": "阿尔图罗",
+      "file": "media/originals/明日方舟-5d211b23/阿尔图罗-67fe8e4b/character-art-阿尔图罗-2fde489e-bb1b4c08b3.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "塑心"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E5%A1%91%E5%BF%83_2.png",
+        "image": "https://media.prts.wiki/b/b2/%E7%AB%8B%E7%BB%98_%E5%A1%91%E5%BF%83_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_塑心_2.png and shows its original-resolution download. The character article identifies 塑心 as 阿尔图罗·吉亚洛."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "2fde489e919740aaa393f1e57ef57a7d",
+      "sha256": "bb1b4c08b3dc1b26755ea86688ef01c7f489cfea045a1ebb91feaccc8f22b155",
+      "dimensions": [
+        2304,
+        2304
+      ],
+      "bytes": 5784169
+    },
+    {
+      "id": "art-578b5934cd-62bb32d34a",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-578b5934cd-93a4387986"
+      ],
+      "label": "夕",
+      "file": "media/originals/明日方舟-5d211b23/夕-93a43879/character-art-夕-62bb32d3-9825b93c20.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "夕"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E5%A4%95_2.png",
+        "image": "https://media.prts.wiki/0/0a/%E7%AB%8B%E7%BB%98_%E5%A4%95_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_夕_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "62bb32d34a9e45a4a708eeb905398d1b",
+      "sha256": "9825b93c20fc3f5d12c9962804577aa90cda9c133de512e1650ec4247b181b1b",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 4285569
+    },
+    {
+      "id": "art-0949f437c5-0fec92ab0f",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-0949f437c5-bf8d8950be"
+      ],
+      "label": "澄闪",
+      "file": "media/originals/明日方舟-5d211b23/澄闪-bf8d8950/character-art-澄闪-0fec92ab-4b6bf581c0.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "澄闪"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E6%BE%84%E9%97%AA_2.png",
+        "image": "https://media.prts.wiki/d/d0/%E7%AB%8B%E7%BB%98_%E6%BE%84%E9%97%AA_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_澄闪_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "0fec92ab0f9d48a9881a1ce495f65a97",
+      "sha256": "4b6bf581c02fcd43eb1f8e56e2710b570d10a001ef5b637f887effd58ea976a8",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 3862665
+    },
+    {
+      "id": "art-878116e68d-c4b861b881",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-878116e68d-eea7734f9e"
+      ],
+      "label": "艾雅法拉",
+      "file": "media/originals/明日方舟-5d211b23/艾雅法拉-eea7734f/character-art-艾雅法拉-c4b861b8-ea89241ba0.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "艾雅法拉"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_2.png",
+        "image": "https://media.prts.wiki/2/21/%E7%AB%8B%E7%BB%98_%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_艾雅法拉_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "c4b861b8819145e2947fe213d9bb68d7",
+      "sha256": "ea89241ba0ad7b860898cda6fdcd456921e7b690f3403de6eb909328e7769086",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 2667839
+    },
+    {
+      "id": "art-8efad3f9bc-5e826e5f42",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-8efad3f9bc-8f3dafc01e"
+      ],
+      "label": "铃兰",
+      "file": "media/originals/明日方舟-5d211b23/铃兰-8f3dafc0/character-art-铃兰-5e826e5f-35699afb72.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "铃兰"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E9%93%83%E5%85%B0_2.png",
+        "image": "https://media.prts.wiki/8/87/%E7%AB%8B%E7%BB%98_%E9%93%83%E5%85%B0_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_铃兰_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "5e826e5f42eb413ba909b1f26b089d8c",
+      "sha256": "35699afb723b8f7d9e25665337dc00541010303661e06adae6d57314c0c37b48",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 4126229
+    },
+    {
+      "id": "art-184c243c14-30b3db5601",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-184c243c14-0835e8f834"
+      ],
+      "label": "妮芙",
+      "file": "media/originals/明日方舟-5d211b23/妮芙-0835e8f8/character-art-妮芙-30b3db56-805b14a56c.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "妮芙"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E5%A6%AE%E8%8A%99_2.png",
+        "image": "https://media.prts.wiki/d/db/%E7%AB%8B%E7%BB%98_%E5%A6%AE%E8%8A%99_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_妮芙_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "30b3db560135471bbcc5b10e4cb3b842",
+      "sha256": "805b14a56c71961e9b48fc7cd0f690e035f52a31db8dd33f809a5cf0e646f34a",
+      "dimensions": [
+        2560,
+        2560
+      ],
+      "bytes": 6789351
+    },
+    {
+      "id": "art-98b99b89a1-b3f4bf2fc0",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-98b99b89a1-22542a9507"
+      ],
+      "label": "佩佩",
+      "file": "media/originals/明日方舟-5d211b23/佩佩-22542a95/character-art-佩佩-b3f4bf2f-1478bde5eb.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "佩佩"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E4%BD%A9%E4%BD%A9_2.png",
+        "image": "https://media.prts.wiki/0/03/%E7%AB%8B%E7%BB%98_%E4%BD%A9%E4%BD%A9_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_佩佩_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "b3f4bf2fc03f4c8abb4e32eb1b11ff1f",
+      "sha256": "1478bde5eb46ed8dd4e277b3d3c9da091ec0b5db574da2cd8212e4e30526e4b5",
+      "dimensions": [
+        2176,
+        2176
+      ],
+      "bytes": 7217813
+    },
+    {
+      "id": "art-61a0820c5e-b3b849c841",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-61a0820c5e-660145495b"
+      ],
+      "label": "莱伊",
+      "file": "media/originals/明日方舟-5d211b23/莱伊-66014549/character-art-莱伊-b3b849c8-85bc42051e.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "莱伊"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E8%8E%B1%E4%BC%8A_2.png",
+        "image": "https://media.prts.wiki/3/39/%E7%AB%8B%E7%BB%98_%E8%8E%B1%E4%BC%8A_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_莱伊_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "b3b849c841824528960f6408d99f7cb4",
+      "sha256": "85bc42051eb3afb33079e033a256c722fed498698a10f865ca8bfb750aad39ae",
+      "dimensions": [
+        2262,
+        2186
+      ],
+      "bytes": 5142366
+    },
+    {
+      "id": "art-eebfcf7201-7a8ad98112",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-eebfcf7201-5a73c8d494"
+      ],
+      "label": "迷迭香",
+      "file": "media/originals/明日方舟-5d211b23/迷迭香-5a73c8d4/character-art-迷迭香-7a8ad981-0faaa30185.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "迷迭香"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E8%BF%B7%E8%BF%AD%E9%A6%99_2.png",
+        "image": "https://media.prts.wiki/0/07/%E7%AB%8B%E7%BB%98_%E8%BF%B7%E8%BF%AD%E9%A6%99_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_迷迭香_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "7a8ad98112fd45c18a6caedb525d26e6",
+      "sha256": "0faaa301850dfa5b3c46032ef0547c4876009473519911a1cd4421751b5b254f",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 3847978
+    },
+    {
+      "id": "art-cc971ce1cc-d996881be7",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-cc971ce1cc-4725c7f305"
+      ],
+      "label": "薇薇安娜",
+      "file": "media/originals/明日方舟-5d211b23/薇薇安娜-4725c7f3/character-art-薇薇安娜-d996881b-6fefe3c111.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "薇薇安娜"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E8%96%87%E8%96%87%E5%AE%89%E5%A8%9C_2.png",
+        "image": "https://media.prts.wiki/6/62/%E7%AB%8B%E7%BB%98_%E8%96%87%E8%96%87%E5%AE%89%E5%A8%9C_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_薇薇安娜_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "d996881be7204019b852e727bb183681",
+      "sha256": "6fefe3c111a32e49cc625746365e9318cb0ee897191d35ccfdbd96154be2795d",
+      "dimensions": [
+        2560,
+        2560
+      ],
+      "bytes": 6627084
+    },
+    {
+      "id": "art-25367f0512-8ac98dfc99",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-25367f0512-dba7e10988"
+      ],
+      "label": "鸿雪",
+      "file": "media/originals/明日方舟-5d211b23/鸿雪-dba7e109/character-art-鸿雪-8ac98dfc-490b027cf1.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "鸿雪"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E9%B8%BF%E9%9B%AA_2.png",
+        "image": "https://media.prts.wiki/0/0f/%E7%AB%8B%E7%BB%98_%E9%B8%BF%E9%9B%AA_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_鸿雪_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "8ac98dfc99ae4f40b49ad54c03fa42e5",
+      "sha256": "490b027cf11998d3de15b046d4fdee3f98850bb5b1b857f31aea62d1494cfdcb",
+      "dimensions": [
+        2356,
+        2356
+      ],
+      "bytes": 5282312
+    },
+    {
+      "id": "art-790a693970-7fc607e979",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-790a693970-c48761c432"
+      ],
+      "label": "白面鸮",
+      "file": "media/originals/明日方舟-5d211b23/白面鸮-c48761c4/character-art-白面鸮-7fc607e9-e56f3c1251.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "白面鸮"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E7%99%BD%E9%9D%A2%E9%B8%AE_2.png",
+        "image": "https://media.prts.wiki/a/a2/%E7%AB%8B%E7%BB%98_%E7%99%BD%E9%9D%A2%E9%B8%AE_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_白面鸮_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "7fc607e979e241708d19fa5b4844cbd6",
+      "sha256": "e56f3c1251aa032f0fba50c073277eb171453191c2e6cae91f1c6263f347c67c",
+      "dimensions": [
+        1524,
+        1524
+      ],
+      "bytes": 2437612
+    },
+    {
+      "id": "art-b2eb801a14-2cb05b4a9b",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-b2eb801a14-f05872428c"
+      ],
+      "label": "蓝毒",
+      "file": "media/originals/明日方舟-5d211b23/蓝毒-f0587242/character-art-蓝毒-2cb05b4a-cff913c455.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "蓝毒"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E8%93%9D%E6%AF%92_2.png",
+        "image": "https://media.prts.wiki/3/36/%E7%AB%8B%E7%BB%98_%E8%93%9D%E6%AF%92_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_蓝毒_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "2cb05b4a9b9a40378cd6ed5717e4e6b7",
+      "sha256": "cff913c455f8b50a44a3a125a9191dfc0c9a3ce43381c1b0a4247183f3e7b6f8",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 496571
+    },
+    {
+      "id": "art-d809b4e200-f0190d8081",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-d809b4e200-28dd6682a1"
+      ],
+      "label": "狮蝎",
+      "file": "media/originals/明日方舟-5d211b23/狮蝎-28dd6682/character-art-狮蝎-f0190d80-f8180a4c4b.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "狮蝎"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E7%8B%AE%E8%9D%8E_2.png",
+        "image": "https://media.prts.wiki/6/61/%E7%AB%8B%E7%BB%98_%E7%8B%AE%E8%9D%8E_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_狮蝎_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "f0190d80814f45818c3411747e6e6200",
+      "sha256": "f8180a4c4bacb06d251fc154c9d75b51189015d6a58887b946ec051150a27806",
+      "dimensions": [
+        2504,
+        2504
+      ],
+      "bytes": 5463589
+    },
+    {
+      "id": "art-179bb6014d-0efe1af7fd",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-179bb6014d-b43f7f9c69"
+      ],
+      "label": "初雪",
+      "file": "media/originals/明日方舟-5d211b23/初雪-b43f7f9c/character-art-初雪-0efe1af7-11d7c748dd.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "初雪"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E5%88%9D%E9%9B%AA_2.png",
+        "image": "https://media.prts.wiki/0/05/%E7%AB%8B%E7%BB%98_%E5%88%9D%E9%9B%AA_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_初雪_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "0efe1af7fd3c4f0d8d59ddcfd6f9d923",
+      "sha256": "11d7c748dd5a218a7963b125330346944fda01bf0afeebc16f96c7a1ddbd62dd",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 3910718
+    },
+    {
+      "id": "art-5bf548e48e-f95c7cf0b3",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-5bf548e48e-c24e0957bf"
+      ],
+      "label": "电弧",
+      "file": "media/originals/明日方舟-5d211b23/电弧-c24e0957/character-art-电弧-f95c7cf0-22da40097d.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "电弧"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E7%94%B5%E5%BC%A7_2.png",
+        "image": "https://media.prts.wiki/f/f9/%E7%AB%8B%E7%BB%98_%E7%94%B5%E5%BC%A7_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_电弧_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "f95c7cf0b39746ef997f96e1711c1c9e",
+      "sha256": "22da40097d1d091e8f6bf96d26bc3133199d1440b9acd8a58a45172f44ca75c3",
+      "dimensions": [
+        1920,
+        1920
+      ],
+      "bytes": 2809321
+    },
+    {
+      "id": "art-aa482e1c3a-f052e5671d",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-aa482e1c3a-167387f891"
+      ],
+      "label": "塔露拉",
+      "file": "media/originals/明日方舟-5d211b23/塔露拉-167387f8/character-art-塔露拉-f052e567-6fd6585796.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "塔露拉"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E5%A1%94%E9%9C%B2%E6%8B%89_2.png",
+        "image": "https://media.prts.wiki/c/c4/%E7%AB%8B%E7%BB%98_%E5%A1%94%E9%9C%B2%E6%8B%89_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_塔露拉_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "f052e5671db24833980fdced80e06fc1",
+      "sha256": "6fd65857967af22ef028ba663f4842c0659af6d2a877b140eddec45b240b957a",
+      "dimensions": [
+        3300,
+        3300
+      ],
+      "bytes": 7799905
+    },
+    {
+      "id": "art-10c31c87b3-9329dff088",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-10c31c87b3-30fc95c0a5"
+      ],
+      "label": "克莱门莎",
+      "file": "media/originals/明日方舟-5d211b23/克莱门莎-30fc95c0/character-art-克莱门莎-9329dff0-53bc39fb1f.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "克莱门莎"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E5%85%8B%E8%8E%B1%E9%97%A8%E8%8E%8E_2.png",
+        "image": "https://media.prts.wiki/c/c2/%E7%AB%8B%E7%BB%98_%E5%85%8B%E8%8E%B1%E9%97%A8%E8%8E%8E_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_克莱门莎_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "9329dff088654c36a8bc59abf1ba85f7",
+      "sha256": "53bc39fb1ffed56dcc256bef1abefecb168f0112503a52662f280da937996f5e",
+      "dimensions": [
+        2700,
+        2700
+      ],
+      "bytes": 8353439
+    },
+    {
+      "id": "art-273742039d-73e2b74e52",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-273742039d-aacb2f6742"
+      ],
+      "label": "Mon3ter",
+      "file": "media/originals/明日方舟-5d211b23/Mon3ter-aacb2f67/character-art-Mon3ter-73e2b74e-615609d0a3.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "Mon3tr"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_Mon3tr_2.png",
+        "image": "https://media.prts.wiki/8/88/%E7%AB%8B%E7%BB%98_Mon3tr_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_Mon3tr_2.png and shows its original-resolution download. The user spelling Mon3ter is retained as an alias for the current operator name Mon3tr."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "73e2b74e52ce45fb8e2d663d8e2965ad",
+      "sha256": "615609d0a35ff031553fa09fab0cbc15d66956155a3aa2e3c2a8578b77119e47",
+      "dimensions": [
+        2560,
+        2560
+      ],
+      "bytes": 5453535
+    },
+    {
+      "id": "art-94c10dad04-22568cfca3",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-94c10dad04-1a45169251"
+      ],
+      "label": "遥",
+      "file": "media/originals/明日方舟-5d211b23/遥-1a451692/character-art-遥-22568cfc-0c3df4de7b.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "遥"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E9%81%A5_2.png",
+        "image": "https://media.prts.wiki/d/d1/%E7%AB%8B%E7%BB%98_%E9%81%A5_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_遥_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "22568cfca308461994f152252d759b29",
+      "sha256": "0c3df4de7be54a034ee4d879b7ea3c15d2e2809db0838fcf40f4c8fccb9bcc87",
+      "dimensions": [
+        1636,
+        1636
+      ],
+      "bytes": 4556765
+    },
+    {
+      "id": "art-c0937fa012-eacd993bec",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-c0937fa012-099bb9377f"
+      ],
+      "label": "蕾缪安",
+      "file": "media/originals/明日方舟-5d211b23/蕾缪安-099bb937/character-art-蕾缪安-eacd993b-f7d1e47e74.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "蕾缪安"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E8%95%BE%E7%BC%AA%E5%AE%89_2.png",
+        "image": "https://media.prts.wiki/4/4f/%E7%AB%8B%E7%BB%98_%E8%95%BE%E7%BC%AA%E5%AE%89_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_蕾缪安_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "eacd993becef4859b611dd594ba862e5",
+      "sha256": "f7d1e47e740b1d6004ec560d92ef58ad677e7df87453f34a7dd46cec14e35045",
+      "dimensions": [
+        2176,
+        2176
+      ],
+      "bytes": 3958337
+    },
+    {
+      "id": "art-4c2cac9aee-053a174ead",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-4c2cac9aee-3221643234"
+      ],
+      "label": "娜斯提",
+      "file": "media/originals/明日方舟-5d211b23/娜斯提-32216432/character-art-娜斯提-053a174e-8e20b35abe.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "娜斯提"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E5%A8%9C%E6%96%AF%E6%8F%90_2.png",
+        "image": "https://media.prts.wiki/9/93/%E7%AB%8B%E7%BB%98_%E5%A8%9C%E6%96%AF%E6%8F%90_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_娜斯提_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "053a174ead37430c82e23aba9f794882",
+      "sha256": "8e20b35abe0a4d77410a195d2ec7285dfdf984b0212236193282ee19f3f6bc95",
+      "dimensions": [
+        2560,
+        2560
+      ],
+      "bytes": 7938782
+    },
+    {
+      "id": "art-be527af59a-a76a80f24c",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-be527af59a-3bddba2d09"
+      ],
+      "label": "夜半",
+      "file": "media/originals/明日方舟-5d211b23/夜半-3bddba2d/character-art-夜半-a76a80f2-89a94daf6e.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "夜半"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E5%A4%9C%E5%8D%8A_2.png",
+        "image": "https://media.prts.wiki/7/7e/%E7%AB%8B%E7%BB%98_%E5%A4%9C%E5%8D%8A_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_夜半_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "a76a80f24c334dc0991298c6d4c31f32",
+      "sha256": "89a94daf6ebac7edec22af6c2feae911361acca3ae858c84222ce558dc8b53e5",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 5238544
+    },
+    {
+      "id": "art-9c25120d97-5713d844e6",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-9c25120d97-beed251ddc"
+      ],
+      "label": "海沫",
+      "file": "media/originals/明日方舟-5d211b23/海沫-beed251d/character-art-海沫-5713d844-007b10e611.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "海沫"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E6%B5%B7%E6%B2%AB_2.png",
+        "image": "https://media.prts.wiki/b/bc/%E7%AB%8B%E7%BB%98_%E6%B5%B7%E6%B2%AB_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_海沫_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "5713d844e69c424e8d206ea35a72d09e",
+      "sha256": "007b10e611e352be930cd0153fbdc3d5439df49a1004536c864f87d990c7a4e0",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 2722083
+    },
+    {
+      "id": "art-5caacd3b15-4e8c59e472",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-5caacd3b15-88f548f02e"
+      ],
+      "label": "乌啾",
+      "file": "media/originals/明日方舟-5d211b23/乌啾-88f548f0/character-art-乌啾-4e8c59e4-5dfb97bfc3.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "乌啾"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E4%B9%8C%E5%95%BE_2.png",
+        "image": "https://media.prts.wiki/7/7e/%E7%AB%8B%E7%BB%98_%E4%B9%8C%E5%95%BE_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_乌啾_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "4e8c59e472ac4af4a45856d5788124ab",
+      "sha256": "5dfb97bfc397477eb5b9413265702ddd19c53b8b6d5bd8cdd9a2fb773f4f4415",
+      "dimensions": [
+        2156,
+        2156
+      ],
+      "bytes": 5397349
+    },
+    {
+      "id": "art-24271564f2-a65dfd763a",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-24271564f2-eb1c684f36"
+      ],
+      "label": "刺玫",
+      "file": "media/originals/明日方舟-5d211b23/刺玫-eb1c684f/character-art-刺玫-a65dfd76-659e72b1aa.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "刺玫"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E5%88%BA%E7%8E%AB_2.png",
+        "image": "https://media.prts.wiki/a/aa/%E7%AB%8B%E7%BB%98_%E5%88%BA%E7%8E%AB_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_刺玫_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "a65dfd763af2459daee1f3f205ba3e91",
+      "sha256": "659e72b1aae4d830bf5f21cb7a68c3c49231fe1d7adce5b144aa799daab15d4a",
+      "dimensions": [
+        2316,
+        2316
+      ],
+      "bytes": 3696635
+    },
+    {
+      "id": "art-3f568aea60-7553e28444",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-3f568aea60-f81fcaaee9"
+      ],
+      "label": "蜜蜡",
+      "file": "media/originals/明日方舟-5d211b23/蜜蜡-f81fcaae/character-art-蜜蜡-7553e284-9f076004b4.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "蜜蜡"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E8%9C%9C%E8%9C%A1_2.png",
+        "image": "https://media.prts.wiki/2/2d/%E7%AB%8B%E7%BB%98_%E8%9C%9C%E8%9C%A1_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_蜜蜡_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "7553e284442e4d6c9130c51cd925cd15",
+      "sha256": "9f076004b401652881b4b2c00b1982fe217a91fa3699e8bc264ae704e89c158c",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 3233395
+    },
+    {
+      "id": "art-371ef67a12-90e56a980b",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-371ef67a12-99fdd7568d"
+      ],
+      "label": "爱丽丝",
+      "file": "media/originals/明日方舟-5d211b23/爱丽丝-99fdd756/character-art-爱丽丝-90e56a98-3358fcc8fe.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "爱丽丝"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E7%88%B1%E4%B8%BD%E4%B8%9D_2.png",
+        "image": "https://media.prts.wiki/e/ef/%E7%AB%8B%E7%BB%98_%E7%88%B1%E4%B8%BD%E4%B8%9D_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_爱丽丝_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "90e56a980bf14daab90d763cbd99810e",
+      "sha256": "3358fcc8fe212ce4e2f9d9d8a13dc9ba0f3300832c6599719fdd53821eb9304e",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 4129550
+    },
+    {
+      "id": "art-281f1eaeeb-20a34fa8e4",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-281f1eaeeb-71c4b7a71e"
+      ],
+      "label": "桃金娘",
+      "file": "media/originals/明日方舟-5d211b23/桃金娘-71c4b7a7/character-art-桃金娘-20a34fa8-96736c279f.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "桃金娘"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E6%A1%83%E9%87%91%E5%A8%98_2.png",
+        "image": "https://media.prts.wiki/d/dc/%E7%AB%8B%E7%BB%98_%E6%A1%83%E9%87%91%E5%A8%98_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_桃金娘_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "20a34fa8e4384be6a3b8cb9ab9ca6df6",
+      "sha256": "96736c279f3d558c9e84c80c0b0024f3cf5c1138d6ef64cc89595484bef9eb2a",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 3262608
+    },
+    {
+      "id": "art-f7ae525cf6-ced53e41e3",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-f7ae525cf6-80aa68b2ef"
+      ],
+      "label": "稀音",
+      "file": "media/originals/明日方舟-5d211b23/稀音-80aa68b2/character-art-稀音-ced53e41-bcd05134ea.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "稀音"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E7%A8%80%E9%9F%B3_2.png",
+        "image": "https://media.prts.wiki/f/f5/%E7%AB%8B%E7%BB%98_%E7%A8%80%E9%9F%B3_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_稀音_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "ced53e41e3e645e79ecf1636dfc41d5c",
+      "sha256": "bcd05134ea6f8c50ba4e1a5287b98bf5a7f338df7d2bc9d55e45d8847d55cf24",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 2444205
+    },
+    {
+      "id": "art-f46d622bab-090966b145",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-f46d622bab-b279e1d40f"
+      ],
+      "label": "罗比菈塔",
+      "file": "media/originals/明日方舟-5d211b23/罗比菈塔-b279e1d4/character-art-罗比菈塔-090966b1-6f01531df8.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "罗比菈塔"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_2.png",
+        "image": "https://media.prts.wiki/c/c4/%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_罗比菈塔_2.png and shows its original-resolution download."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "090966b1457e482a9198441342eeef87",
+      "sha256": "6f01531df8d4a2441d5815c46137ef3efac5bf34271bd665e13c470971bc792d",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bytes": 3366447
+    },
+    {
+      "id": "art-b8629c309e-b36bdf0a48",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-b8629c309e-1ebdf6adaa"
+      ],
+      "label": "隐德莱希",
+      "file": "media/originals/明日方舟-5d211b23/隐德莱希-1ebdf6ad/character-art-隐德莱希-b36bdf0a-48914ce96d.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "精英二",
+        "透明背景",
+        "隐德来希"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E6%96%87%E4%BB%B6%3A%E7%AB%8B%E7%BB%98_%E9%9A%90%E5%BE%B7%E6%9D%A5%E5%B8%8C_2.png",
+        "image": "https://media.prts.wiki/6/61/%E7%AB%8B%E7%BB%98_%E9%9A%90%E5%BE%B7%E6%9D%A5%E5%B8%8C_2.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The linked file page explicitly identifies the original file as 立绘_隐德来希_2.png and shows its original-resolution download. The current PRTS character entry uses 隐德来希; the user spelling 隐德莱希 is preserved as an alias."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "b36bdf0a48e44c66a190ad3b550f4e75",
+      "sha256": "48914ce96d50b39aee6d89cd11067a1cbf87bf5a2d293a4d317898cc4a5d055e",
+      "dimensions": [
+        2432,
+        2432
+      ],
+      "bytes": 4314827
+    },
+    {
+      "id": "art-a9aee07f19-f44f44c6ff",
+      "ipId": "ip-b123009f66-5d211b2391",
+      "characterIds": [
+        "ch-a9aee07f19-40c3d9ecad"
+      ],
+      "label": "爱布拉娜",
+      "file": "media/originals/明日方舟-5d211b23/爱布拉娜-40c3d9ec/character-art-爱布拉娜-f44f44c6-8b2035afca.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "角色立绘",
+        "剧情立绘",
+        "透明背景",
+        "爱布拉娜"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://prts.wiki/w/%E7%88%B1%E5%B8%83%E6%8B%89%E5%A8%9C",
+        "image": "https://media.prts.wiki/0/07/Avg_avg_npc_722_1-1%241.png",
+        "kind": "community_wiki_game_asset",
+        "rights": "Game artwork mirrored by the PRTS community wiki; rights belong to Hypergryph and affiliated rights holders. The source is not an official website and does not grant additional reuse rights.",
+        "evidence": "The source character page embeds this exact original image as its lead figure, with the caption 爱布拉娜. This is story art, not an Elite 2 operator illustration."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "f44f44c6ff7345d9bcdacf50ae9d8b04",
+      "sha256": "8b2035afca49c3f5b5fbe7ec61aff260cd0f196449a7111924eba7bfc1fd8271",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 531755
+    },
+    {
+      "id": "art-4c3e5acd8f-9abe170f30",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-4c3e5acd8f-572ccb0c46"
+      ],
+      "label": "蓝砚",
+      "file": "media/originals/原神-b61ee92e/蓝砚-572ccb0c/illustration-蓝砚-9abe170f-67afece2ff.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "蓝砚"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E8%93%9D%E7%A0%9A%C2%B72026.png",
+        "image": "https://patchwiki.biligame.com/images/ys/d/d5/qgaw5phbq25hcnwb5y5f3ov18e3q1ej.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·蓝砚·2026.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "9abe170f303b4e5485174b4f80a6c468",
+      "sha256": "67afece2ffbc32c3b4335dd54d005687af026b50c2edc3ac74e39a4e537b505d",
+      "dimensions": [
+        3000,
+        3000
+      ],
+      "bytes": 916881
+    },
+    {
+      "id": "art-7509c44240-372f77a3f6",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-8a5b51b7c8-38ef102235"
+      ],
+      "label": "哥伦比娅 · 生日长卷",
+      "file": "media/originals/原神-b61ee92e/哥伦比娅-38ef1022/illustration-哥伦比娅-·-生日长卷-372f77a3-e2ef95a4fb.jpg",
+      "kind": "illustration",
+      "uses": [
+        "gallery",
+        "reference"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "哥伦比娅"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E5%93%A5%E4%BC%A6%E6%AF%94%E5%A8%85%C2%B72026.png",
+        "image": "https://patchwiki.biligame.com/images/ys/8/8c/7f99rkwi1k52omb4ghr682r1kntxwr1.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·哥伦比娅·2026.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "372f77a3f60e438c86e27b08a2a83ed1",
+      "sha256": "e2ef95a4fb8ee3c3b41ae0a03895a79c8b72a170254a7ee156660c420f9c6d1c",
+      "dimensions": [
+        1500,
+        9000
+      ],
+      "bytes": 7344271
+    },
+    {
+      "id": "art-7a46754fb9-51833c37e4",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-7a46754fb9-177dd2f66b"
+      ],
+      "label": "茜特菈莉",
+      "file": "media/originals/原神-b61ee92e/茜特菈莉-177dd2f6/illustration-茜特菈莉-51833c37-254b23f4c9.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "茜特菈莉"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E8%8C%9C%E7%89%B9%E8%8F%88%E8%8E%89%C2%B72026.png",
+        "image": "https://patchwiki.biligame.com/images/ys/9/9d/5se4n912h2yy7cu3zp5r7n4zloi5inz.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·茜特菈莉·2026.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "51833c37e42b4117b5739dcf86aa775d",
+      "sha256": "254b23f4c9293676dd3106055b4fe9c101b9910c688591cb51d6f5906072d533",
+      "dimensions": [
+        3000,
+        3000
+      ],
+      "bytes": 1054319
+    },
+    {
+      "id": "art-eaf8651766-0f3bad7ca5",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-eaf8651766-edb894d70f"
+      ],
+      "label": "绮良良",
+      "file": "media/originals/原神-b61ee92e/绮良良-edb894d7/illustration-绮良良-0f3bad7c-ff2a6fd5c8.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "绮良良"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E7%BB%AE%E8%89%AF%E8%89%AF%C2%B72026.png",
+        "image": "https://patchwiki.biligame.com/images/ys/7/7d/j0rzxx35y01n18oiuw8q7y0aflofrri.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·绮良良·2026.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "0f3bad7ca52f4c9181d80b74b9ae2eaa",
+      "sha256": "ff2a6fd5c84a66fd7973debdf042816d74c35ec4948521a6f4b75bbc487e6629",
+      "dimensions": [
+        2890,
+        2890
+      ],
+      "bytes": 783520
+    },
+    {
+      "id": "art-668afd9be4-480dc942ee",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-668afd9be4-aacdd11c4a"
+      ],
+      "label": "夏洛蒂",
+      "file": "media/originals/原神-b61ee92e/夏洛蒂-aacdd11c/illustration-夏洛蒂-480dc942-75eae154b3.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "夏洛蒂"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E5%A4%8F%E6%B4%9B%E8%92%82%C2%B72026.png",
+        "image": "https://patchwiki.biligame.com/images/ys/6/64/daivvqmuxnp1o1fhqopufb2kivntt7a.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·夏洛蒂·2026.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "480dc942ee3b4b768d7d8ae436ab2775",
+      "sha256": "75eae154b3ac400a6ea431a8cbeb47226e6cf973a3807d64ddf5e7c58da815ed",
+      "dimensions": [
+        2500,
+        2500
+      ],
+      "bytes": 810810
+    },
+    {
+      "id": "art-3172a21efd-b99ac987b1",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-3172a21efd-cddacac2be"
+      ],
+      "label": "莉奈娅",
+      "file": "media/originals/原神-b61ee92e/莉奈娅-cddacac2/illustration-莉奈娅-b99ac987-375a797f47.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "莉奈娅"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E8%8E%89%E5%A5%88%E5%A8%85%C2%B72026.png",
+        "image": "https://patchwiki.biligame.com/images/ys/9/94/nqyd1zrhoysypuu3zst1achq4qea82s.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·莉奈娅·2026.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "b99ac987b16e40d98d73e5d9ee30fe14",
+      "sha256": "375a797f47a2003a3a242e7bd5ded6cba32d989bef3eee36aff3cdcadc1157f3",
+      "dimensions": [
+        2500,
+        2500
+      ],
+      "bytes": 1044062
+    },
+    {
+      "id": "art-d86a0ce496-f7120ab712",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-d86a0ce496-aea305329f"
+      ],
+      "label": "爱可菲",
+      "file": "media/originals/原神-b61ee92e/爱可菲-aea30532/illustration-爱可菲-f7120ab7-0494e33d4d.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "爱可菲"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E7%88%B1%E5%8F%AF%E8%8F%B2%C2%B72026.png",
+        "image": "https://patchwiki.biligame.com/images/ys/4/47/jmbvgq7pmjq0wwu1e95rjfkqigu4n48.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·爱可菲·2026.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "f7120ab7121f40bc83f1a4bd3618633d",
+      "sha256": "0494e33d4d06174ecab38e49c6bd129dd26e605e6b6bddc1af0055dac265ec88",
+      "dimensions": [
+        5000,
+        5000
+      ],
+      "bytes": 2919709
+    },
+    {
+      "id": "art-6807ac6ecb-539b6a3628",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-6807ac6ecb-a24f0cbec4"
+      ],
+      "label": "芭芭拉",
+      "file": "media/originals/原神-b61ee92e/芭芭拉-a24f0cbe/illustration-芭芭拉-539b6a36-05cf938a6c.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "芭芭拉"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E8%8A%AD%E8%8A%AD%E6%8B%89%C2%B72026.png",
+        "image": "https://patchwiki.biligame.com/images/ys/0/03/gp1s57fst4tnfa64cdxar5m1n7iqvha.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·芭芭拉·2026.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "539b6a3628ec4d16b42304832a417e21",
+      "sha256": "05cf938a6ce132c5001fa72626d072bab5230ef74aeae4a98ddc62ef73d0ade4",
+      "dimensions": [
+        5000,
+        5000
+      ],
+      "bytes": 2503723
+    },
+    {
+      "id": "art-968e5cf445-fea89cba1f",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-968e5cf445-2bb52a6cb4"
+      ],
+      "label": "烟绯",
+      "file": "media/originals/原神-b61ee92e/烟绯-2bb52a6c/illustration-烟绯-fea89cba-410aa37279.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "烟绯"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E7%83%9F%E7%BB%AF%C2%B72026.png",
+        "image": "https://patchwiki.biligame.com/images/ys/b/ba/e6phagaq62ti2sirkfkg0nmfl9wyzfi.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·烟绯·2026.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "fea89cba1fae4746bbfc882fdf1fc83a",
+      "sha256": "410aa37279a1076be78a0e1f1c506aca4e8903e5be13b02da938c2199bfe1f9a",
+      "dimensions": [
+        5000,
+        5000
+      ],
+      "bytes": 1965337
+    },
+    {
+      "id": "art-3508ada309-f5094b9530",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-3508ada309-2f45df0830"
+      ],
+      "label": "玛拉妮",
+      "file": "media/originals/原神-b61ee92e/玛拉妮-2f45df08/illustration-玛拉妮-f5094b95-0cb0c8230b.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "玛拉妮"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E7%8E%9B%E6%8B%89%E5%A6%AE%C2%B72026.png",
+        "image": "https://patchwiki.biligame.com/images/ys/9/95/ff9gitl0jvl8v3ngd3wasf4vrmk3wws.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·玛拉妮·2026.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "f5094b95300a4ccba7ac9ddc28465936",
+      "sha256": "0cb0c8230b2acac91916cf1e262a95dce3efdde7f8443316c4a6c8d3e6b13102",
+      "dimensions": [
+        5000,
+        5000
+      ],
+      "bytes": 2372080
+    },
+    {
+      "id": "art-9a6fd2020c-e5cd592618",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-9a6fd2020c-0274a8a745"
+      ],
+      "label": "莫娜",
+      "file": "media/originals/原神-b61ee92e/莫娜-0274a8a7/illustration-莫娜-e5cd5926-7da583fa0a.png",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "莫娜"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E8%8E%AB%E5%A8%9C%C2%B72026.png",
+        "image": "https://patchwiki.biligame.com/images/ys/0/05/emmhd2fxmc57us9e3xykvm6482fftxm.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·莫娜·2026.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "e5cd592618f44a049019c15f4fff8235",
+      "sha256": "7da583fa0a73ad19f0373a3ebcc33b66ed7afe15b3e0466624f2ab8ad6425df7",
+      "dimensions": [
+        2500,
+        2500
+      ],
+      "bytes": 6332562
+    },
+    {
+      "id": "art-542feb7ae9-c8c4498c5f",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-542feb7ae9-7eadeed399"
+      ],
+      "label": "甘雨",
+      "file": "media/originals/原神-b61ee92e/甘雨-7eadeed3/illustration-甘雨-c8c4498c-1503c31854.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "甘雨"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E7%94%98%E9%9B%A8%C2%B72025.png",
+        "image": "https://patchwiki.biligame.com/images/ys/2/2a/mlas0mbg6kc8vh2tuai8r9e1gjobo93.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·甘雨·2025.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "c8c4498c5f3043f7826368f41a4a4530",
+      "sha256": "1503c318548112380118398c5008a518228b85cc74086bcda058e32324256561",
+      "dimensions": [
+        5000,
+        5000
+      ],
+      "bytes": 1726784
+    },
+    {
+      "id": "art-98c98aa19c-cc11520353",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-98c98aa19c-329a8b6af9"
+      ],
+      "label": "莱依拉",
+      "file": "media/originals/原神-b61ee92e/莱依拉-329a8b6a/illustration-莱依拉-cc115203-f128fffb51.jpg",
+      "kind": "illustration",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "生日贺图",
+        "官方插画",
+        "社区镜像",
+        "莱依拉"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E7%94%9F%E8%B4%BA%C2%B7%E8%8E%B1%E4%BE%9D%E6%8B%89%C2%B72025.png",
+        "image": "https://patchwiki.biligame.com/images/ys/7/76/gdi4cqzam7t6iczck923rjttvgkihdh.png",
+        "kind": "community mirror of official birthday illustration (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI birthday archive and linked original file page identify this image as 生贺·莱依拉·2025.png; original file dimensions independently decoded."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "cc1152035327408ea3e70fcc8a663e4c",
+      "sha256": "f128fffb514ef7557bfd9613d73a0f2c1a62eecc33c7a4bbffd4cefdf521def1",
+      "dimensions": [
+        3000,
+        3000
+      ],
+      "bytes": 842870
+    },
+    {
+      "id": "art-c006684808-c0084dd99f",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-c197978afd-4cfdd0e424"
+      ],
+      "label": "奥黛塔 · 角色介绍",
+      "file": "media/originals/原神-b61ee92e/奥黛塔-4cfdd0e4/character-sheet-奥黛塔-·-角色介绍-c0084dd9-01a051ae6c.jpg",
+      "kind": "character-sheet",
+      "uses": [
+        "gallery",
+        "reference"
+      ],
+      "tags": [
+        "官方角色美术",
+        "社区镜像",
+        "角色立绘",
+        "奥黛塔"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E5%A5%A5%E9%BB%9B%E5%A1%94%E7%AB%8B%E7%BB%98.png",
+        "image": "https://patchwiki.biligame.com/images/ys/7/7b/i8lfej106lkao4o44hw4zcbwmlb0otn.png",
+        "kind": "community mirror of official game character art (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI character article links original file 奥黛塔立绘.png; source file page identifies character and original dimensions."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "c0084dd99f3246d9a8537e0b9e15427f",
+      "sha256": "01a051ae6c0e5d53156259423244ffed4953dc94b4f0d4002614cc88e5cc9921",
+      "dimensions": [
+        1500,
+        1500
+      ],
+      "bytes": 293736
+    },
+    {
+      "id": "art-c197978afd-4bcdb9872d",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-c197978afd-4cfdd0e424"
+      ],
+      "label": "奥黛塔",
+      "file": "media/originals/原神-b61ee92e/奥黛塔-4cfdd0e4/character-art-奥黛塔-4bcdb987-8d132e9d4a.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "官方角色美术",
+        "社区镜像",
+        "抽卡立绘",
+        "奥黛塔"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E5%A5%A5%E9%BB%9B%E5%A1%94%E6%8A%BD%E5%8D%A1%E7%AB%8B%E7%BB%98.png",
+        "image": "https://patchwiki.biligame.com/images/ys/6/68/m06hi6a1xn161ykmewxne6y5dtg9ndm.png",
+        "kind": "community mirror of official game character art (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI character article links original file 奥黛塔抽卡立绘.png; source file page identifies character and original dimensions."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "4bcdb9872d32496a90b2d0f7df39d6c1",
+      "sha256": "8d132e9d4a54059d63ddad00f5bdbaaa64676427b5c6acbaa0a0b300ecbc6d2a",
+      "dimensions": [
+        2048,
+        1024
+      ],
+      "bytes": 1755680
+    },
+    {
+      "id": "art-2719ebbd91-87f1677a02",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-ac05224313-9da9f7e5aa"
+      ],
+      "label": "沃雅妮莎 · 角色介绍",
+      "file": "media/originals/原神-b61ee92e/沃雅妮莎-9da9f7e5/character-sheet-沃雅妮莎-·-角色介绍-87f1677a-97173f9ce0.png",
+      "kind": "character-sheet",
+      "uses": [
+        "gallery",
+        "reference"
+      ],
+      "tags": [
+        "官方角色美术",
+        "社区镜像",
+        "角色立绘",
+        "沃雅妮莎"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E6%B2%83%E9%9B%85%E5%A6%AE%E8%8E%8E%E7%AB%8B%E7%BB%98.png",
+        "image": "https://patchwiki.biligame.com/images/ys/1/14/p3nm487ibdxgh7w93q7ccp54avnj6kj.png",
+        "kind": "community mirror of official game character art (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI character article links original file 沃雅妮莎立绘.png; source file page identifies character and original dimensions."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "87f1677a02ea45768739f6acc18e83fa",
+      "sha256": "97173f9ce0100a27dfee3baddbd8500a322be00f7823dd9a5a022b45869c4a93",
+      "dimensions": [
+        1500,
+        1500
+      ],
+      "bytes": 2340574
+    },
+    {
+      "id": "art-ac05224313-200d26ce89",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-ac05224313-9da9f7e5aa"
+      ],
+      "label": "沃雅妮莎",
+      "file": "media/originals/原神-b61ee92e/沃雅妮莎-9da9f7e5/character-art-沃雅妮莎-200d26ce-e1174ac560.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "官方角色美术",
+        "社区镜像",
+        "抽卡立绘",
+        "沃雅妮莎"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E6%B2%83%E9%9B%85%E5%A6%AE%E8%8E%8E%E6%8A%BD%E5%8D%A1%E7%AB%8B%E7%BB%98.png",
+        "image": "https://patchwiki.biligame.com/images/ys/5/5d/t96bz0psdgx9aai649uge4tpqj0mj88.png",
+        "kind": "community mirror of official game character art (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI character article links original file 沃雅妮莎抽卡立绘.png; source file page identifies character and original dimensions."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "200d26ce899946ba91aa5587448661e7",
+      "sha256": "e1174ac560267d062b4c3a53edb00a41ca1559d7897f6ad70ee92a05e0725444",
+      "dimensions": [
+        2048,
+        1024
+      ],
+      "bytes": 1660692
+    },
+    {
+      "id": "art-03b659c7f3-3a93041f7a",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-ef4aebf93a-e945918ceb"
+      ],
+      "label": "薇斯纳 · 角色介绍",
+      "file": "media/originals/原神-b61ee92e/薇斯纳-e945918c/character-sheet-薇斯纳-·-角色介绍-3a93041f-40d27dd9ab.png",
+      "kind": "character-sheet",
+      "uses": [
+        "gallery",
+        "reference"
+      ],
+      "tags": [
+        "官方角色美术",
+        "社区镜像",
+        "角色立绘",
+        "薇斯纳"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E8%96%87%E6%96%AF%E7%BA%B3%E7%AB%8B%E7%BB%98.png",
+        "image": "https://patchwiki.biligame.com/images/ys/e/e0/pwcqq0wpqlea6r2mcg5xvek28b2jl6w.png",
+        "kind": "community mirror of official game character art (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI character article links original file 薇斯纳立绘.png; source file page identifies character and original dimensions."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "3a93041f7a0244ee9f4260093859f973",
+      "sha256": "40d27dd9ab182047b859994ffc87237861ebaef4d075f356a630f8db6f5d11ba",
+      "dimensions": [
+        1500,
+        1500
+      ],
+      "bytes": 2467983
+    },
+    {
+      "id": "art-ef4aebf93a-7a7cf79430",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-ef4aebf93a-e945918ceb"
+      ],
+      "label": "薇斯纳",
+      "file": "media/originals/原神-b61ee92e/薇斯纳-e945918c/character-art-薇斯纳-7a7cf794-664e343f7c.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "官方角色美术",
+        "社区镜像",
+        "抽卡立绘",
+        "薇斯纳"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E8%96%87%E6%96%AF%E7%BA%B3%E6%8A%BD%E5%8D%A1%E7%AB%8B%E7%BB%98.png",
+        "image": "https://patchwiki.biligame.com/images/ys/1/1c/2e5zygs40dugbzi9bjjvmw3vnayzqef.png",
+        "kind": "community mirror of official game character art (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI character article links original file 薇斯纳抽卡立绘.png; source file page identifies character and original dimensions."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "7a7cf794301040149c2a8d51de9daa83",
+      "sha256": "664e343f7cd342495f6d59363476a74a6959c30d1fe4a0406a5db5f498e07710",
+      "dimensions": [
+        2048,
+        1024
+      ],
+      "bytes": 1356496
+    },
+    {
+      "id": "art-a0442d0b54-632eb78d8f",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-3c960f2d21-a8427bb227"
+      ],
+      "label": "桑多涅 · 角色介绍",
+      "file": "media/originals/原神-b61ee92e/桑多涅-a8427bb2/character-sheet-桑多涅-·-角色介绍-632eb78d-2240dfad47.png",
+      "kind": "character-sheet",
+      "uses": [
+        "gallery",
+        "reference"
+      ],
+      "tags": [
+        "官方角色美术",
+        "社区镜像",
+        "角色立绘",
+        "桑多涅"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E6%A1%91%E5%A4%9A%E6%B6%85%E7%AB%8B%E7%BB%98.png",
+        "image": "https://patchwiki.biligame.com/images/ys/f/f8/4i7yshux26dfzqk8o8j7xu7s2r1rgye.png",
+        "kind": "community mirror of official game character art (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI character article links original file 桑多涅立绘.png; source file page identifies character and original dimensions."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "632eb78d8fb44f10bb7006fd8a658037",
+      "sha256": "2240dfad47924149d5f2682392e3a4e22fd12f8cc122b824300d689b7a291988",
+      "dimensions": [
+        2250,
+        2250
+      ],
+      "bytes": 4113957
+    },
+    {
+      "id": "art-3c960f2d21-3875e1f42a",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-3c960f2d21-a8427bb227"
+      ],
+      "label": "桑多涅",
+      "file": "media/originals/原神-b61ee92e/桑多涅-a8427bb2/character-art-桑多涅-3875e1f4-122347dca0.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "官方角色美术",
+        "社区镜像",
+        "抽卡立绘",
+        "桑多涅"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E6%A1%91%E5%A4%9A%E6%B6%85%E6%8A%BD%E5%8D%A1%E7%AB%8B%E7%BB%98.png",
+        "image": "https://patchwiki.biligame.com/images/ys/9/95/21afqdb120t02zyzrb1s5dt0mz43sqj.png",
+        "kind": "community mirror of official game character art (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI character article links original file 桑多涅抽卡立绘.png; source file page identifies character and original dimensions."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "3875e1f42a984e71a655279b417f808b",
+      "sha256": "122347dca04cce7217a431d6d72b3fc58cfa6a8d37cb125e72645ed30e63a33d",
+      "dimensions": [
+        2048,
+        1024
+      ],
+      "bytes": 1142692
+    },
+    {
+      "id": "art-ab454f55de-522b8e1159",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-8a5b51b7c8-38ef102235"
+      ],
+      "label": "哥伦比娅 · 角色介绍",
+      "file": "media/originals/原神-b61ee92e/哥伦比娅-38ef1022/character-sheet-哥伦比娅-·-角色介绍-522b8e11-c18e59c3f1.jpg",
+      "kind": "character-sheet",
+      "uses": [
+        "gallery",
+        "reference"
+      ],
+      "tags": [
+        "官方角色美术",
+        "社区镜像",
+        "角色立绘",
+        "哥伦比娅"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E5%93%A5%E4%BC%A6%E6%AF%94%E5%A8%85%E7%AB%8B%E7%BB%98.png",
+        "image": "https://patchwiki.biligame.com/images/ys/9/98/j6qtlo52m1bt4a3ys7cl422h3gckw3l.png",
+        "kind": "community mirror of official game character art (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI character article links original file 哥伦比娅立绘.png; source file page identifies character and original dimensions."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "522b8e11593f44b0b291d132c45f6e9e",
+      "sha256": "c18e59c3f1caf5965681e112b02af7dc3803a23d6f43cea176a838a6dd75c1f5",
+      "dimensions": [
+        1500,
+        1500
+      ],
+      "bytes": 303972
+    },
+    {
+      "id": "art-8a5b51b7c8-e24466db3d",
+      "ipId": "ip-ab3bc59651-b61ee92eac",
+      "characterIds": [
+        "ch-8a5b51b7c8-38ef102235"
+      ],
+      "label": "哥伦比娅",
+      "file": "media/originals/原神-b61ee92e/哥伦比娅-38ef1022/character-art-哥伦比娅-e24466db-87c979de7e.png",
+      "kind": "character-art",
+      "uses": [
+        "hero",
+        "gallery"
+      ],
+      "tags": [
+        "官方角色美术",
+        "社区镜像",
+        "抽卡立绘",
+        "哥伦比娅"
+      ],
+      "enabled": true,
+      "weight": 1,
+      "source": {
+        "page": "https://wiki.biligame.com/ys/%E6%96%87%E4%BB%B6:%E5%93%A5%E4%BC%A6%E6%AF%94%E5%A8%85%E6%8A%BD%E5%8D%A1%E7%AB%8B%E7%BB%98.png",
+        "image": "https://patchwiki.biligame.com/images/ys/7/7c/d4lmgkm6twg4wr7o1qitzecyga7gzkj.png",
+        "kind": "community mirror of official game character art (Bilibili BWIKI)",
+        "rights": "©miHoYo / HoYoverse / COGNOSPHERE; copyright retained by rights holders. BWIKI-hosted mirror; no independent reuse license claimed.",
+        "evidence": "BWIKI character article links original file 哥伦比娅抽卡立绘.png; source file page identifies character and original dimensions."
+      },
+      "appearance": {
+        "fit": "auto",
+        "focalPoint": [
+          78,
+          40
+        ]
+      },
+      "notes": "保留来源原图，未放大或 AI 重绘。",
+      "uid": "e24466db3d4e4ac380bfa7b913721f10",
+      "sha256": "87c979de7edc812fca30b45b9c0ea1649d1f1067a7265ff837cd61b49ca453b4",
+      "dimensions": [
+        2048,
+        1024
+      ],
+      "bytes": 3309587
+    }
+  ],
+  "works": [],
+  "integrations": {
+    "pixiv": {
+      "userId": "39216404",
+      "profileUrl": "https://www.pixiv.net/users/39216404",
+      "mode": "manual-import",
+      "status": "manual"
+    }
+  },
+  "studioSchema": 1
+}

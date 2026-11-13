@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+site/.studio/
+site/content/backups/
+site/generated/
+site/media/derived/
+site/index.html
+site/dist/
+_site/
+*.log

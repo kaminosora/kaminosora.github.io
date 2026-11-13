@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="noindex,nofollow">
+  <title>素材工作台 · 空想便笺</title>
+  <link rel="stylesheet" href="studio.css">
+  <script defer src="rotation-engine.js"></script>
+  <script defer src="studio.js"></script>
+</head>
+<body>
+  <header class="studio-header">
+    <a class="brand" href="studio.html" aria-label="空想便笺素材工作台"><span class="brand-mark">空</span><span>素材工作台<small>KAMINOSORA / LOCAL STUDIO</small></span></a>
+    <span class="local-badge"><i></i> 本地维护 · 图片留在项目中</span>
+    <a class="button quiet" href="index.html" target="_blank" rel="noopener">打开主页预览 ↗</a>
+  </header>
+  <main>
+    <section class="welcome">
+      <div><p class="eyebrow">KEEP A LITTLE WORLD OF YOUR OWN</p><h1>把喜欢的世界，<em>好好收藏。</em></h1><p>选图片，写下名字，剩下的整理交给工作台。</p></div>
+      <div id="library-summary" class="library-summary" aria-label="素材库统计"></div>
+    </section>
+    <section class="workflow" aria-label="更新网站的步骤">
+      <div class="workflow-intro"><span class="step">1</span><div><b>整理与保存</b><small>文件、命名和关联自动处理</small></div></div>
+      <div class="workflow-actions"><button id="build-preview" type="button"><span class="step">2</span><span>生成预览<small>重新分析配色与动效</small></span></button><button id="publish-site" type="button" class="primary"><span class="step">3</span><span>发布到 GitHub<small>保存版本并构建网页</small></span></button></div>
+    </section>
+    <div id="status" class="status" role="status" aria-live="polite">正在连接本地工作台…</div>
+    <section id="job-panel" class="job-panel" hidden aria-label="任务进度"><div><h2 id="job-title">正在处理</h2><span id="job-state" class="pill">进行中</span><button type="button" id="close-job" class="quiet" hidden>收起</button></div><p id="job-summary" aria-live="polite"></p><p id="job-result"></p><details id="job-details" class="job-details"><summary>查看详细运行记录</summary><pre id="job-log" tabindex="0"></pre></details></section>
+    <div class="workspace">
+      <aside class="sidebar" aria-label="工作台导航">
+        <p class="nav-label">我的收藏</p>
+        <nav><button type="button" data-view="assets" aria-current="page"><span>▧</span> 素材库 <small data-count="assets"></small></button><button type="button" data-view="works"><span>✧</span> 我的作品 <small data-count="works"></small></button><button type="button" data-view="ips"><span>◈</span> IP 档案 <small data-count="ips"></small></button><button type="button" data-view="characters"><span>♧</span> 角色名册 <small data-count="characters"></small></button></nav>
+        <p class="nav-label">放映与发布</p><nav><button type="button" data-view="settings"><span>◷</span> 轮播设置</button><button type="button" data-view="delivery"><span>↗</span> 发布与历史</button></nav>
+        <div class="sidebar-note"><span>✦</span><p>IP 不分“主角”和“额外”。<br>想让哪个世界登场，<br>随时开启它的轮播。</p></div>
+      </aside>
+      <section class="collection-panel" id="collection-panel" aria-label="条目列表">
+        <div class="collection-title"><h2 id="collection-title">素材库</h2><button id="new-record" type="button" class="small primary">＋ 导入</button></div>
+        <label class="search-field"><span class="sr-only">搜索名称和标签</span><input id="search" type="search" placeholder="搜索名称、角色或标签…"></label>
+        <div class="list-filters"><label><span class="sr-only">筛选所属 IP</span><select id="ip-filter"><option value="">所有 IP</option></select></label><label><span class="sr-only">筛选状态</span><select id="state-filter"><option value="">全部状态</option><option value="enabled">已启用</option><option value="disabled">已停用</option></select></label></div>
+        <div class="list-meta"><span id="list-count"></span><button id="refresh-state" type="button" class="text-button">刷新</button></div>
+        <div id="record-list" class="record-list"></div>
+      </section>
+      <section class="editor-panel" id="editor-panel" aria-label="编辑与导入">
+        <div class="editor-heading"><div><p id="editor-kicker" class="eyebrow">YOUR COLLECTION</p><h2 id="editor-title">选一张喜欢的画面</h2></div><span id="edit-state" class="pill">已保存</span></div>
+        <div id="asset-preview" class="asset-preview" hidden></div>
+        <form id="record-form"></form>
+        <section id="probabilities" class="probabilities" aria-label="当前轮播概率"></section>
+      </section>
+    </div>
+  </main>
+  <footer><span>空想便笺 · 把技术步骤藏起来，把喜欢留下来。</span><span id="connection-note">本地工作台只在这台电脑运行。</span></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "projects": 5,
+  "syncedAt": "2026-11-13T18:38:49.146501+00:00",
+  "source": "https://api.github.com/users/kaminosora/repos",
+  "description": "每次发布和每天定时构建时刷新公开仓库；保留人工补充的介绍与截图。"
+}

@@ -1,4 +1,27 @@
-﻿# My-Website: kaminosora.github.io
- 
- ## Projects
- [lyric-site](https://kaminosora.github.io/lyric-site)
+# 空想便笺 · 神の空的个人主页
+
+[打开主页](https://kaminosora.github.io/) · [查看构建](https://github.com/kaminosora/kaminosora.github.io/actions/workflows/pages.yml) · [旧歌词页](https://kaminosora.github.io/lyric-site) · [Pixiv](https://www.pixiv.net/users/39216404)
+
+把喜欢的角色、画面和 AI Vibe 项目，收进一个会换心情的小据点。
+
+## 日常维护
+
+克隆仓库后，双击 **启动素材工作台.cmd**。首次启动自动准备项目专用环境，之后在浏览器里维护：
+
+1. 创建或选择 IP、角色，填写名称和标签。
+2. 选择本地图片，或粘贴可直接访问的图片直链。原图会复制到项目里。
+3. 点击保存、生成预览；满意后点击发布到 GitHub。
+
+工作台会自动生成唯一编号、文件名和路径；更名时同步更新相关引用。无需手写 JSON、路径或编号。相同原图会去重，更新冲突会提示。轮播概率、主题颜色和动效会根据配置与图片自动计算；仍可在界面里调整权重、取景和表现。
+
+Pixiv 作品使用相同导入流程，并标记“本人作品”。作品页面链接可填写为来源；图片下载栏需要图片直链。遇到登录或防盗链限制时，请正常下载原图后本地导入。项目不保存 Pixiv 密码、Cookie 或登录凭据。
+
+电脑需要 [Python 3.10+](https://www.python.org/downloads/) 和 [Git](https://git-scm.com/downloads)，发布沿用你电脑已有的 GitHub 登录。同步远端按钮只进行无冲突的快进更新；有未提交内容或分支冲突时会停止并保留修改。
+
+## 自动构建
+
+main 分支推送后，由 GitHub Actions 生成静态网站并发布到 Pages；每天还会重新获取公开 GitHub 仓库列表。GitHub 接口暂不可用时保留已有快照。项目介绍与人工挑选的截图会保留。
+
+site/ 保存可维护的源码与原图；_site/ 是自动生成的展示成品。本地工作台、运行令牌、缓存和备份不会进入公开网页。原图与来源配置会随仓库一起保存。
+
+本栏项目由站长借助 AI 模型 Vibe Coding 完成，若有疏漏或带来不便，先说声抱歉，欢迎反馈。引用角色与美术的权利归原权利人；图片来源随素材记录保留。
