@@ -88,11 +88,17 @@ class StudioEdgeTests(unittest.TestCase):
 
     def test_post_commit_retirement_failure_preserves_both_originals(self):
         before=core.state();asset=before['library']['assets'][0];old_path=self.root/asset['file'];real_replace=core.os.replace
+        canonical_old=old_path.resolve();retired_root=(self.root/'.studio/retired').resolve();injected=[]
         def fail_retirement(source,target):
-            if Path(source)==old_path and '.studio' in Path(target).parts:raise PermissionError('opened image')
+            # Windows runners may expose TMP with an 8.3 alias (RUNNER~1),
+            # while local_file() canonicalizes the same file to its long name.
+            if Path(source).resolve()==canonical_old and Path(target).resolve().is_relative_to(retired_root):
+                injected.append((source,target))
+                raise PermissionError('opened image')
             return real_replace(source,target)
         with patch.object(core.os,'replace',side_effect=fail_retirement):
             result=core.save_record(self.payload('assets',{'label':'原图占用测试'},asset['id']))
+        self.assertEqual(len(injected),1,'The retirement failure must actually be injected.')
         new_path=self.root/result['library']['assets'][0]['file']
         self.assertNotEqual(new_path,old_path)
         self.assertEqual(new_path.read_bytes(),old_path.read_bytes())
